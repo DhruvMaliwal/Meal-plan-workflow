@@ -1,0 +1,8 @@
+streamlit>=1.40
+pandas>=2.2
+openpyxl>=3.1
+anthropic>=1.7
+pydantic>=2.7
+rapidfuzz>=3.9
+PyYAML>=6.0
+pillow>=10.0

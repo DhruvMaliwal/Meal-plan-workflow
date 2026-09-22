@@ -1,0 +1,152 @@
+# Operator-tunable configuration for the meal-plan generator.
+# Every value here is read at startup; the UI shows the effective values.
+
+paths:
+  recipe_repo: data/recipe_repo/Final_Recipes_Sheet.xlsx
+  house_profiles: data/house_profiles
+  uploads: data/uploads
+  cache: data/cache
+  outputs: outputs
+  prompts: prompts
+  samples: data/samples
+
+llm:
+  # Set MEALPLAN_MOCK=1 (or toggle in the UI) to run with no API calls.
+  mock: false
+  model: claude-opus-5            # reasoning model for assembly + attribute inference
+  vision_model: claude-opus-5     # image extraction (inventory / last plan)
+  max_tokens: 16000
+  effort: high                    # low | medium | high | xhigh | max
+  attribute_batch_size: 40        # dishes per attribute-inference call
+  # Server-side refusal fallbacks (opt-in): routes a policy decline to a fallback model
+  # inside the same call. Set to false to disable.
+  server_side_fallbacks: true
+
+epicure_mcp:
+  enabled: true
+  url: https://epicure-mcp.kaikaku.ai/mcp
+  name: epicure
+
+plan:
+  days: 3
+  slots: [Breakfast, Lunch, Dinner]
+  # Share of dishes that may be reused from the last plan (Section 12 #3). Default 15%.
+  rotation_reuse_pct: 0.15
+  # Never repeat a dish inside the 3-day plan.
+  allow_dish_repeat_within_plan: false
+  # Max gravy/curry-type dishes per meal (rules note: no gravy + gravy).
+  max_gravy_per_meal: 1
+  # Rules note: no seafood at lunch.
+  no_seafood_slots: [Lunch]
+  # Servings default = resident count (Section 12 #4). Guests added in the UI.
+  servings_from_residents: true
+  # How many candidates per slot to hand to the LLM assembler.
+  llm_candidates_per_slot: 45
+  # Weighting of the objective terms used by the deterministic scorer / repair step.
+  weights:
+    perishable_use: 1.0
+    order_penalty: 0.6
+    cuisine_fit: 0.35
+    nutrition_fit: 0.3
+    liked_ingredient: 0.25
+    variety: 0.4
+
+time_windows:
+  # Section 12 #1. Modes:
+  #   estimated -> LLM-estimated prep+cook minutes per dish, cached, flagged in UI (default, choice b)
+  #   operator  -> only use operator-entered minutes; dishes without a value are treated as feasible + flagged
+  #   relaxed   -> do not enforce the window (choice c)
+  mode: estimated
+  # Section 12 #2: per-meal (default) or combined breakfast+lunch budget.
+  scope: per_meal
+  # Aggregation across dishes in one meal: sum | max | max_plus_overhead
+  aggregation: max_plus_overhead
+  overhead_min_per_extra_dish: 15
+  # Bounds in minutes. Only the upper bound is enforced unless enforce_lower_bound is true.
+  windows:
+    Breakfast: [90, 120]
+    Lunch: [90, 120]
+    Dinner: [60, 80]
+  enforce_lower_bound: false
+
+lead_time:
+  # Soaking/overnight dishes are feasible only when planned a day ahead: exclude on day 1.
+  soaking_allowed_from_day: 2
+  # Marination is same-morning; allowed on any day but flagged.
+  marination_allowed_from_day: 1
+
+perishables:
+  # Categories (from `Per pax quantity` + explicit extras) treated as perishable.
+  categories: [Vegetable, Fruit, Dairy, Chicken, Seafood, Mutton, Egg, Bread]
+  # Aromatics are perishable but are "always in stock" staples for most houses;
+  # they are tracked but not part of the exhaustion objective.
+  track_only_categories: ["Vegetable - aromatic"]
+  # Fallback per-pax quantities for categories missing from the master.
+  fallback_per_pax:
+    Egg: {qty: 1, unit: pcs}
+    Bread: {qty: 2, unit: pcs}
+  # Pantry items assumed available (never appear on the order list) unless the
+  # inventory explicitly lists them at zero.
+  assumed_pantry:
+    - Salt
+    - Oil
+    - Water
+    - Sugar
+    - Turmeric
+    - Cumin Seeds
+    - Mustard Seeds
+    - Red Chili Powder
+    - Red Chilli Powder
+    - Coriander Powder
+    - Cumin Powder
+    - Garam Masala
+    - Black Pepper
+    - Asafoetida
+    - Ghee
+    - Rice
+    - Wheat Flour
+    - Atta
+    - Whole Wheat Flour
+    - Toor Dal
+    - Moong Dal
+    - Urad Dal
+    - Chana Dal
+    - Masoor Dal
+    - Curry Leaves
+    - Green Chilli
+    - Coriander Leaves
+    - Cinnamon
+    - Cardamom
+    - Cloves
+    - Bay Leaf
+    - Dried Red Chilli
+    - Fennel Seeds
+    - Fenugreek Seeds
+    - Kasuri Methi
+    - Tamarind
+    - Jaggery
+    - Soy Sauce
+    - Vinegar
+    - Olive Oil
+    - Honey
+    - Baking Soda
+    - Semolina
+    - Rava
+    - Poha
+    - Oats
+    - Gram Flour
+    - Besan
+    - Peanuts
+    - Cashews
+    - Sesame Seeds
+    - Chilli Flakes
+    - Oregano
+    - Black Pepper Powder
+    - Jeera Powder
+    - Amchur
+    - Chaat Masala
+    - Sambar Powder
+    - Rasam Powder
+    - Ginger Garlic Paste
+    - Ginger
+    - Garlic

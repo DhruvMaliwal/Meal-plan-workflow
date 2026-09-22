@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/uploads/*
+!data/uploads/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+!data/cache/README.md
+outputs/*
+!outputs/.gitkeep
+.streamlit/secrets.toml

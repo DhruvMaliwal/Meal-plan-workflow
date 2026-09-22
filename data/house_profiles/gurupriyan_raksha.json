@@ -1,0 +1,111 @@
+{
+  "id": "gurupriyan_raksha",
+  "display_name": "Gurupriyan & Raksha",
+  "location": "Indira Nagar, Bangalore",
+  "residents": [
+    {"name": "Gurupriyan", "notes": "no curd in any form; dislikes raw onion (cooked fine, deep-fried/burnt onions loved); coriander tastes like soap on some days; dislikes shellfish; borderline mutton aversion; paneer max once per 2 weeks; no tomato in raita"},
+    {"name": "Raksha", "notes": "loves shellfish; dislikes methi (fenugreek); dislikes golden-fried/deep-fried food (except fried onions in biryani); dislikes restaurant-style tomato; dislikes eating carried-over fridge food"}
+  ],
+  "pets": [{"name": "", "kind": "Cat", "portioning_note": "Portioning for humans only; cat not fed from the plan."}],
+  "cook": {
+    "name": "Yasmeen Didi",
+    "schedule": "Mon-Sat, 7:00-7:30 AM arrival, one visit/day; all three meals prepped in the morning, dinner cooked in the afternoon and held",
+    "days_off": ["Sunday"],
+    "language": "Hindi (simple; no English ingredient/recipe names)",
+    "notes": [
+      "Recipe videos must have on-screen text or spoken narration with exact ingredients and quantities; not too fast-paced.",
+      "Fish prep is a skill gap - household wants more fish; coach rather than avoid.",
+      "Photographs fruits/veg/eggs/milk/bread/paneer/curd/meat daily post-cooking, each as a separate photo."
+    ]
+  },
+  "diet": "Non-Veg",
+  "hard_exclusions_ingredients": ["Cabbage", "Karela", "Bitter Gourd", "Mutton", "Lamb", "Goat", "Beef", "Quinoa", "Avocado"],
+  "hard_exclusions_dish_keywords": ["karela", "cabbage", "mutton", "lamb", "beef", "quinoa", "avocado", "superfood"],
+  "person_rules": [
+    {"person": "Gurupriyan", "kind": "conditional", "ingredients": ["Curd", "Yogurt", "Yoghurt", "Dahi", "Hung Curd", "Greek Yogurt", "Buttermilk", "Chaas", "Raita"], "note": "Gurupriyan does not eat curd in any form - any curd-based dish or side is for Raksha's portion only. Never a shared curd main.", "enforcement": "portion_only"},
+    {"person": "Gurupriyan", "kind": "conditional", "ingredients": ["Prawns", "Prawn", "Shrimp", "Clams", "Crab", "Squid", "Lobster", "Mussels"], "note": "Shellfish disliked by Gurupriyan (Raksha loves them) - do not default to shellfish for shared meals; per-person call.", "enforcement": "exclude"},
+    {"person": "Gurupriyan", "kind": "conditional", "ingredients": ["Bhindi", "Okra", "Ladies Finger"], "note": "Bhindi only acceptable 'bhagwan bhindi' style (style undefined - confirm before serving). Excluded until confirmed.", "enforcement": "exclude"},
+    {"person": "Gurupriyan", "kind": "dislike", "ingredients": ["Raw Onion"], "note": "Onions must be fully cooked or deep-fried/burnt, never raw-served (e.g. no raw onion salad/kachumber).", "enforcement": "soft"},
+    {"person": "Gurupriyan", "kind": "dislike", "ingredients": ["Coriander Leaves"], "note": "Use sparingly / on the side rather than mixed in.", "enforcement": "soft"},
+    {"person": "Raksha", "kind": "dislike", "ingredients": ["Methi", "Fenugreek Leaves", "Fenugreek", "Kasuri Methi"], "note": "Methi disliked by Raksha - avoid in her portion; prefer dishes without methi as a hero.", "enforcement": "soft"},
+    {"person": "Raksha", "kind": "dislike", "dishes": ["fry", "fried", "pakora", "bhajiya", "cutlet", "kurkuri", "crispy"], "note": "Golden-fried / deep-fried food disliked (exception: fried onions in biryani). Prefer roasted, grilled, air-fried.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [
+    {"slot": "Dinner", "ingredients": ["Rice", "Cucumber", "Basmati Rice", "Sona Masoori Rice", "Ponni Rice", "Brown Rice", "Jeera Rice", "Cooked Rice", "Leftover Rice", "Matta Rice", "Jasmine Rice", "Red Rice", "Poha", "Rice Flour"], "note": "Hard stop: no rice, no cucumber at dinner/night, across all days.", "classes": ["Base", "Hero", "Base-Optional"]}
+  ],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["salad", "kachumber", "kosambari"], "ingredients": ["Cucumber"], "note": "No cucumber in any salad."},
+    {"dish_keywords": ["sandwich", "toast"], "slots": ["Dinner"], "note": "Sandwiches go soggy by night - breakfast/lunch only."},
+    {"dish_keywords": ["raita"], "ingredients": ["Tomato", "Cherry Tomato"], "note": "Raita: onion + carrot base, never tomato + curd."},
+    {"dish_keywords": ["biryani", "pulao", "fried rice", "rice", "khichdi", "pongal", "bisi bele", "pulihora", "puliyogare"], "slots": ["Dinner"], "note": "Rice-based dishes are not served at night."}
+  ],
+  "frequency_caps": [
+    {"name": "Chicken as hero", "match_ingredients": ["Chicken"], "max_per_plan": 1, "note": "Chicken 1-2x/week as the hero (no separate veg dish needed that meal); boneless preferred; buy fresh on the day."},
+    {"name": "Paneer", "match_ingredients": ["Paneer", "Low-fat Paneer"], "max_per_plan": 1, "block_if_in_last_plan": true, "note": "Paneer not more than once every 2 weeks (Gurupriyan)."},
+    {"name": "Fish", "match_ingredients": ["Fish", "Salmon", "Pomfret", "Tuna", "Basa"], "max_per_plan": 2, "note": "Household wants more fish; cook needs coaching - include a video link."}
+  ],
+  "allow_same_protein_same_day": false,
+  "allow_lunch_to_dinner_carryover": true,
+  "brand_rules": [{"brand": "Nectr", "action": "never_buy", "note": "Never buy 'Nectr' brand produce (household-wide AVOID)."}],
+  "ingredient_grade_rules": [
+    {"ingredient": "Rice", "rule": "Ponni white rice for daily use; basmati only for Hyderabadi dishes; jeera rice for biryani/ghee rice; red rice NOT preferred - do not substitute."},
+    {"ingredient": "Chicken", "rule": "Boneless cut preferred over curry-cut/bone-in; buy fresh/frozen on the day of cooking."},
+    {"ingredient": "Tomato", "rule": "Home-quality tomatoes; Raksha dislikes restaurant-style tomato taste - sensory check at sourcing."},
+    {"ingredient": "Lentils", "rule": "'Lentils' in this household means masoor dal."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.4, "North Indian": 0.3, "Experimental/Asian": 0.3},
+  "liked_ingredients": ["Cauliflower", "Gobi", "Broccoli", "Carrot", "Potato", "Mushroom", "Chicken", "Fish"],
+  "disliked_ingredients_soft": ["Raw Onion", "Coriander Leaves (mixed in)", "Methi", "Quinoa", "Avocado", "Superfoods"],
+  "breakfast_style": "Karnataka/Kerala leaning (neer dosa, idli + stew, upma, pathiri) is the preferred register; egg/veg sandwiches and whole grains (wheat/rye/soba/rava) encouraged.",
+  "cooking_technique": {
+    "spice_level": "Medium hot, household-wide default",
+    "oil_salt": "Sparing but justified - not zero-oil, not excess",
+    "equipment": "Air fryer actively used for lower-oil cooking; use for anything that would otherwise be deep-fried",
+    "onions": "Always cooked through or deep-fried/burnt; never raw-served",
+    "coriander": "Under-season; offer fresh garnish on the side",
+    "batching": "Cook a large batch at lunch (e.g. chana masala, butter chicken) and carry to dinner with rotis - normal practice"
+  },
+  "nutrition_direction": [
+    "Higher protein + greens, reduced oil (wedding prep)",
+    "Gradual introduction of salads (no cucumber), egg/veg sandwiches, whole grains",
+    "More fish in rotation for lean protein variety"
+  ],
+  "weekend_pattern": "Saturday/Sunday skew toward pasta or biryani (cooked by Gurupriyan himself); Sunday is the cook's day off.",
+  "standing_instructions": [
+    "Curd: Gurupriyan does not eat curd - restrict to Raksha's portion only.",
+    "Night meals: avoid rice and cucumber at dinner, across all days.",
+    "Sandwiches are not for dinner (go soggy).",
+    "Salads: no cucumber; corn goes into a mixed salad rather than a separate corn salad.",
+    "Dry veg + curry carried to dinner with rotis is the standard approach.",
+    "Don't repeat a heavily-used ingredient/dish from the prior week (e.g. drumstick twice).",
+    "Carrot in the moong dal breakfast made it too sweet - avoid carrot in that dish specifically.",
+    "Portions strictly for 2 residents - no planned leftovers; nothing kept beyond 1 day (chapati only if the side is mild).",
+    "Cut fruit + snack veggies (carrot, cucumber, sweetcorn) kept visibly on the table daily.",
+    "Check pantry stock (green chilli, coconut, drumsticks, sambar onions) before adding to cart - avoid duplicate ordering.",
+    "No proactive disposal of purchased vegetables - plan meals to use everything bought.",
+    "Place ingredient orders the evening/night before, not the morning of.",
+    "Lunchbox: pack Gurupriyan's lunchbox the same way breakfast is handled.",
+    "Meal plan for next day sent the evening before via WhatsApp, with a YouTube link for unfamiliar dishes; instructions in simple Hindi."
+  ],
+  "non_negotiables": [
+    "No curd for Gurupriyan, anywhere.",
+    "No rice or cucumber at night.",
+    "No cucumber in any salad.",
+    "Curry leaves, green chilli, coriander always in stock - never let these run out.",
+    "Never buy 'Nectr' brand produce.",
+    "Raita: onion + carrot base, never tomato + curd.",
+    "Mutton is never prepared in-house."
+  ],
+  "always_in_stock": ["Curry Leaves", "Green Chilli", "Coriander Leaves", "Salt", "Oil", "Jeera Powder", "Cumin Powder", "Black Pepper", "Black Pepper Powder"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main", "accompaniment?"],
+    "Lunch": ["curry|dal", "dry_veg", "staple"],
+    "Dinner": ["curry|dal", "dry_veg", "bread"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": true}
+  },
+  "notes": [
+    "'Bhagwan bhindi' style is undefined - confirm before serving bhindi (excluded until then).",
+    "Dinner being afternoon-cooked and held till evening is the house norm, not a freshness issue.",
+    "Guests: notify ops proactively; ~Rs100/guest/day; adjust plan for longer stays."
+  ]
+}
