@@ -57,6 +57,10 @@ with st.sidebar:
         st.stop()
     house_id = st.selectbox("1. Select house", list(profiles.keys()), format_func=lambda k: json.loads(profiles[k].read_text())["display_name"])
     profile = load_profile(house_id)
+    key_in = st.text_input("Anthropic API key (optional - or set ANTHROPIC_API_KEY before launch)", type="password",
+                           help="Kept in memory for this app session only; never written to disk.")
+    if key_in.strip():
+        os.environ["ANTHROPIC_API_KEY"] = key_in.strip()
     mock_default = bool(cfg["llm"]["mock"]) or not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
     mock = st.toggle("Mock / offline mode (no API calls)", value=mock_default,
                      help="Uses sample inventory + last plan and the heuristic assembler. Turn off once ANTHROPIC_API_KEY is set.")
@@ -99,7 +103,7 @@ with tab_profile:
             st.markdown("**Weekday rules:** " + "; ".join(f"{w.weekday}{' ' + '/'.join(w.slots) if w.slots else ''}: no {', '.join(w.ban_ingredients + w.ban_dish_keywords)}" for w in profile.weekday_rules))
         st.markdown("**Hard exclusions:** " + ", ".join(profile.hard_exclusions_ingredients))
         with st.expander("Per-person rules", expanded=True):
-            st.dataframe(pd.DataFrame([pr.model_dump() for pr in profile.person_rules]), use_container_width=True, hide_index=True)
+            st.dataframe(pd.DataFrame([pr.model_dump() for pr in profile.person_rules]), width="stretch", hide_index=True)
         with st.expander("Slot bans / dish rules / caps"):
             st.json({"slot_ingredient_bans": [b.model_dump() for b in profile.slot_ingredient_bans],
                      "dish_keyword_rules": [r.model_dump() for r in profile.dish_keyword_rules],
@@ -162,7 +166,7 @@ with tab_inputs:
             for w in ss.inventory.warnings:
                 st.warning(w)
             st.caption("Edit freely: item / canonical / category / quantity / unit. `match` shows how the name was mapped to the repo (exact/fuzzy/keyword/none).")
-            edited = st.data_editor(ss.inventory.to_frame(), num_rows="dynamic", use_container_width=True, height=420, key="inv_editor",
+            edited = st.data_editor(ss.inventory.to_frame(), num_rows="dynamic", width="stretch", height=420, key="inv_editor",
                                     column_config={"category": st.column_config.SelectboxColumn(options=["Vegetable", "Vegetable - aromatic", "Fruit", "Dairy", "Egg", "Bread", "Chicken", "Seafood", "Mutton", "Staple"]),
                                                    "perishable": st.column_config.CheckboxColumn(disabled=True),
                                                    "track_only": st.column_config.CheckboxColumn(disabled=True)})
@@ -202,7 +206,7 @@ with tab_inputs:
             for w in ss.history.warnings:
                 st.warning(w)
             st.caption("Correct `matched_dish` to the exact repo dish name (unmatched rows do not count for rotation).")
-            hdf = st.data_editor(ss.history.to_frame(), num_rows="dynamic", use_container_width=True, height=300, key="hist_editor",
+            hdf = st.data_editor(ss.history.to_frame(), num_rows="dynamic", width="stretch", height=300, key="hist_editor",
                                  column_config={"matched_dish": st.column_config.SelectboxColumn(options=[""] + repo.names),
                                                 "meal_slot": st.column_config.SelectboxColumn(options=SLOTS)})
             with st.expander("Format template (mirrored in Sheet 1)", expanded=False):
@@ -248,7 +252,7 @@ with tab_attrs:
     if src_f:
         view = view[view["source"].isin(src_f)]
     st.dataframe(view[["dish", "diet", "non_veg_kind", "protein_group", "slots", "component", "cuisine", "gravy", "est_minutes", "est_minutes_source", "confidence", "source", "needs_soaking", "needs_marination", "notes"]],
-                 use_container_width=True, height=380, hide_index=True)
+                 width="stretch", height=380, hide_index=True)
     st.markdown("**Correct one dish**")
     e1, e2 = st.columns([1, 2])
     dish_sel = e1.selectbox("Dish", sorted(view["dish"].tolist()) if len(view) else repo.names)
@@ -256,7 +260,7 @@ with tab_attrs:
         a = store.get(dish_sel)
         d = repo.dishes[dish_sel]
         with e2.expander(f"Ingredients of {dish_sel}", expanded=False):
-            st.dataframe(pd.DataFrame([{"ingredient": i.name, "canonical": i.canonical, "category": i.category, "per adult": i.per_adult, "unit": i.unit, "class": i.cls} for i in d.ingredients]), hide_index=True, use_container_width=True)
+            st.dataframe(pd.DataFrame([{"ingredient": i.name, "canonical": i.canonical, "category": i.category, "per adult": i.per_adult, "unit": i.unit, "class": i.cls} for i in d.ingredients]), hide_index=True, width="stretch")
             if d.youtube:
                 st.markdown(f"[Recipe video]({d.youtube})")
         f1, f2, f3, f4, f5 = st.columns(5)
@@ -341,7 +345,7 @@ with tab_generate:
                                  "perishables consumed": "; ".join(f"{p['ingredient']} {p['need']:g}{p['unit']}" for p in d.perishables if p.get("need")),
                                  "to order": ", ".join(d.missing), "flags": "; ".join(d.flags), "reused from last plan": d.in_last_plan,
                                  "video": d.youtube or ""})
-                st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True,
+                st.dataframe(pd.DataFrame(rows), hide_index=True, width="stretch",
                              column_config={"video": st.column_config.LinkColumn()})
         st.markdown("### Swap a dish")
         s1, s2, s3, s4 = st.columns([1, 1, 2, 2])
@@ -369,7 +373,7 @@ with tab_generate:
                     st.write("• " + r)
         if ss.llm_log:
             with st.expander("LLM call log"):
-                st.dataframe(pd.DataFrame(ss.llm_log), hide_index=True, use_container_width=True)
+                st.dataframe(pd.DataFrame(ss.llm_log), hide_index=True, width="stretch")
         with st.expander("Plan JSON"):
             st.json(plan.to_dict(), expanded=False)
 
@@ -394,6 +398,6 @@ with tab_export:
             from mealplan.quantities import build_order_list, perishable_mapping
             pdishes = [(f"D{s.day} {s.slot}", repo.dishes[d.name]) for s in plan.slots for d in s.dishes if d.name in repo.dishes]
             st.markdown("**Perishable mapping preview**")
-            st.dataframe(pd.DataFrame(perishable_mapping(pdishes, ss.inventory, plan.servings)), hide_index=True, use_container_width=True)
+            st.dataframe(pd.DataFrame(perishable_mapping(pdishes, ss.inventory, plan.servings)), hide_index=True, width="stretch")
             st.markdown("**Order list preview**")
-            st.dataframe(pd.DataFrame(build_order_list(pdishes, ss.inventory, plan.servings, {a.lower() for a in profile.always_in_stock})), hide_index=True, use_container_width=True)
+            st.dataframe(pd.DataFrame(build_order_list(pdishes, ss.inventory, plan.servings, {a.lower() for a in profile.always_in_stock})), hide_index=True, width="stretch")
