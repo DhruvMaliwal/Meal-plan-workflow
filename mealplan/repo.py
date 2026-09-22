@@ -239,7 +239,7 @@ def load_repo(path: Path | None = None) -> RecipeRepo:
     rm = rm.dropna(subset=["Dish", "Ingredient"]).copy()
     rm["Dish"] = rm["Dish"].astype(str).str.strip()
     rm["Ingredient"] = rm["Ingredient"].astype(str).str.strip()
-    rm["Unit"] = rm["Unit"].astype(str).str.strip().str.lower().map(lambda u: UNIT_FIX.get(u, u if u != "nan" else "g"))
+    rm["Unit"] = rm["Unit"].fillna("g").astype(str).str.strip().str.lower().map(lambda u: UNIT_FIX.get(u, u if u not in ("nan", "") else "g"))
     rm["Class"] = rm["Class"].fillna("Base").astype(str).str.strip()
     rm["Per adult"] = pd.to_numeric(rm["Per adult"], errors="coerce")
 

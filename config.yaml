@@ -81,6 +81,8 @@ perishables:
   # Aromatics are perishable but are "always in stock" staples for most houses;
   # they are tracked but not part of the exhaustion objective.
   track_only_categories: ["Vegetable - aromatic"]
+  # Individual items that are perishable on paper but should not drive dish choice (long shelf life).
+  track_only_ingredients: [Ghee, Butter, Lemon, Lime, Coconut, Tamarind]
   # Fallback per-pax quantities for categories missing from the master.
   fallback_per_pax:
     Egg: {qty: 1, unit: pcs}

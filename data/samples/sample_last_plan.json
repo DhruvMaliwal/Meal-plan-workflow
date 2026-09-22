@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {"day": "Mon", "meal_slot": "Breakfast", "dish": "Idli"},
+    {"day": "Mon", "meal_slot": "Breakfast", "dish": "Coconut Chutney"},
+    {"day": "Mon", "meal_slot": "Lunch", "dish": "Sambar"},
+    {"day": "Mon", "meal_slot": "Lunch", "dish": "Beans Poriyal"},
+    {"day": "Mon", "meal_slot": "Lunch", "dish": "Rice"},
+    {"day": "Mon", "meal_slot": "Dinner", "dish": "Chana Masala"},
+    {"day": "Mon", "meal_slot": "Dinner", "dish": "Roti"},
+    {"day": "Tue", "meal_slot": "Breakfast", "dish": "Rava Upma"},
+    {"day": "Tue", "meal_slot": "Lunch", "dish": "Butter Chicken"},
+    {"day": "Tue", "meal_slot": "Lunch", "dish": "Jeera Rice"},
+    {"day": "Tue", "meal_slot": "Dinner", "dish": "Butter Chicken"},
+    {"day": "Tue", "meal_slot": "Dinner", "dish": "Roti"},
+    {"day": "Wed", "meal_slot": "Breakfast", "dish": "Masala Omelette"},
+    {"day": "Wed", "meal_slot": "Breakfast", "dish": "Bread Toast"},
+    {"day": "Wed", "meal_slot": "Lunch", "dish": "Dal Tadka"},
+    {"day": "Wed", "meal_slot": "Lunch", "dish": "Aloo Gobi"},
+    {"day": "Wed", "meal_slot": "Lunch", "dish": "Rice"},
+    {"day": "Wed", "meal_slot": "Dinner", "dish": "Drumstick Sambar"},
+    {"day": "Wed", "meal_slot": "Dinner", "dish": "Roti"}
+  ],
+  "format_template": {
+    "orientation": "days_as_rows",
+    "day_label_style": "Weekday name",
+    "slot_headers": ["Breakfast", "Lunch", "Dinner"],
+    "dish_separator": " + ",
+    "includes_links": true,
+    "includes_notes_column": false,
+    "extra_columns": [],
+    "style_notes": "Bold header row, day column bold, links on a second line inside the cell"
+  },
+  "warnings": []
+}

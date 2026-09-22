@@ -1,0 +1,51 @@
+item,canonical,category,quantity,unit,notes
+Tomato,Tomato,Vegetable,600,g,fresh
+Onion,Onion,Vegetable,900,g,
+Potato,Potato,Vegetable,500,g,
+Carrot,Carrot,Vegetable,400,g,
+Cauliflower (Gobi),Cauliflower,Vegetable,450,g,1 medium head
+Broccoli,Broccoli,Vegetable,250,g,
+Spinach (Palak),Spinach,Vegetable,300,g,1 bunch - use soon
+Mushroom,Mushroom,Vegetable,200,g,
+Capsicum,Capsicum,Vegetable,200,g,
+French Beans,French Beans,Vegetable,250,g,
+Drumstick,Drumstick,Vegetable,150,g,2 pcs
+Cucumber,Cucumber,Vegetable,300,g,table display
+Sweet Corn,Sweet Corn,Vegetable,200,g,
+Bottle Gourd (Lauki),Bottle Gourd,Vegetable,400,g,
+Green Chilli,Green Chilli,Vegetable - aromatic,50,g,
+Coriander Leaves,Coriander Leaves,Vegetable - aromatic,40,g,
+Curry Leaves,Curry Leaves,Vegetable - aromatic,20,g,
+Ginger,Ginger,Vegetable - aromatic,80,g,
+Garlic,Garlic,Vegetable - aromatic,100,g,
+Lemon,Lemon,Fruit,4,pcs,
+Coconut,Coconut,Fruit,1,pcs,half used
+Banana,Banana,Fruit,4,pcs,
+Apple,Apple,Fruit,3,pcs,
+Milk,Milk,Dairy,1000,ml,
+Curd,Curd,Dairy,400,g,Raksha only
+Paneer,Paneer,Dairy,0,g,none
+Butter,Butter,Dairy,100,g,
+Eggs,Egg,Egg,10,pcs,
+Bread,Bread,Bread,8,pcs,whole wheat slices
+Chicken,Chicken,Chicken,500,g,boneless - frozen
+Rice (Ponni),Rice,Staple,3000,g,
+Wheat Flour (Atta),Wheat Flour,Staple,2500,g,
+Toor Dal,Toor Dal,Staple,800,g,
+Moong Dal,Moong Dal,Staple,500,g,
+Urad Dal,Urad Dal,Staple,300,g,
+Chana Dal,Chana Dal,Staple,300,g,
+Masoor Dal,Masoor Dal,Staple,400,g,
+Rava (Semolina),Semolina,Staple,500,g,
+Poha,Poha,Staple,400,g,
+Oats,Oats,Staple,500,g,
+Besan,Gram Flour,Staple,300,g,
+Idli Rice,Idli Rice,Staple,1000,g,
+Peanuts,Peanuts,Staple,200,g,
+Cashews,Cashews,Staple,100,g,
+Soy Sauce,Soy Sauce,Staple,150,ml,
+Pasta,Pasta,Staple,500,g,penne
+Noodles,Noodles,Staple,300,g,hakka
+Tamarind,Tamarind,Staple,100,g,
+Oil,Oil,Staple,1500,ml,
+Ghee,Ghee,Staple,300,g,
