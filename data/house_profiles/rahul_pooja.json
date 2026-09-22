@@ -1,0 +1,112 @@
+{
+  "id": "rahul_pooja",
+  "display_name": "Rahul & Pooja",
+  "location": "401 Gopalan Admirality Court, Bangalore",
+  "residents": [
+    {"name": "Rahul", "notes": "dietitian plan: high protein, medium-low carb, low fat; 3 boiled eggs daily (Fresh Eggs White brand, never Eggoz - gut reaction); does not eat mushroom; very low vegetable eater; rotis over rice; daily beetroot+carrot+amla juice; cut fruit to office with lunch; lunch typically for 1 (Rahul)"},
+    {"name": "Pooja", "notes": "eats all vegetables incl. leafy greens; 1 omelette (2 eggs) daily; eats lunch at her clinic (palak never at lunch or Tuesday dinner); mushroom only in her omelette"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Anitha Didi",
+    "schedule": "7:30 AM sharp (breakfast + lunch, ends ~9 AM) and ~7 PM (dinner: roti, sabzi, juice, ~1 hr)",
+    "days_off": [],
+    "language": "Hindi or English (reads WhatsApp)",
+    "notes": ["Female cook only (household preference).", "Makes paneer from milk, dosa/idli batter, curd, ghee, garam masala and ginger-garlic paste at home.", "Recipe videos sent ahead of each meal - follow, don't improvise."]
+  },
+  "diet": "Non-Veg",
+  "hard_exclusions_ingredients": ["Mutton", "Mutton Mince", "Lamb", "Beef", "Prawns", "Shrimp", "King Prawn", "Jumbo Prawns Shrimp", "Crab", "Squid", "Basa", "Sea Bass", "Eggplant", "Brinjal", "Baby Eggplant", "Mushroom", "Shiitake Mushrooms", "Fresh Cream", "Heavy Cream", "Whipping Cream", "Whipped Cream"],
+  "hard_exclusions_dish_keywords": ["mutton", "lamb", "keema", "prawn", "shrimp", "basa", "baingan", "brinjal", "bharta", "mushroom", "lauki dal", "lauki chana dal", "bottle gourd dal", "coconut chutney"],
+  "person_rules": [
+    {"person": "Rahul", "kind": "hard_exclusion", "ingredients": ["Mushroom"], "note": "Rahul does not eat mushroom at all (removed from all menus); Pooja has it only in her omelette.", "enforcement": "exclude"},
+    {"person": "Pooja", "kind": "conditional", "ingredients": ["Spinach", "Palak", "Spinach Leaves", "Baby Spinach"], "note": "Palak never at lunch or Tuesday dinner - Pooja is not home for lunch and would miss it.", "enforcement": "soft"},
+    {"person": "Rahul", "kind": "like", "dishes": ["boiled egg", "boiled eggs"], "note": "3 boiled eggs daily for Rahul; Pooja 1 omelette (2 eggs) - 5 eggs/day total, never 3 each.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [
+    {"slot": "Dinner", "ingredients": ["Chicken", "Soya Chunks", "Soy Chunks", "Rajma", "Kidney Beans"], "note": "Protein timing: chicken / soya / rajma are LUNCH proteins - never at night.", "classes": ["Base", "Hero", "Base-Optional"]},
+    {"slot": "Lunch", "ingredients": ["Paneer", "Low-fat Paneer", "Fish", "Pomfret", "Salmon", "Tofu"], "note": "Protein timing: paneer / fish / tofu are DINNER proteins only.", "classes": ["Base", "Hero", "Base-Optional"]},
+    {"slot": "Breakfast", "ingredients": ["Chicken", "Fish", "Paneer", "Tofu", "Soya Chunks"], "note": "Breakfast = eggs + South Indian rotation; no heavy proteins.", "classes": ["Base", "Hero"]},
+    {"slot": "Lunch", "ingredients": ["Spinach", "Spinach Leaves", "Baby Spinach"], "note": "Palak never at lunch (Pooja eats lunch at her clinic).", "classes": ["Base", "Hero", "Base-Optional"]}
+  ],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["peas", "matar"], "ingredients": ["Frozen Green Peas", "Frozen Corn"], "note": "Fresh peas only - frozen/IQF rejected on sight."}
+  ],
+  "frequency_caps": [],
+  "weekday_rules": [
+    {"weekday": "Tuesday", "slots": ["Dinner"], "ban_ingredients": ["Spinach", "Spinach Leaves", "Baby Spinach"], "note": "Palak never at Tuesday dinner (Pooja misses it)."}
+  ],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Breakfast", "Lunch", "Dinner"],
+  "default_servings": 2,
+  "brand_rules": [
+    {"brand": "Eggoz", "action": "never_buy", "note": "Eggs - gut reaction for Rahul; use 'Fresh Eggs White' eggs (Instamart) permanently."},
+    {"brand": "Safal", "action": "never_buy", "note": "Frozen peas rejected - fresh peas only."},
+    {"brand": "Nectr", "action": "never_buy", "note": "Pooja asked for a Nectr bell-pepper swap; treat Nectr produce as avoid."},
+    {"brand": "Licious", "action": "prefer", "note": "Default white pomfret via Licious."},
+    {"brand": "Health Factory", "action": "prefer", "note": "Zero Maida bread (staple); multigrain bread for Wednesday avocado toast."},
+    {"brand": "Amul Gold", "action": "prefer", "note": "Milk pouches (not cartons), bought only to make paneer/dahi at home."},
+    {"brand": "Jivo olive oil / avocado oil / Barosi A2 ghee", "action": "prefer", "note": "Preferred fats."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Chicken", "rule": "Boneless only - breast cut for lunch (100 g), grilled (150 g); never bone-in. Rotate preparations - never repeat the same chicken dish in a week."},
+    {"ingredient": "Fish", "rule": "Seawater fish only (pomfret default; salmon/anjal acceptable), boneless preferred. NEVER basa, NEVER sea bass, never freshwater fish."},
+    {"ingredient": "Green Chilli", "rule": "Household does not use green chilli in any dish - OMIT from every recipe."},
+    {"ingredient": "Cream", "rule": "No fresh cream in any recipe - substitute milk."},
+    {"ingredient": "Paneer / Curd / Ghee / Batter / Garam Masala / Ginger-garlic paste / Tomato puree", "rule": "ALL made fresh at home, never store-bought or batched. Garam masala from Rahul's mother (homemade)."},
+    {"ingredient": "Rice", "rule": "Rotis over rice; millet rice / broken wheat / quinoa as rice alternates."},
+    {"ingredient": "Chutney", "rule": "Ridge gourd chutney is the default vegetable chutney; no coconut chutney."},
+    {"ingredient": "Cauliflower", "rule": "If unavailable, substitute cabbage (pre-approved swap)."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.3, "North Indian": 0.5, "Experimental/Asian": 0.2},
+  "liked_ingredients": ["Egg", "Chicken", "Paneer", "Fish", "Tofu", "Soya Chunks", "Beetroot", "Carrot", "Amla", "Apple", "Kiwi", "Pineapple"],
+  "disliked_ingredients_soft": ["Green Chilli", "Fresh Cream", "Mushroom", "Mint Leaves (order only when a dish needs it)"],
+  "breakfast_style": "Rahul: 3 boiled eggs; Pooja: 1 two-egg omelette; plus a South Indian rotation (dosa, idli, uttapam, appam, poha) from fresh homemade batter; Wednesday avocado toast on multigrain; daily beetroot+carrot+amla juice for Rahul.",
+  "cooking_technique": {
+    "oil_ghee": "Less oil, less ghee, no cream - high-protein / low-calorie execution in all gravies",
+    "gravy": "Semi-dry / semi-gravy preferred; low spice throughout",
+    "style": "Simplified home-style recipes over complex commercial ones",
+    "prep": "Soak dals/legumes the night before; thaw frozen protein in the fridge overnight; ferment batter overnight",
+    "salad": "Mixed salad vegetables cut very fine/small",
+    "bread": "Never heat/toast bread or pav - household does this at serving"
+  },
+  "nutrition_direction": [
+    "Rahul: dietitian-prescribed high protein, medium-low carb, low fat - leanest option always",
+    "Eggs 5/day combined; chicken 2-4x/week (lunch); paneer almost daily at dinner (homemade); fish when available (dinner)",
+    "Fruit at every lunch (apple / kiwi / pineapple rotation); 2 amla juices with dinner"
+  ],
+  "weekend_pattern": "",
+  "standing_instructions": [
+    "Protein timing: chicken / soya / rajma = lunch only; paneer / fish / tofu = dinner only - never cross over.",
+    "Egg rule: Rahul 3 boiled (Fresh Eggs White brand), Pooja 1 omelette (2 eggs) - 5 eggs/day, not 3 each.",
+    "Portions: breakfast for 2, lunch typically for 1 (Rahul; fish marinated during lunch prep for dinner), dinner for 2 - confirm headcount daily.",
+    "No green chilli in any dish. No fresh cream (milk instead). Fresh peas only.",
+    "Palak never at lunch or Tuesday dinner.",
+    "Chicken variety: rotate preparations; repeating causes complaints.",
+    "Never heat/toast bread or pav; do not over-order mint.",
+    "Groceries weekly after 7 AM; vegetables/fruits from the local market, not online; milk pouches not cartons.",
+    "Meal plan: 3-day rolling plan on WhatsApp; changes before 8 PM cutoff.",
+    "Kitchen inventory checked before ordering; cook flags low stock with photos."
+  ],
+  "non_negotiables": [
+    "No green chilli, no baingan, no lauki dal, no fresh cream, no freshwater fish, no basa/sea bass, no mutton.",
+    "Never heat/toast bread or pav.",
+    "Never make garam masala from a packet - homemade only.",
+    "Never serve palak at lunch or Tuesday dinner.",
+    "Never order/serve mushroom to Rahul.",
+    "Eggs never Eggoz."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Olive Oil", "Ghee", "Egg", "Garlic", "Ginger", "Amla", "Beetroot", "Carrot"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main", "accompaniment?"],
+    "Lunch": ["curry|protein_main", "dry_veg?", "bread"],
+    "Dinner": ["curry|protein_main", "dry_veg", "bread"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": false, "Dinner": false}
+  },
+  "notes": [
+    "Green chilli is modelled as an OMIT instruction (not a dish exclusion) because it appears in ~a third of the repo; the cook leaves it out.",
+    "Chana dal vs toor dal soaking instructions were confused once (21 Sep) - clarify.",
+    "'Mix masala' preference is inferred/pending review - confirm.",
+    "Lunch-for-1 convention depends on Pooja eating at her clinic - confirm if her routine changes."
+  ]
+}

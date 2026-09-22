@@ -1,0 +1,327 @@
+{
+  "id": "nalin_akash_manish",
+  "display_name": "Nalin, Akash & Manish",
+  "location": "Bangalore",
+  "residents": [
+    {
+      "name": "Nalin",
+      "notes": "endurance athlete ~3,400 kcal / 180 g protein per day (150-180 g delivered; he adds a night shake); loves prawns boiled and lightly spiced in a dinner salad; dislikes drumstick as a standalone dish; wants dal and curd/raita rotating through the week; packed lunch (roti + sabzi + salad) and snack (fruit or eggs) daily"
+    },
+    {
+      "name": "Akash",
+      "notes": "cutting phase ~1,800 kcal / 100 g protein, near-zero carbs; dinner must be extremely light (fibre + yogurt/protein shake); no brinjal or beetroot (beetroot thoran is the one exception); no prawns or soya as protein; eats chicken, fish, eggs daily; 2 rotis per meal; fish only tawa fry/roast, never fish curry; biryani = bone-in chicken, salads = boneless"
+    },
+    {
+      "name": "Manish",
+      "notes": "eats ONLY breakfast from the household plan; zero eggs (nausea), zero seafood, no paneer (dal or soya substitute); elevated cholesterol -> low oil, low sugar; won't eat leftovers - cook a small fresh portion; ~100 g protein/day"
+    }
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Anisha",
+    "schedule": "Once a day in the morning; all 3 meals for single-visit members prepped in one morning batch (also on her fasting days)",
+    "days_off": [],
+    "language": "Hindi (WhatsApp voice notes)",
+    "notes": [
+      "Must handle per-person customisation inside the same meal (eggs / seafood / paneer / brinjal / beetroot differ by person).",
+      "Taste-test chilli-heavy dishes before serving.",
+      "Complete salad components fully (cut boiled eggs, add nuts).",
+      "Clean toaster and mixer after every session; photograph perishables after breakfast and lunch prep."
+    ]
+  },
+  "diet": "Non-Veg",
+  "hard_exclusions_ingredients": [
+    "Drumstick",
+    "Moringa Drumsticks",
+    "Brinjal",
+    "Eggplant",
+    "Baby Eggplant",
+    "Beetroot",
+    "Soya Chunks",
+    "Soy Chunks",
+    "Prawns",
+    "Shrimp",
+    "King Prawn",
+    "Jumbo Prawns Shrimp"
+  ],
+  "hard_exclusions_dish_keywords": [
+    "fish curry",
+    "fish gravy",
+    "fish masala",
+    "meen curry",
+    "prawn",
+    "shrimp",
+    "brinjal",
+    "baingan",
+    "bharta",
+    "soya",
+    "soy chunk"
+  ],
+  "person_rules": [
+    {
+      "person": "Manish",
+      "kind": "conditional",
+      "ingredients": [
+        "Egg",
+        "Eggs",
+        "Egg Whites"
+      ],
+      "note": "Manish: zero eggs in any form (nausea). He only eats breakfast from the plan - cook a separate egg-free breakfast portion for him when eggs are served.",
+      "enforcement": "soft"
+    },
+    {
+      "person": "Manish",
+      "kind": "conditional",
+      "ingredients": [
+        "Fish",
+        "Salmon",
+        "Pomfret",
+        "Tuna",
+        "Basa"
+      ],
+      "note": "Manish: no seafood at all - portion fish meals for 2 (Nalin + Akash), not 3.",
+      "enforcement": "soft"
+    },
+    {
+      "person": "Manish",
+      "kind": "conditional",
+      "ingredients": [
+        "Paneer",
+        "Low-fat Paneer"
+      ],
+      "note": "Manish does not eat paneer - dal or a separate protein for him.",
+      "enforcement": "soft"
+    },
+    {
+      "person": "Akash",
+      "kind": "hard_exclusion",
+      "ingredients": [
+        "Brinjal",
+        "Eggplant",
+        "Beetroot"
+      ],
+      "note": "Never brinjal or beetroot in Akash's vegetables (beetroot thoran is the sole exception).",
+      "enforcement": "exclude"
+    },
+    {
+      "person": "Akash",
+      "kind": "hard_exclusion",
+      "ingredients": [
+        "Prawns",
+        "Shrimp",
+        "Soya Chunks",
+        "Tofu",
+        "Soy"
+      ],
+      "note": "Never prawns or soya as a protein for Akash.",
+      "enforcement": "exclude"
+    },
+    {
+      "person": "Nalin",
+      "kind": "dislike",
+      "ingredients": [
+        "Drumstick"
+      ],
+      "note": "Drumstick never standalone; conflicting instructions on drumstick-in-sambar (Aug 10 vs Aug 20) - excluded until confirmed.",
+      "enforcement": "soft"
+    },
+    {
+      "person": "Nalin",
+      "kind": "like",
+      "ingredients": [
+        "Prawns"
+      ],
+      "note": "Boiled, lightly spiced prawns in his dinner salad - prepare separately from chicken; never combine chicken + prawns in one salad.",
+      "enforcement": "soft"
+    }
+  ],
+  "slot_ingredient_bans": [
+    {
+      "slot": "Dinner",
+      "ingredients": [
+        "Rice",
+        "Basmati Rice",
+        "Sona Masoori Rice",
+        "Brown Rice",
+        "Jeera Rice",
+        "Noodles",
+        "Pasta",
+        "Poha"
+      ],
+      "note": "Akash's dinner is near-zero carb (cutting phase) - no rice/noodles/pasta at dinner.",
+      "classes": [
+        "Base",
+        "Hero",
+        "Base-Optional"
+      ]
+    }
+  ],
+  "dish_keyword_rules": [
+    {
+      "dish_keywords": [
+        "omelette",
+        "omelet"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Cheese Slice",
+        "Cheddar Cheese",
+        "Mozzarella Cheese"
+      ],
+      "note": "French omelette for Nalin & Akash - no cheese, ever (3 eggs, low flame, butter, salt and pepper)."
+    },
+    {
+      "dish_keywords": [
+        "salad"
+      ],
+      "ingredients": [
+        "Chicken"
+      ],
+      "slots": [],
+      "note": "Chicken salads are fine but never combine chicken and prawns in the same salad; boneless pieces only. (Rule kept soft: only prawn+chicken combos are banned - see standing instructions.)"
+    }
+  ],
+  "frequency_caps": [
+    {
+      "name": "Fish",
+      "match_ingredients": [
+        "Fish",
+        "Pomfret",
+        "Salmon",
+        "Tuna",
+        "Basa"
+      ],
+      "max_per_plan": 2,
+      "note": "Only 1 packet (~250-500 g) cooked per meal even if 2 on hand; fish only if genuinely fresh (Nalin dislikes poor 'Bangalore fish')."
+    }
+  ],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": true,
+  "planned_slots": [
+    "Breakfast",
+    "Lunch",
+    "Dinner"
+  ],
+  "brand_rules": [
+    {
+      "brand": "Fresh To Home",
+      "action": "never_buy",
+      "note": "Never order meat/fish for Akash from Fresh To Home."
+    }
+  ],
+  "ingredient_grade_rules": [
+    {
+      "ingredient": "Chicken",
+      "rule": "General cooking = boneless non-breast cut; salads = boneless only (never bone-in); biryani = curry-cut/bone-in (Akash)."
+    },
+    {
+      "ingredient": "French Beans",
+      "rule": "Only the fully-green variant - the whitish/pale variant tastes bad and cooks slowly."
+    },
+    {
+      "ingredient": "Oil",
+      "rule": "Cold-pressed groundnut oil, minimal quantity, household-wide."
+    },
+    {
+      "ingredient": "Fish",
+      "rule": "One packet per meal; fresh quality over brand/platform."
+    }
+  ],
+  "cuisine_split_target": {
+    "South Indian": 0.3,
+    "North Indian": 0.4,
+    "Experimental/Asian": 0.3
+  },
+  "liked_ingredients": [
+    "Chicken",
+    "Egg",
+    "Fish",
+    "Avocado",
+    "Salad",
+    "Dal",
+    "Curd"
+  ],
+  "disliked_ingredients_soft": [
+    "Drumstick",
+    "Beetroot",
+    "Brinjal",
+    "Soya Chunks",
+    "Cheese"
+  ],
+  "breakfast_style": "Avocado toast is the standard toast for all three; Akash defaults: egg dosa + chutney, omelette + toast, or boiled eggs; Nalin: oats (curd/water base, less thick, seeds/nuts/protein powder - confirm as everyday order).",
+  "cooking_technique": {
+    "everyday_sabzi": "Homestyle minimal-masala, minimal-oil template (jeera, mustard seed, turmeric, salt, light red chilli, coriander garnish) is the DEFAULT; heavy masala / besan-coated prep is occasional only",
+    "roasts": "Air fryer mandatory for roasted/grilled dishes - near-zero oil",
+    "salads": "Restaurant-style plating and dressing (Salads Point / Caterspoint / O4H bar), not a plain boiled-protein bowl",
+    "pairings": "Sambar only with idli; dosa, uttapam and puri get coconut chutney instead",
+    "spice": "Medium; taste-test spicy dishes before serving",
+    "leftovers": "Reduce fresh-cook portion and reheat leftovers when they exist (recurring instruction); dal for 3 is a watch-item for under-portioning"
+  },
+  "nutrition_direction": [
+    "Household ~400 g protein/day combined (180 + 100 + 100) - protein-forward every meal",
+    "Akash: near-zero carbs at dinner; Manish: low oil, low sugar (cholesterol)",
+    "Low-oil, minimal-masala cooking across the board"
+  ],
+  "weekend_pattern": "",
+  "standing_instructions": [
+    "Manish eats only breakfast from the standard plan - separate fresh, egg-free, seafood-free, paneer-free portion for him even when leftovers exist.",
+    "Never combine chicken and prawns in one salad; prawns (for Nalin) prepared separately, boneless chicken only for salads.",
+    "Akash's dinner must remain extremely light - near-zero carbs (fibre + yogurt/protein shake).",
+    "Fish: only 1 packet per meal; tawa fry/roast only (no fish curry for Akash); portion for 2.",
+    "Drumstick: only ever inside sambar per Aug 10, but Aug 20 says no drumstick in sambar at all - CONFIRM before the next sambar.",
+    "Cut fruit bowl always available for Manish (exactly 2 fruits, fully chopped; never pre-cut bananas) - banana inclusion needs confirmation.",
+    "Nalin's packed lunch (roti + sabzi + salad) and snack (fruit or eggs) prepared daily without being asked.",
+    "Sambar goes only with idli; dosa/uttapam/puri get coconut chutney.",
+    "Clean toaster and mixer every session; photograph fresh perishables after breakfast and lunch prep.",
+    "No deliveries to the flat after 10 PM (society rule).",
+    "Headcount changes same-day are common - confirm before cooking."
+  ],
+  "non_negotiables": [
+    "Never give Manish eggs in any form.",
+    "Never give Manish seafood of any kind.",
+    "Never give Manish paneer - substitute dal.",
+    "Never put brinjal or beetroot in Akash's vegetables (beetroot thoran excepted).",
+    "Never use prawns or soya as a protein for Akash.",
+    "Never use bone-in chicken for salad preparation.",
+    "Never order meat/fish for Akash from Fresh To Home.",
+    "No cheese in the French omelette, ever."
+  ],
+  "always_in_stock": [
+    "Salt",
+    "Oil",
+    "Cold-pressed Groundnut Oil",
+    "Coriander Leaves",
+    "Green Chilli",
+    "Curry Leaves",
+    "Bread",
+    "Egg"
+  ],
+  "meal_composition": {
+    "Breakfast": [
+      "breakfast_main",
+      "accompaniment?"
+    ],
+    "Lunch": [
+      "protein_main|curry",
+      "dal",
+      "dry_veg",
+      "bread|staple"
+    ],
+    "Dinner": [
+      "protein_main",
+      "salad|dry_veg?"
+    ],
+    "allow_one_pot": {
+      "Breakfast": true,
+      "Lunch": true,
+      "Dinner": false
+    }
+  },
+  "notes": [
+    "Drumstick: two conflicting instructions (Aug 10: only inside sambar; Aug 20: not in sambar at all) - excluded entirely until confirmed.",
+    "Banana in the fruit bowl: standing rule excludes it, Manish prefers it - confirm.",
+    "Nalin's detailed oats order (curd/water base, sabja/pumpkin seeds, peanut butter, protein powder, nuts) was a single ask - confirm if everyday.",
+    "Portions have needed correcting downward repeatedly - default slightly smaller and check the fridge for leftovers first."
+  ]
+}

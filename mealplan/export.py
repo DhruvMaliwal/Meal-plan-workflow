@@ -65,6 +65,8 @@ def _cell_text(ms, template: FormatTemplate, repo: RecipeRepo) -> str:
     sep = template.dish_separator or " + "
     if "\\n" in sep or sep.strip() == "" and "\n" in sep:
         sep = "\n"
+    if not ms.planned:
+        return "- (self-managed)"
     names = [d.name for d in ms.dishes]
     text = sep.join(names) if names else "-"
     flags = []

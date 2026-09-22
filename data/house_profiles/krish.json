@@ -1,0 +1,94 @@
+{
+  "id": "krish",
+  "display_name": "Krish",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Krish", "notes": "non-veg (chicken bone-in medium cut, mutton, egg, pork sausage); no prawns (deep-fry hassle); dislikes potato; plain dosa over masala dosa; cucumber raita only; likes kothu paratha, chapathi + bhindi, egg curry, egg+chicken hakka noodles, noodles + mutton pepper curry, garlic bread, vegetable pulao, puliyogare, rice-sambar-poriyal; tracks chicken pieces closely; household serves 3 per meal"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Amudha Akka / Kalaiarasi",
+    "schedule": "Twice a day; dinner at home is non-negotiable even when Krish travels; no cook on Sundays (plan soaking/marination before the Sun-Mon gap)",
+    "days_off": ["Sunday"],
+    "language": "Tamil/Kannada; recipes via YouTube links",
+    "notes": ["Mangalore-style (neer dosa, chicken chukka/sukka) and Chettinad (fresh-ground pepper/coriander masala) are the hiring basis.", "Kitchen floor and sink must be left clean before leaving.", "Quantity control matters - biryani chicken shortfall and 'too much made' both drew complaints.", "Good coffee is a differentiator."]
+  },
+  "diet": "Non-Veg",
+  "hard_exclusions_ingredients": ["Potato", "Baby Potato", "Sized Potato", "Sweet Potato", "Cauliflower", "Cauliflower Florets", "Brinjal", "Eggplant", "Baby Eggplant", "Pumpkin", "Kaddu", "Yellow Pumpkin", "Prawns", "Shrimp", "King Prawn", "Jumbo Prawns Shrimp", "MSG", "Ajinomoto", "Food Colour", "Food Color", "Orange Food Colour", "Red Food Colour"],
+  "hard_exclusions_dish_keywords": ["aloo", "potato", "gobi", "cauliflower", "brinjal", "baingan", "bharta", "pumpkin", "kaddu", "prawn", "shrimp", "dal", "daal", "pappu", "kadhi", "rajma", "chole", "steamed rice", "plain rice", "brown rice", "sona masoori", "matta rice", "jasmine rice"],
+  "person_rules": [
+    {"person": "Krish", "kind": "dislike", "ingredients": ["Capsicum", "Bell Pepper", "Green Bell Pepper", "Red Bell Pepper"], "note": "Reduce capsicum quantity generally; pulao veg mix = peas, capsicum, beans, carrot without overloading.", "enforcement": "soft"},
+    {"person": "Krish", "kind": "like", "dishes": ["kothu paratha", "egg curry", "hakka noodles", "pepper curry", "garlic bread", "vegetable pulao", "puliyogare", "tamarind rice", "sambar", "poriyal", "neer dosa", "chukka", "sukka", "chettinad"], "note": "Liked dishes on record; vegetable pulao rated excellent.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["raita"], "ingredients": ["Onion", "Red Onion", "Tomato", "Beetroot", "Boondi"], "note": "Cucumber raita only - avoid onion raita or cucumber-onion raita."},
+    {"dish_keywords": ["dosa"], "ingredients": ["Potato"], "note": "Plain dosa preferred over masala/vegetable dosa."},
+    {"dish_keywords": ["fried", "fry"], "ingredients": ["Prawns"], "note": "Avoid heavy oil-frying techniques."}
+  ],
+  "frequency_caps": [
+    {"name": "Mutton", "match_ingredients": ["Mutton", "Mutton Mince"], "max_per_plan": 1, "note": "Mutton in rotation (pepper curry) - protein should be the star, less onion/veg."}
+  ],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Breakfast", "Lunch", "Dinner"],
+  "default_servings": 3,
+  "brand_rules": [
+    {"brand": "New Frosty's", "action": "prefer", "note": "Meat only from New Frosty's, fresh - never online/frozen meat platforms."},
+    {"brand": "Nandini", "action": "prefer", "note": "Milk: Full Cream 1 L pack only."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Chicken", "rule": "Bone-in, medium cut preferred; biryani must have a generous chicken-to-rice ratio."},
+    {"ingredient": "Rice", "rule": "No plain/steamed rice; flavoured rice only (tomato rice, garlic rice, pulao) as an occasional exception; pulao uses jeera rice, not basmati. Meals are eaten with rotis/parathas/chapati."},
+    {"ingredient": "Garlic", "rule": "Peeled garlic only."},
+    {"ingredient": "Cauliflower", "rule": "Banned in Section 1; if ever used, never spicy (conflict - excluded)."},
+    {"ingredient": "Spices", "rule": "Used sparingly (small packets); Chettinad chicken masala ground fresh (whole pepper + coriander seeds). Salt is dish-specific: chicken needs more, neer dosa less."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.6, "North Indian": 0.1, "Experimental/Asian": 0.3},
+  "liked_ingredients": ["Chicken", "Mutton", "Egg", "Noodles", "Bread", "Curry Leaves", "Coconut", "Tamarind", "Black Pepper"],
+  "disliked_ingredients_soft": ["Capsicum", "Potato", "Prawns"],
+  "breakfast_style": "Rotate across dosa (plain), idli, poha, eggs, kara bath, English breakfast (pork sausage), shakshuka - never one item repeatedly; sambar/coconut chutney with South Indian breakfasts.",
+  "cooking_technique": {
+    "gravy": "Semi-gravy or dry - avoid thin/watery gravies",
+    "frying": "Avoid heavy oil-frying techniques",
+    "variety": "Lunch needs rotation - kebab, achari, salad, pasta-style lunches on file",
+    "salt": "Dish-specific - chicken more, neer dosa less; spicy chicken stays separable from a plain dosa",
+    "garlic_bread": "Toast with butter, not from-scratch garlic butter bread",
+    "fried_rice": "Needs day-old cooled rice - schedule accordingly"
+  },
+  "nutrition_direction": ["Protein-forward (chicken/mutton/egg/pork), low-carb inclination (no plain rice)"],
+  "weekend_pattern": "No cook on Sundays.",
+  "standing_instructions": [
+    "Dinner must be prepared at home every day, even if Krish is travelling part of the day.",
+    "Default 3 servings per meal; adjust when Krish flags a different headcount.",
+    "No plain rice; flavoured rice occasionally; meals with roti/paratha.",
+    "No dal (standing AVOID).",
+    "No MSG / artificial colour in anything cooked or ordered.",
+    "Meat fresh from New Frosty's only; Krish tracks chicken pieces used/remaining.",
+    "'No North Indian dishes' is a standing AVOID but Krish keeps ordering aloo/methi paratha, chole, poori - CONFIRM (kept soft here).",
+    "Kitchen floor and sink clean before the cook leaves; poori wrapped in foil when served.",
+    "Meal plans twice weekly (Sun for Mon-Wed, Wed for Thu-Fri); changes locked by 8 PM the evening before.",
+    "Daily morning pantry photos; praise as well as complaints relayed to the cook."
+  ],
+  "non_negotiables": [
+    "No MSG / artificial colour, ever.",
+    "No dal.",
+    "Meat only from New Frosty's, only fresh.",
+    "Cauliflower never spicy (excluded here as banned).",
+    "Kitchen left clean (floor + sink) daily.",
+    "No potato, brinjal, pumpkin, prawns."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Curry Leaves", "Coriander Leaves", "Green Chilli", "Coconut", "Egg", "Bread", "Milk"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main", "accompaniment?"],
+    "Lunch": ["curry|protein_main|one_pot", "dry_veg?", "bread"],
+    "Dinner": ["curry|protein_main|one_pot", "dry_veg?", "bread"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": true}
+  },
+  "notes": [
+    "Conflicts to confirm: 'no North Indian dishes' vs repeated orders; cauliflower banned vs 'never spicy'/'optional in pulao'; fridge-instead-of-discard for leftover lunch (Sep 22).",
+    "'No dal' is enforced by dish keywords (dal/daal/pappu/kadhi/rajma/chole); sambar and rasam remain allowed because Krish likes rice-sambar-poriyal.",
+    "Pork is liked but the repo has no pork dishes."
+  ]
+}

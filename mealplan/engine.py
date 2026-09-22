@@ -80,6 +80,7 @@ class MealSlot:
     rationale: str = ""
     warnings: list[str] = field(default_factory=list)
     est_minutes_total: int | None = None
+    planned: bool = True                  # False = slot not served by the cook (self-managed)
 
     def names(self) -> list[str]:
         return [d.name for d in self.dishes]
@@ -113,6 +114,7 @@ class Plan:
     def from_dict(cls, d: dict) -> "Plan":
         slots = [MealSlot(day=s["day"], date=s.get("date"), slot=s["slot"], rationale=s.get("rationale", ""),
                           warnings=s.get("warnings", []), est_minutes_total=s.get("est_minutes_total"),
+                          planned=s.get("planned", True),
                           dishes=[PlannedDish(**pd_) for pd_ in s["dishes"]]) for s in d["slots"]]
         return cls(house_id=d["house_id"], house_name=d["house_name"], servings=d["servings"], days=d["days"],
                    start_date=d.get("start_date"), slots=slots, source=d.get("source", ""), tradeoffs=d.get("tradeoffs", ""),
@@ -131,10 +133,12 @@ class Planner:
         self.llm = llm
         self.cfg = load_config()
         self.plan_cfg = self.cfg["plan"]
-        self.servings = servings or profile.n_residents
+        self.servings = servings or profile.servings
         self.start_date = start_date
         self.rules = RuleEngine(profile, self.history)
+        self.rules.start_date = start_date
         self.rules.set_history(self.history, repo.dishes)
+        self.planned_slots = [s for s in SLOTS if s in profile.planned_slots] or list(SLOTS)
         self.per_cats = set(self.cfg["perishables"]["categories"])
         self.assumed = {a.lower() for a in self.cfg["perishables"].get("assumed_pantry", [])}
         self.always = {a.lower() for a in profile.always_in_stock}
@@ -148,6 +152,10 @@ class Planner:
     # ------------------------------------------------------------- helpers
     def date_for(self, day: int) -> dt.date | None:
         return self.start_date + dt.timedelta(days=day - 1) if self.start_date else None
+
+    def _unplanned(self, day: int, slot: str) -> MealSlot:
+        return MealSlot(day=day, date=self.date_for(day).isoformat() if self.date_for(day) else None, slot=slot,
+                        rationale="Not planned: this meal is self-managed by the residents (see profile.planned_slots).", planned=False)
 
     def cook_off(self, day: int) -> bool:
         d = self.date_for(day)
@@ -215,7 +223,7 @@ class Planner:
         """Legal candidate counts per slot/component on day 2 (soaking allowed) - for the UI."""
         ledger = Ledger(self.inv)
         summary = {}
-        for slot in SLOTS:
+        for slot in self.planned_slots:
             cs = self.candidates(slot, 2, ledger)
             by = {}
             for c in cs:
@@ -248,6 +256,9 @@ class Planner:
             day_proteins: set[str] = set()
             day_heroes: set[str] = set()
             for slot in SLOTS:
+                if slot not in self.planned_slots:
+                    slots.append(self._unplanned(day, slot))
+                    continue
                 ms = MealSlot(day=day, date=self.date_for(day).isoformat() if self.date_for(day) else None, slot=slot)
                 if self.cook_off(day):
                     ms.warnings.append(f"{self.date_for(day).strftime('%A')} is the cook's day off - confirm cover or keep it simple")
@@ -400,7 +411,7 @@ class Planner:
         n = int(self.plan_cfg.get("llm_candidates_per_slot", 45))
         ledger = Ledger(self.inv)
         cand_lists = {}
-        for slot in SLOTS:
+        for slot in self.planned_slots:
             cs = self.candidates(slot, 2, ledger)  # day 2 => soaking allowed; soak_flag is passed so the LLM can respect day 1
             # ensure each component is represented
             by_comp: dict[str, list[Candidate]] = {}
@@ -428,7 +439,8 @@ class Planner:
             soak_day=self.cfg["lead_time"].get("soaking_allowed_from_day", 2),
             time_mode=tw.get("mode"), time_windows=json.dumps(tw.get("windows")) + f" (aggregation: {tw.get('aggregation')})" if tw.get("mode") != "relaxed" else "relaxed - not enforced",
             house_context=self.p.soft_context_text(),
-            meal_composition=json.dumps(self.p.meal_composition.model_dump(), indent=0),
+            meal_composition=json.dumps({k: v for k, v in self.p.meal_composition.model_dump().items() if k in self.planned_slots or k == "allow_one_pot"}, indent=0)
+            + (f"\nOnly plan these slots: {', '.join(self.planned_slots)}. Leave the others out." if len(self.planned_slots) < 3 else ""),
             inventory=json.dumps(inv_rows, ensure_ascii=False),
             last_plan=json.dumps(last, ensure_ascii=False) or "none",
             candidates=json.dumps(cand_lists, ensure_ascii=False),
@@ -447,7 +459,7 @@ class Planner:
         unknown = []
         for sc in choice.slots:
             slot = sc.slot.strip().title()
-            if slot not in SLOTS or not (1 <= sc.day <= self.days):
+            if slot not in self.planned_slots or not (1 <= sc.day <= self.days):
                 continue
             names = []
             for n in sc.dishes:
@@ -474,6 +486,9 @@ class Planner:
         for day in range(1, self.days + 1):
             day_proteins: set[str] = set()
             for slot in SLOTS:
+                if slot not in self.planned_slots:
+                    slots.append(self._unplanned(day, slot))
+                    continue
                 ms = MealSlot(day=day, date=self.date_for(day).isoformat() if self.date_for(day) else None, slot=slot,
                               rationale=rationale.get((day, slot), ""))
                 if self.cook_off(day):
@@ -513,6 +528,8 @@ class Planner:
             for slot in SLOTS:
                 ms = plan.get(day, slot)
                 where = f"D{day} {slot}"
+                if not ms.planned:
+                    continue
                 if not ms.dishes:
                     viol.append(f"{where}: empty slot")
                     continue
@@ -713,7 +730,7 @@ class Planner:
         fixed[(day, slot)] = [new if n == old else n for n in fixed[(day, slot)]]
         rationale[(day, slot)] = f"Operator swapped {old} -> {new}."
         if regenerate_downstream:
-            order = [(d, s) for d in range(1, self.days + 1) for s in SLOTS]
+            order = [(d, s) for d in range(1, self.days + 1) for s in self.planned_slots]
             idx = order.index((day, slot))
             for key in order[idx + 1:]:
                 fixed.pop(key, None)

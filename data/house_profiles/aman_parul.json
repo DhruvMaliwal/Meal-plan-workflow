@@ -1,0 +1,93 @@
+{
+  "id": "aman_parul",
+  "display_name": "Aman & Parul",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Aman", "notes": "eats non-veg only outside - never in the home kitchen; strongly prefers rice at lunch; fine eating the same thing daily; comfort foods kadhi chawal, rajma chawal, puri-parotta with chai + achar; likes sauteed Chinese-style tofu; protein shake = milk + protein powder + banana (trainer-directed); often out for lunch - pings if joining"},
+    {"name": "Parul", "notes": "needs breakfast variety; comfort foods bhindi, beans, methi; protein shake = water + protein powder ONLY (no milk, no banana - repeatedly corrected); lunch is sized for her by default"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Sanjay",
+    "schedule": "Late breakfast slot (~10:30-11:30 AM - conflicting records, confirm) and dinner prep 8:00 PM (moved from 8:30); Sunday off",
+    "days_off": ["Sunday"],
+    "language": "Hindi (daily recipe links via WhatsApp voice note)",
+    "notes": ["Cooking-only role - no home cleaning beyond own utensils.", "Flag missing utensils immediately; never compromise technique for lack of equipment.", "Photograph pantry stock daily after prep."]
+  },
+  "diet": "Vegetarian",
+  "hard_exclusions_ingredients": ["Egg", "Eggs", "Egg Whites", "Chicken", "Fish", "Mutton", "Prawns", "Chicken Masala", "Grapes", "Green Grapes", "Black Grapes"],
+  "hard_exclusions_dish_keywords": ["egg", "omelette", "omelet", "chicken", "fish", "mutton", "prawn", "keema", "grape"],
+  "person_rules": [
+    {"person": "Parul", "kind": "like", "ingredients": ["Okra", "Bhindi", "French Beans", "Green Beans", "Fenugreek Leaves", "Methi"], "note": "Parul's comfort vegetables.", "enforcement": "soft"},
+    {"person": "Aman", "kind": "like", "dishes": ["kadhi", "rajma", "puri", "parotta", "tofu"], "note": "Aman's comfort foods; likes sauteed Chinese-style tofu.", "enforcement": "soft"},
+    {"person": "Parul", "kind": "conditional", "ingredients": ["Milk", "Banana"], "dishes": ["protein shake", "smoothie"], "note": "Parul's protein shake is WATER-based - never milk, never banana. Aman's is milk + banana. Never swap.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [
+    {"slot": "Dinner", "ingredients": ["Rice", "Basmati Rice", "Sona Masoori Rice", "Brown Rice", "Jeera Rice", "Jasmine Rice", "Cooked Rice", "Leftover Rice", "Poha", "Idli Rice", "Rice Flour"], "note": "Dinner is always phulka - never rice.", "classes": ["Base", "Hero", "Base-Optional"]}
+  ],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["biryani", "pulao", "fried rice", "rice", "khichdi", "pongal", "bisi bele", "pulihora", "puliyogare"], "slots": ["Dinner"], "ingredients": [], "note": "Rice dishes are lunch-only."}
+  ],
+  "frequency_caps": [],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Breakfast", "Lunch", "Dinner"],
+  "default_servings": 2,
+  "brand_rules": [
+    {"brand": "Tata", "action": "prefer", "note": "Masalas (JK, Catch as backups); Tata cold-pressed for oil and salt."},
+    {"brand": "Aashirvaad / Fortune", "action": "prefer", "note": "Atta."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Oil", "rule": "Just a splash for daily cooking; more oil only for Chinese-style dishes."},
+    {"ingredient": "Dals / Rajma / Chole", "rule": "Soak the night before whenever on the next day's plan (a missed rajma soak forced a swap on Sep 17)."},
+    {"ingredient": "Paneer", "rule": "Default protein - most common dinner item; tofu, soya, tempeh approved alternates."},
+    {"ingredient": "Grapes", "rule": "Avoided household-wide until Sep 27, 2026 (quality) - remove from exclusions after that."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.3, "North Indian": 0.5, "Experimental/Asian": 0.2},
+  "liked_ingredients": ["Paneer", "Tofu", "Rajma", "Kadhi", "Okra", "French Beans", "Fenugreek Leaves", "Rice", "Carrot", "Tomato"],
+  "disliked_ingredients_soft": ["Grapes", "Junk food"],
+  "breakfast_style": "Late breakfast with a fixed protein shake (Aman: milk + powder + banana; Parul: water + powder); Parul needs variety (do not repeat her breakfast dish several days running); sabudana khichdi, besan chilla, puri-parotta as comfort options.",
+  "cooking_technique": {
+    "oil": "Low oil for daily cooking - just a splash; more allowed only for Chinese-style dishes",
+    "portions": "Generous - Marwadi household: running short is a bigger failure than slight excess; balance mains against sides (rice once dwarfed the manchurian)",
+    "lunch": "Rice-based (Aman prefers rice at lunch); sized for 1 (Parul) unless Aman pings",
+    "dinner": "Always phulka + curry/sabzi, never rice",
+    "besan_chilla": "Served only with green chutney + ketchup, no side sabzi",
+    "daily_prep": "Cut fruit + carrot-tomato salad prepared and stored daily regardless of the plan"
+  },
+  "nutrition_direction": ["Increase protein density (paneer, tofu, soya, tempeh) within the pure-veg, no-egg constraint", "Low oil daily"],
+  "weekend_pattern": "Weekends differ slightly (more indulgent / different cuisine); Sunday cook is off - household self-manages.",
+  "standing_instructions": [
+    "Pure vegetarian home - no meat, fish, eggs or non-veg masala, ever.",
+    "No grapes till Sep 27, 2026.",
+    "Lunch rice-based and sized for 1 (Parul) by default; dinner phulka for 2, never rice.",
+    "Protein shakes: Aman milk + powder + banana; Parul water + powder only - never swapped.",
+    "Portions generous; balance mains against sides.",
+    "Soak dals/rajma/chole the night before.",
+    "Cut fruit and carrot-tomato salad prepared daily and stored in the fridge.",
+    "Besan chilla dinner: only green chutney + ketchup.",
+    "Parul needs breakfast variety; Chinese/Italian once in 4-5 days.",
+    "Cook is cooking-only; photograph stock daily after prep; confirm cook timings (conflicting records)."
+  ],
+  "non_negotiables": [
+    "No meat/fish/eggs in the house, ever.",
+    "No non-veg masala as an ingredient, even flavouring.",
+    "Parul's protein shake is water-based - never milk, never banana.",
+    "Dinner is phulka, never rice.",
+    "Cook does not do home cleaning beyond own cooking utensils.",
+    "Portions should never run short."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Wheat Flour", "Rice", "Protein Powder", "Milk", "Carrot", "Tomato", "Curd"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main", "accompaniment?"],
+    "Lunch": ["curry|dal|protein_main", "dry_veg?", "staple"],
+    "Dinner": ["curry|dal|protein_main", "dry_veg?", "bread"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": false}
+  },
+  "notes": [
+    "Cook arrival/meal timings conflict across records (breakfast 10:30 vs 11:30 AM; dinner 7:30 vs 8:00 PM) - confirm.",
+    "Sep 15 okra-curry photo raised a vegetarian-compliance question - confirm resolved.",
+    "No allergies or medical conditions on record - confirm with residents."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "sanatha_sai",
+  "display_name": "Sanatha & Sai",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Sanatha", "notes": ""},
+    {"name": "Sai", "notes": "high-protein focus (eggs, paneer, chicken at nearly every meal); dislikes karela, bottle gourd (lauki), pumpkin (kaddu); asked for bhindi to be permanently removed"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Netravati",
+    "schedule": "Twice daily - 6:30 AM (lunch prep) and 6:30 PM (dinner prep), Mon-Sat; breakfast self-managed by residents",
+    "days_off": ["Sunday"],
+    "language": "Kannada/Hindi (voice notes; send reference photos for ingredients prone to mix-up)",
+    "notes": ["House key with the building guard when residents are away.", "Sends 6:30 AM pantry photos and evening perishable photos.", "Any dish first cooked on the trial day must be replicated with that EXACT recipe (grilled chicken salad dressing was simplified once)."]
+  },
+  "diet": "Non-Veg",
+  "hard_exclusions_ingredients": ["Okra", "Bhindi", "Bitter Gourd", "Karela", "Bottle Gourd", "Lauki", "Pumpkin", "Kaddu", "Yellow Pumpkin", "White Pumpkin", "Mutton", "Lamb", "Beef"],
+  "hard_exclusions_dish_keywords": ["bhindi", "okra", "karela", "lauki", "bottle gourd", "pumpkin", "kaddu", "mutton", "lamb", "keema", "ghee roast", "butter garlic", "garlic butter", "creamy", "alfredo"],
+  "person_rules": [
+    {"person": "Sai", "kind": "dislike", "ingredients": ["Bitter Gourd", "Bottle Gourd", "Pumpkin"], "note": "Avoid entirely.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [
+    {"slot": "Dinner", "ingredients": ["Rice", "Basmati Rice", "Sona Masoori Rice", "Brown Rice", "Jeera Rice", "Jasmine Rice", "Idli Rice", "Poha"], "note": "Never serve rice twice in a day - rice at lunch, roti at dinner.", "classes": ["Base", "Hero", "Base-Optional"]}
+  ],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["fish", "pomfret", "salmon", "meen"], "ingredients": ["Coconut Milk", "Tamarind", "Tomato Puree", "Fresh Cream", "Curd"], "note": "Fish only grilled or Indian-style marinated - never curried."},
+    {"dish_keywords": ["chicken"], "ingredients": ["Fresh Cream", "Heavy Cream", "Cheese", "Butter", "Whipping Cream"], "note": "Chicken must be Indian-style tomato-onion based only - never butter-garlic or Western/creamy prep."},
+    {"dish_keywords": ["prawn", "shrimp"], "ingredients": ["Butter", "Fresh Cream"], "note": "Prawns: basic tomato-onion semi-gravy, low oil/butter - no garlic-butter style."}
+  ],
+  "frequency_caps": [],
+  "weekday_rules": [
+    {"weekday": "Tuesday", "slots": [], "ban_ingredients": ["Chicken", "Chicken Breast", "Fish", "Prawns", "Egg"], "ban_dish_keywords": ["chicken", "fish", "prawn"], "note": "Tuesday is vegetarian - chicken is swapped for paneer without exception."}
+  ],
+  "allow_same_protein_same_day": false,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Lunch", "Dinner"],
+  "default_servings": 2,
+  "brand_rules": [
+    {"brand": "Nandu's", "action": "prefer", "note": "Chicken breast 450 g pack; Godrej Real Good is the accepted fallback."},
+    {"brand": "Noice High Protein Paneer", "action": "prefer", "note": "Low-fat paneer only; Milky Mist High Protein Low Fat as substitute."},
+    {"brand": "Daawat", "action": "prefer", "note": "Basmati reserved for pulao/biryani; Sona Masoori (5 kg) for daily meals."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Paneer", "rule": "Low-fat paneer only. Paneer at LUNCH is served with rice + dal, never with roti."},
+    {"ingredient": "Chicken", "rule": "Indian-style tomato-onion base only; cook only the quantity needed (a full packet was nearly cooked when half was needed)."},
+    {"ingredient": "Curry Leaves", "rule": "Regular (non-organic) preferred."},
+    {"ingredient": "Vegetables", "rule": "Rotation pool is beans, carrot, cabbage, cauliflower, spinach, beetroot - never the same sabji on consecutive days unless inventory-driven."},
+    {"ingredient": "Legumes", "rule": "Rotate brown chana, chole, rajma - one per cycle; send a reference photo for chana varieties before soaking."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.4, "North Indian": 0.4, "Experimental/Asian": 0.2},
+  "liked_ingredients": ["Chicken", "Paneer", "Egg", "French Beans", "Green Beans", "Carrot", "Cabbage", "Cauliflower", "Spinach", "Beetroot", "Rajma", "Chickpeas", "Brown Chana"],
+  "disliked_ingredients_soft": ["Ghee (heavy)", "Butter", "Fresh Cream"],
+  "breakfast_style": "Self-managed: overnight oats + 3 boiled eggs each, or dosa/poha/egg variants with tea.",
+  "cooking_technique": {
+    "protein": "Chicken or paneer present at BOTH lunch and dinner, never the same protein at both meals on the same day",
+    "chicken": "Indian-style, tomato-onion based only",
+    "fish": "Grilled or Indian-style marinated only - never curried",
+    "oil_ghee": "Light on oil/ghee across the board - no ghee roast",
+    "recipe_fidelity": "Trial-day recipes replicated exactly, no simplified versions"
+  },
+  "nutrition_direction": ["High-protein diet (Sai) - eggs, paneer, chicken emphasised at nearly every meal", "Light oil/ghee for digestion"],
+  "weekend_pattern": "",
+  "standing_instructions": [
+    "Breakfast is self-managed - cook handles lunch and dinner only.",
+    "Chicken or paneer at both lunch and dinner; never the same protein twice in a day.",
+    "Tuesday = vegetarian (paneer instead of chicken).",
+    "Never rice twice in the same day; paneer at lunch goes with rice + dal, never roti.",
+    "Vegetable rotation: beans, carrot, cabbage, cauliflower, spinach, beetroot; no sabji repeated on consecutive days.",
+    "Legume rotation: brown chana, chole, rajma.",
+    "Leftovers may be reheated up to 2 days; inform residents before discarding.",
+    "Reference photos before cooking for any ingredient with variety confusion (kala vs kabuli chana).",
+    "Grocery orders only 8-10 AM or 6-10 PM; verify pantry stock first; cart screenshots must show the total.",
+    "Travel: no/reduced planning Sep 12-27, 2026."
+  ],
+  "non_negotiables": [
+    "Bhindi/okra never, under any circumstance.",
+    "Tuesday is vegetarian.",
+    "Never the same protein at lunch and dinner; never rice twice a day.",
+    "Chicken Indian-style only; fish never curried.",
+    "Trial-day recipes replicated exactly."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Curry Leaves", "Green Chilli", "Coriander Leaves", "Egg", "Sona Masoori Rice"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main"],
+    "Lunch": ["curry|protein_main", "dal", "dry_veg", "staple"],
+    "Dinner": ["curry|protein_main", "dry_veg", "bread"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": false}
+  },
+  "notes": ["Cabbage is IN the rotation pool for this house (unlike Gurupriyan & Raksha)."]
+}

@@ -101,6 +101,30 @@ tests/                       pytest suite (offline)
 - This environment could not reach the Anthropic API, so the live (non-mock) paths are written against the SDK
   docs and degrade gracefully, but have not been exercised end-to-end here.
 
+## Households seeded (from the combined preferences document)
+
+| id | Household | Shared-meal diet | Slots planned | Servings |
+|---|---|---|---|---|
+| gurupriyan_raksha | Gurupriyan & Raksha | Non-Veg | B/L/D | 2 |
+| nalin_akash_manish | Nalin, Akash & Manish | Non-Veg | B/L/D | 3 |
+| rohan_nishchay_sharly | Rohan, Nishchay & Sharly | Vegetarian (Rohan's non-veg is a separate add-on) | Dinner only | 3 |
+| rahul_pooja | Rahul & Pooja | Non-Veg (chicken/fish; protein timing by slot) | B/L/D | 2 |
+| sanatha_sai | Sanatha & Sai | Non-Veg (Tuesday veg) | L/D | 2 |
+| pavitra_vikas | Pavitra & Vikas (+Vidhi) | Eggetarian (no eggs Tue/Thu; Monday fast) | B/L/D | 3 |
+| shonik_atul | Shonik & Atul | Non-Veg | B/L/D | 2 |
+| abhishek_tiwari | Abhishek Tiwari | Non-Veg (chicken on request) | L/D | 1 |
+| preetish_dibyanshu | Preetish & Dibyanshu | Vegetarian | L/D | 2 |
+| karthik_astha | Karthik & Astha (+Gauri) | Non-Veg (Astha ovo-veg) | B/L/D | 3 |
+| krish | Krish | Non-Veg | B/L/D | 3 |
+| tushar_yash_siddharth | Tushar, Yash & Siddharth | Vegetarian (no eggs/paneer shared) | B/L/D | 3 |
+| aman_parul | Aman & Parul | Vegetarian | B/L/D | 2 |
+| neeru_ashish | Neeru & Ashish | Eggetarian | B/L/D | 2 |
+
+Each profile's `notes` list records the conflicts the source document itself flags for confirmation
+(e.g. drumstick-in-sambar for Nalin's house, "no North Indian" for Krish, Tushar's eggs). Rules that are
+really omit/substitute instructions (green chilli for Rahul & Pooja, garam masala for Neeru) are modelled
+as soft instructions rather than dish exclusions so the candidate pool is not gutted.
+
 ## Adding a house
 
 Copy `data/house_profiles/gurupriyan_raksha.json`, change `id` / `display_name` and the rules. The schema is in the

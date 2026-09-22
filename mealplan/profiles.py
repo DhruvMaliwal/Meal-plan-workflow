@@ -66,6 +66,15 @@ class DishKeywordRule(BaseModel):
     note: str = ""
 
 
+class WeekdayRule(BaseModel):
+    """Bans that apply only on a given weekday (e.g. Tuesday veg day, Monday fast, no eggs Tue/Thu)."""
+    weekday: Literal["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    slots: list[Slot] = Field(default_factory=list, description="Empty = all slots")
+    ban_ingredients: list[str] = Field(default_factory=list)
+    ban_dish_keywords: list[str] = Field(default_factory=list)
+    note: str = ""
+
+
 class FrequencyCap(BaseModel):
     name: str
     match_ingredients: list[str] = Field(default_factory=list)
@@ -112,8 +121,16 @@ class HouseProfile(BaseModel):
     slot_ingredient_bans: list[SlotIngredientBan] = Field(default_factory=list)
     dish_keyword_rules: list[DishKeywordRule] = Field(default_factory=list)
     frequency_caps: list[FrequencyCap] = Field(default_factory=list)
+    weekday_rules: list[WeekdayRule] = Field(default_factory=list)
     allow_same_protein_same_day: bool = False
     allow_lunch_to_dinner_carryover: bool = False
+    disallow_marination: bool = False
+    # Which slots the cook actually serves; unplanned slots are left empty ("self-managed").
+    planned_slots: list[Slot] = Field(default_factory=lambda: ["Breakfast", "Lunch", "Dinner"])
+    # Servings for quantity math when it is not simply the resident count (e.g. cook serves 3).
+    default_servings: int | None = None
+    # Per-house override of config plan.rotation_reuse_pct (0 = never repeat last plan's dishes).
+    rotation_reuse_pct: float | None = None
 
     # --- ingredient / brand rules ---
     brand_rules: list[BrandRule] = Field(default_factory=list)
@@ -138,6 +155,10 @@ class HouseProfile(BaseModel):
     def n_residents(self) -> int:
         return len(self.residents)
 
+    @property
+    def servings(self) -> int:
+        return int(self.default_servings or len(self.residents))
+
     def hard_exclusion_ingredients_all(self) -> list[str]:
         out = list(self.hard_exclusions_ingredients)
         for pr in self.person_rules:
@@ -154,6 +175,10 @@ class HouseProfile(BaseModel):
                  + ", ".join(f"{r.name}{' - ' + r.notes if r.notes else ''}" for r in self.residents) + "."]
         if self.cook.name:
             parts.append(f"Cook: {self.cook.name}, {self.cook.schedule}; days off: {', '.join(self.cook.days_off) or 'none'}.")
+        if len(self.planned_slots) < 3:
+            parts.append("Slots planned by the cook: " + ", ".join(self.planned_slots) + " (other meals are self-managed by residents).")
+        if self.weekday_rules:
+            parts.append("Weekday rules: " + "; ".join(f"{w.weekday}{' ' + '/'.join(w.slots) if w.slots else ''}: no {', '.join(w.ban_ingredients + w.ban_dish_keywords)}" for w in self.weekday_rules) + ".")
         if self.cuisine_split_target:
             parts.append("Cuisine split target: " + ", ".join(f"{k} ~{int(v*100)}%" for k, v in self.cuisine_split_target.items()) + ".")
         if self.breakfast_style:

@@ -1,0 +1,1567 @@
+00000 Nalin, Akash & Manish
+00001 # Section 1: Operational Standards
+00003 1. **Ingredient Standards**
+00004 **Protein Precision (Chicken):** General cooking = boneless, non-breast cut (cook-confirmed 2026-09-02, reverses earlier bone-in preference). Salad prep = boneless meat pieces only, no bones. Biryani = curry-cut/bone-in pieces (Akash's preference).
+00005 **Protein Precision (Fish/Seafood):** Only 1 packet (~250–500g) cooked per meal for household of 3, even if 2 packets on hand. Fish curry is banned for Akash — tawa fry/roast only. Manish is fully excluded from all seafood dishes — portion fish/seafood meals for 2 (Nalin + Akash), not 3.
+00006 **Salad Combination Rule:** Never combine chicken and prawns in the same salad preparation — smell/texture complaint on record; prepare separately.
+00007 **Drumstick Rule:** Drumstick (moringa) only permitted inside sambar — never as a standalone curry/sabzi (Nalin dislike).
+00008 **Everyday Sabzi Style:** Homestyle, minimal masala, minimal oil template (jeera, mustard seed, turmeric, salt, light red chilli, coriander garnish) is the DEFAULT — heavy masala/besan-coated prep is occasional only, not standard.
+00009 **Cheese Ban on Omelette:** French omelette for Nalin & Akash — NO cheese, ever (household-wide correction, applies every day). 3 eggs, low flame, butter, salt & pepper only.
+00010 **Toast Standard:** Avocado toast is the standard breakfast toast for all three residents (replaces mushroom toast).
+00012 2. **Portioning Standards**
+00013 **Leftover-Aware Cooking:** When leftovers exist, reduce next meal's fresh-cook portion and reheat leftovers instead of cooking a full fresh batch — standing, recurring instruction (flagged repeatedly Aug 3, Aug 14, Sep 1).
+00014 **Dal Portioning:** Recurring complaint of dal being under-portioned for 3 people — treat dal quantity for 3 pax as a specific watch-item.
+00015 **Manish's Leftover Exception:** Even when leftovers are sufficient for all 3, Manish generally won't eat most leftovers — cook a small separate fresh portion for him regardless.
+00017 3. **Storage & Kitchen Hygiene Standards**
+00018 **Appliance Cleaning:** Toaster and mixer must be cleaned as part of the standard post-cooking routine every visit — not an occasional task (flagged after being found dirty).
+00019 **Pantry Photo Discipline:** Cook photographs fresh perishables (vegetables, fruits, milk, curd, paneer, meat) daily after breakfast and lunch are cooked, shared to ops for stock visibility.
+00020 **Fruit-Cutting Technique:** Cut 1–2 fruits fully rather than partially cutting several (halves dry out); never pre-cut bananas (goes mushy) — leave whole.
+00022 4. **Allergens, Aversions & Morbidities (HARD STOPS)**
+00023 **Manish — Egg Aversion:** Strong aversion (not allergy) — nauseates him. Zero eggs in any of his meals, any form.
+00024 **Manish — Seafood Exclusion:** All seafood (fish, prawns, shellfish) excluded — texture aversion, not allergy. Total exclusion, no exceptions.
+00025 **Manish — Paneer Aversion:** Explicitly stated "I don't eat paneer" — dal, soya chunks, or a separate protein are the standing substitutes.
+00026 **Manish — Elevated Cholesterol:** Medically-driven requirement for low oil + low sugar across all his meals; cold-pressed groundnut oil, minimal quantity, household-wide standard oil.
+00028 5. **Lifestyle & Calorific/Macro Mandates**
+00029 **Nalin (Endurance Athlete):** Target 3,400 kcal/day, 180g protein/day (realistic delivered range 150–180g). Subtract ~25–30g protein from cook-prepared target — he takes a self-prepared night protein shake.
+00030 **Akash (Cutting Phase):** ~1,800 kcal/day, ~100g protein/day, near-zero carbs. Dinner must be extremely light (fibre + yogurt/protein shake) — this is the heaviest-risk meal for over-delivery.
+00031 **Manish (Balanced/Maintenance):** ~100g protein/day, no fixed calorie target, low oil/low sugar (cholesterol-driven).
+00032 **Household Collective Protein Target:** ~400g/day combined (180+100+100) — rough ingredient-based estimation is acceptable, exact tracking not required.
+00034 6. **Cooking Technique Standards**
+00035 **Air Fryer Mandate:** Roasted/grilled dishes (e.g., roasted chicken) must use the air fryer for near-zero oil — stovetop/pan-roasting with excess oil is a repeat complaint.
+00036 **Salad Quality Bar:** Cook should aim for restaurant-style salad plating/dressing comparable to Salads Point / Caterspoint / O4H (Zomato) — not a plain boiled-protein bowl.
+00037 **Consistency Over Skill:** Household explicitly prioritises a cook who can take feedback and SUSTAIN the adjustment long-term (esp. oil level) over one with higher initial skill but reverts after a few days.
+00039 7. **Rationale**
+00041 | Category | Rationale |
+00042 |---|---|
+00043 | Calorific & Macro Control | Three residents on three distinct nutrition programs (bulking/endurance, cutting, maintenance) sharing one kitchen — cross-contamination of portion sizes or macros directly undermines each resident's individual goal. |
+00044 | Digestive Sensitivity | Manish's egg aversion causes physical nausea (not merely dislike) — a true digestive/sensory intolerance requiring zero-tolerance handling, not "light" inclusion. |
+00045 | Immunity / Morbidity | Manish's elevated cholesterol is a standing medical condition — low oil/low sugar is a health mandate, not a taste preference, and must be treated with the same rigor as an allergy. |
+00046 | Texture & Quality of Food | Seafood exclusion for Manish and the chicken+prawn salad ban are both texture-driven, not ingredient-driven — technique and plating changes (not substitution alone) are required to resolve them. |
+00047 | Safety & Hygiene | Appliance cleaning and daily perishable photo documentation are the household's core visibility mechanism into cook hygiene and stock freshness — lapses here directly preceded resident complaints. |
+00049 # Section 2: Incident Report Log
+00051 | Date | Incident Description |
+00052 |---|---|
+00053 | 2026-08-03 | Cook trial feedback — oil level flagged as needing adjustment. |
+00054 | 2026-08-04 | Bone-in chicken ordered for salad prep despite boneless-only requirement. |
+00055 | 2026-08-05 | Roasted chicken came out too oily — air fryer not used. |
+00056 | 2026-08-05 | Chicken+prawn combined salad disliked — smelled uncooked/fishy. |
+00057 | 2026-08-10 | Excess vegetables sitting unused in fridge, risk of waste. |
+00058 | 2026-08-11 | Toaster and mixer found dirty — appliance hygiene lapse. |
+00059 | 2026-08-14 | Dal portion too small for 3 people at lunch (recurring). |
+00060 | 2026-08-14 | Fruit completely out of stock; French beans, garam masala also OOS; bread critically low. |
+00061 | 2026-08-16 | Omelette served with cheese despite no-cheese standard — corrected. |
+00062 | 2026-08-22 | Quinoa mistakenly reordered despite existing stock. |
+00063 | 2026-08-23 | Bhindi served heavily masala/besan-coated — against homestyle-default expectation. |
+00064 | 2026-08-24 | French Beans variant flagged by cook as poor taste/slow-cooking, two consecutive orders. |
+00065 | 2026-09-01 | Old/spoiled leftovers accumulated in fridge over a week — discard-and-portion-control directive issued. |
+00066 | 2026-09-04 | House out of stock on bread, egg, and coconut. |
+00068 # Section 3: Standing Instructions
+00070 | Standard | Instruction Details |
+00071 |---|---|
+00072 | Egg Exclusion (Manish) | Zero eggs in any form, any meal — aversion causes nausea. |
+00073 | Seafood Exclusion (Manish) | Zero seafood (fish/prawns/shellfish) in any meal — texture aversion. |
+00074 | Paneer Exclusion (Manish) | No paneer — substitute dal or soya chunks. |
+00075 | Cheese-Free Omelette | Nalin & Akash's French omelette — no cheese, every day. |
+00076 | Drumstick Usage | Only inside sambar, never standalone. |
+00077 | Chicken+Prawn Combo Ban | Never combine chicken and prawns in one salad. |
+00078 | Air Fryer for Roasts | Mandatory for roasted/grilled dishes to minimize oil. |
+00079 | Everyday Sabzi Style | Homestyle, minimal oil/masala template as default. |
+00080 | Portion Control on Leftovers | Reduce fresh-cook quantity and reheat leftovers when present. |
+00081 | Appliance Cleaning | Toaster & mixer cleaned every post-cooking session. |
+00082 | Daily Perishable Photos | Cook sends photos of fresh stock after breakfast & lunch prep. |
+00083 | Oil Type | Cold-pressed groundnut oil, minimal quantity, household-wide. |
+00084 | Fruit Bowl Availability | Cut fruit bowl always available for Manish; don't pre-cut bananas. |
+00085 | Manish's Meal Scope | Breakfast only in standard household plan; separate fresh protein even when leftovers exist. |
+00086 | Akash's Dinner | Must remain extremely light — near-zero carbs, cutting-phase target. |
+00087 | Nalin's Protein Adjustment | Subtract ~25–30g from cook-prepared protein target (covers self-prepared night shake). |
+00088 | Delivery Cutoff | No deliveries to the flat after 10 PM (society rule). |
+00089 | Salad Quality Bar | Match plating/dressing style of Salads Point / Caterspoint / O4H. |
+00090 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Food Preferences
+00091 - Manish: no eggs — makes him nauseous (not an allergy); no seafood at all (fish, prawns — texture aversion); no paneer (dal is the accepted substitute). Chicken, mutton and other non-veg are fine.
+00092 - Manish has elevated cholesterol — food for him should be low-oil, low-sugar as a standing diet requirement, not a one-off ask.
+00093 - Akash: no brinjal or beetroot in his vegetables (beetroot thoran is the one exception — kept as-is). No prawns or soya as a protein. Eats chicken, fish, eggs daily; wants 2 rotis per meal.
+00094 - Akash's breakfast defaults: egg dosa with chutney, omelette + toast, or boiled eggs. For biryani he prefers curry-cut/bone-in chicken pieces over breast; for salads/lunch protein he wants boneless.
+00095 - Nalin loves prawns, boiled and lightly spiced, for dinner salad. He dislikes drumstick (moringa) as a standalone dish — wants dal and curd/raita to rotate regularly through the week's meal plan.
+00096 - Nalin dislikes poor-quality fish ('Bangalore fish') — will eat fish only if it's genuinely fresh and good quality; no brand/platform preference otherwise as long as quality is reasonable.
+00097 - Household-wide: source only the fully-green French Beans variant — the whitish/pale variant tastes bad and cooks slowly (flagged twice by the cook).
+00099 Cooking & Preparation
+00100 - Default vegetable style is simple and homestyle: little oil, jeera, mustard seeds, turmeric, salt, a little red chilli powder, topped with coriander. High-masala or besan-coated prep is occasional only, never the default (Nalin corrected this explicitly after a masala/besan bhindi).
+00101 - Taste-test spicy dishes before serving — corrected once on a peas sabzi that came out much spicier than usual; treat as a standing check for chilli-heavy dishes.
+00102 - CONFLICTING instruction on drumstick — needs confirmation: an Aug 10 rule says drumstick should only ever appear inside sambar (never as a standalone curry/sabzi); a later Aug 20 rule says do NOT add drumstick when making sambar at all. Confirm which stands before the next sambar.
+00103 - Sambar is served only with idli — never with dosa, uttapam or puri (those get coconut chutney instead).
+00104 - Bone-in chicken is fine for curry/biryani but must never be used for salad prep — boneless pieces only.
+00105 - When leftovers exist from a previous meal, reduce the next meal's cooking portions and reheat rather than cooking a fresh full batch — corrected repeatedly (Aug 15, Aug 27, Sep 1) and now a standing rule.
+00106 - Cut fruit bowl: check the fridge every visit (morning and evening); if empty, cut a bowl of exactly 2 fruits, chopped thoroughly. CONFLICT to confirm: the standing rule excludes banana entirely, but Manish separately named banana as one of his preferred fruit-bowl fruits.
+00108 Packing & Serving
+00109 - Nalin takes a packed lunch and snack to the office every day: lunch is roti + sabzi + salad, snack is fruit or eggs. This must be prepared and packed daily without being asked.
+00110 - Serving pairing rule: sambar goes only with idli; dosa, uttapam and puri get coconut chutney instead.
+00111 - When a meal has leftovers to use up, serve reheated leftovers at reduced fresh-cook quantity rather than a full new batch.
+00113 Routine
+00114 - Cook (Anisha) currently visits once a day for the members on a single-visit schedule (e.g. Akash's arrangement since Sep 2026) — all 3 meals for that person are prepped in one morning visit; this can change by explicit member request.
+00115 - On Anisha's own fasting days, she pre-cooks all 3 meals in one morning batch since cooking later in the day is harder for her — this is a standing accommodation, not a special case.
+00116 - Cook should call, not shout, if no one is home when food is ready — residents sometimes return late from work.
+00117 - Daily instructions arrive as WhatsApp voice notes (Hindi) in the cook's group; cook is expected to follow them, raise doubts before proceeding, and send photos of prepared dishes and remaining ingredients afterward.
+00118 - Household members frequently change day-to-day meal counts (skip a meal, add a guest portion, single-person portions while others travel) — cook must expect and accommodate same-day changes rather than assuming a fixed headcount.
+00120 Non-negotiables
+00121 - Never give Manish eggs in any form — causes nausea.
+00122 - Never give Manish seafood of any kind (fish, prawns, etc.) — texture aversion, applies across all dishes.
+00123 - Never give Manish paneer — substitute dal.
+00124 - Never put brinjal or beetroot in Akash's vegetables (beetroot thoran is the sole exception).
+00125 - Never use prawns or soya as a protein for Akash.
+00126 - Never use bone-in chicken for salad preparation — boneless meat pieces only.
+00127 - Never order meat/fish for Akash from Fresh To Home — the family does not like this vendor.
+00129 Kitchen
+00130 - Clean the toaster and mixer as part of the post-cooking routine every day — Nalin had to flag them as dirty once (Aug 11); treat this as a standing expectation, not a one-time fix.
+00131 - Report anything unusual near appliances (e.g. water/leaks near the washing machine) immediately rather than waiting to be asked.
+00132 - Photograph pantry/fridge stock when ops or the household asks for an inventory check — this happens routinely and photos are expected same-day.
+00133 - Clear out old or leftover food from the fridge when asked — the household has flagged buildup of stale food before.
+00135 Cook Capability Requirements
+00136 - Must be able to batch-cook all 3 meals correctly in a single morning visit when the schedule calls for it (once-daily visits, or Anisha's own fasting days).
+00137 - Must handle per-person customization within the same meal — different diets/portions for Nalin, Akash and Manish on the same day, since their food rules genuinely diverge (eggs, seafood, paneer, brinjal/beetroot all differ by person).
+00138 - Must read and act on Hindi voice-note instructions sent via WhatsApp, and flag doubts before cooking rather than guessing.
+00139 - Must taste-test spice level on chilli-forward dishes before serving.
+00140 - Must judge portions against what's already in the fridge (leftovers) rather than always cooking a full fresh batch.
+00141 - Must know the sambar/idli/dosa/uttapam/puri serving pairing and the bone-in vs boneless chicken split by dish purpose.
+00142 - Must complete salad components fully (cut boiled eggs, add nuts) — trial feedback showed these being skipped initially.
+00144 Unwritten / Learned · Confirm before treating as permanent
+00145 - Portion sizes have needed correction downward repeatedly across weeks (trial period, Aug 15, Aug 27, Sep 1) — the pattern suggests a new cook should default to slightly smaller portions and check for leftovers before assuming full headcount, even though no single instruction states an exact quantity.
+00146 - The household's general preference for low-oil, minimal-masala cooking (Nalin's standing sabzi request) aligns with Manish's medically-driven low-oil/low-sugar need — reinforcing that oil should run light across the board, not just for Manish's plate.
+00147 - Fresh quality is valued over brand/platform for meat and fish (Nalin has no platform preference 'as long as it's reasonable and good quality'; dislikes poor Bangalore fish) — sourcing judgement matters as much as following a brand list.
+00148 - NEEDS CONFIRMATION: whether drumstick belongs in sambar or is now excluded from it entirely (two conflicting instructions, Aug 10 vs Aug 20).
+00149 - NEEDS CONFIRMATION: whether banana is excluded from the cut fruit bowl (standing rule) or should be included (Manish's stated preference) — the two records disagree.
+00150 - NEEDS CONFIRMATION: Nalin's detailed oats request (curd/water not milk, less thick, add sabja seeds/pumpkin seeds/peanut butter/protein powder/nuts) was a single detailed ask — confirm with the household whether this is his everyday oats order or a one-off.
+00152 Rohan, Nishchay & Sharly
+00153 Now I have sufficient data to compile the brief.
+00155 # Section 1: Operational Standards
+00157 1. **Ingredient Standards**
+00158    - **Protein Precision:** Rohan eats non-veg (chicken curry, grilled chicken) every 2-3 days — cook must prepare a separate veg dish for Nishchay & Sharly on those days.
+00159    - **Paneer Brand:** iD Fresh Soft & Creamy Paneer (200g) is the household default; Milky Mist Paneer is the ONLY acceptable substitute, and only with Rohan's approval when iD Fresh is unavailable.
+00160    - **Paneer/Milk Brand Ban:** Akshay Kalpa milk/paneer is banned — Sharly had a bad experience (milk turned gel-like); Milky Mist milk also avoided by Sharly.
+00161    - **Tofu Brand:** Moose brand only. Health 'N Plants tofu is banned (reported "really bad" quality).
+00162    - **Oil Standard:** Tata cold-pressed oils only (Sharly).
+00163    - **Ghee Standard:** Barosi Cow Ghee or Anvesham preferred; current "Meena/Heena" brand rated best used so far.
+00164    - **Carb Sources:** Brown rice, millets (jowar/ragi/bajra) — plain white rice avoided by Sharly; wheat chapati avoided (gluten sensitivity — bloating), millet rotis (jowar/ragi/bajra) mandatory substitute.
+00165    - **Soy Rule:** No soy at breakfast/lunch for Nishchay (thyroid medication interference) — soy permitted only at dinner.
+00167 2. **Hygiene & Kitchen Standards**
+00168    - **Kitchen Cleanup:** Mandatory after every cook visit — non-negotiable standing scope item.
+00169    - **Leftover Handling:** Store in fridge max ~2 days; reuse next morning if acceptable (e.g., leftover dal → dal tadka); discard after 2 days — do not stretch further.
+00170    - **Spoilage Watch:** Dry goods (sattu, besan, oats, pasta, suji) spoil fast in monsoon — rotate stock; use-first policy on ingredients nearing expiry before opening fresh stock.
+00172 3. **Portioning Standards**
+00173    - **Headcount:** Dinner is planned for 3 (Rohan, Nishchay, Sharly); breakfast/lunch are self-managed/not cook-served currently.
+00174    - **Sharly's Meal Plan (coach-prescribed, strict):** Breakfast 473kcal / Lunch 461kcal / Snack 197kcal / Dinner 277kcal — total ~1408kcal/day; macros 70g protein / 194g carbs / 39g fat (25/55/20 split). Portion consistency is mandated, not optional.
+00176 4. **Storage Standards**
+00177    - Fridge-first for perishables; dry goods stored away from humidity (monsoon spoilage risk flagged).
+00178    - No systematic inventory tracking yet in place — cook should visually flag low/near-expiry stock to ops.
+00180 5. **Allergens, Morbidities & Banned Items**
+00181    - **Nishchay — Thyroid condition:** No soy at breakfast/lunch (interferes with medication absorption); soy fine at dinner.
+00182    - **Sharly — Cholesterol concern:** No deep-fried or very oily/ghee-heavy food.
+00183    - **Sharly — Gluten sensitivity:** Avoid wheat chapati (bloating) — not a clinical allergy but a hard cooking-technique rule.
+00184    - **Banned brands:** Akshay Kalpa (milk/paneer), Milky Mist (milk — paneer only as fallback), Health 'N Plants (tofu).
+00185    - No declared food allergies across the household (confirmed at onboarding, Aug 2026).
+00187 6. **Lifestyle Mandates**
+00188    - **Dinner timing:** Ready by 6:30-7:00 PM to align with Sharly's gym schedule (gym 7:00-8:00 PM most evenings).
+00189    - **Sharly:** Enrolled in structured fitness coaching (coach Tosh Vyas) — meal plan is prescriptive, not flexible; hydration target 4-5L/day.
+00190    - **Variety mandate:** Roti-sabzi capped at 2-3x/week max — household gets bored of repetition; rotate grilled items, curries, legume dishes, and interesting vegetable preparations (pumpkin, bottle gourd, beetroot).
+00192 7. **Cooking Technique Standards**
+00193    - **Spice Level:** Low — 2/5 on chili/spice; aromatics fine, but red chili must be kept minimal (flagged as a real incident, see Section 2).
+00194    - **Oil Level:** Low — 2/5; no deep-frying.
+00195    - **Legume Prep:** Pre-soak dals/legumes properly and cook fully — undercooked/watery legumes are an active quality complaint (see Section 2).
+00196    - **Cream/Rich Ingredients:** Rohan actively questions cream usage — keep dishes light, minimal cream even in "wrap"-style dishes.
+00198 8. **Rationale**
+00200 | Category | Rationale |
+00201 |---|---|
+00202 | Calorific & Macro Control | Sharly follows a coach-prescribed macro target (70g protein/194g carbs/39g fat, ~1408kcal); portions must be measured, not eyeballed, to preserve fitness-coaching outcomes. |
+00203 | Digestive Sensitivity | Sharly's gluten sensitivity (bloating on wheat) and Nishchay's thyroid-soy interaction both require ingredient substitution at specific meal times, not blanket avoidance. |
+00204 | Immunity | Household is health-conscious and protein-forward (paneer, tofu, eggs, dal) to support general immunity and recovery from gym-heavy routines (Sharly's evening gym, Nishchay's yoga). |
+00205 | Texture & Quality of Food | Recent quality complaints (over-spiced, undercooked/watery legumes) directly risk trust in the cook — technique precision on doneness and seasoning is central to retention. |
+00206 | Safety & Hygiene | No declared allergies simplifies safety, but brand-level bans (Akshay Kalpa, Health 'N Plants) exist due to prior bad experiences — must be respected as hard exclusions, not preferences. |
+00208 # Section 2: Incident Report Log
+00210 | Date | Incident Description |
+00211 |---|---|
+00212 | 2026-09-06 | Paneer wrap served far too spicy — exceeded household's low-spice standard (Rohan feedback). |
+00213 | 2026-09-06 | Kala channa served too watery and slightly raw — legume undercooked/under-soaked (Rohan feedback). |
+00214 | 2026-09-03 | Two failed dinner deliveries due to wrong saved GPS location (delivery partner routed to a nearby PG); Rohan had to manually correct the map pin. |
+00215 | 2026-09-03 | Preferred paneer brand (iD Fresh) out of stock across all platforms; Milky Mist Paneer substituted with Rohan's approval. |
+00216 | 2026-08-03 | Onboarding review flagged chronic inventory/wastage issue — no handle on stock, high food wastage prior to structured cook service. |
+00218 # Section 3: Standing Instructions
+00220 | Standard | Instruction Details |
+00221 |---|---|
+00222 | Cook Schedule | Dinner-only service, cook (Gorakh Bhaiya) arrives 6:30-7:00 PM; household explicitly declined breakfast/lunch expansion (2026-09-06). |
+00223 | Kitchen Cleanup | Mandatory after every cooking session — part of the cook's standard scope. |
+00224 | Meal Plan Approval | Ops shares plan/menu in advance; household must approve by 12 PM same day so cook can prep for evening. |
+00225 | Menu Change Protocol | Day-of changes routed via Rohan to Carlin Muriel (kitchen ops contact), who relays to the cook. |
+00226 | Ingredient Sourcing | Cook/ops verify home stock first; only gaps are ordered — cart shared for household confirmation before cook arrives. |
+00227 | Roti Frequency Cap | Roti-sabzi max 2-3x/week — must vary with grilled, curry, or legume-based dishes otherwise. |
+00228 | Non-Veg Handling | Separate non-veg dish for Rohan alongside a veg main for Nishchay & Sharly, when non-veg is served. |
+00229 | Soy Timing | No soy in Nishchay's breakfast/lunch; soy allowed at dinner only. |
+00230 | Spice & Oil Level | Keep spice and oil low (2/5) across all dishes — do not season to standard "restaurant" spice level. |
+00231 | Leftover Policy | Refrigerate leftovers; reuse next morning if fresh enough (e.g. dal → dal tadka); discard after 2 days. |
+00232 | Brand Compliance | Use only approved brands (iD Fresh paneer, Moose tofu, Tata cold-pressed oil, Barosi/Anvesham ghee); never substitute banned brands without approval. |
+00233 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## What This Household Expects From Its Cook
+00235 **Household:** Rohan, Nishchay, Sharly. Current cook: Gorakh Bhaiya (dinner only, trial since Sep 2, 6:30–7:00 PM, 3 people). Previous cook Monica Didi was preferred but reallocated.
+00237 ### Food Preferences
+00238 - **Nishchay is vegetarian — no meat/chicken/fish for him, ever.** Confirmed explicitly by Rohan after a meal planner mistakenly proposed grilled chicken for him (Sep 16).
+00239 - Rohan is pescatarian-leaning non-veg: wants non-veg (chicken curry, grilled chicken) roughly once every 2–3 days.
+00240 - Sharly: mostly vegetarian, occasionally pescatarian (eats eggs — 2 at lunch, coach-prescribed); very health-conscious.
+00241 - Low oil, low red chilli, minimal deep-fried/ghee-heavy food across the board — this is Sharly's explicit standing style and was reinforced by a real complaint (paneer wrap "very spicy," Sep 6).
+00242 - Prefer quinoa/brown rice over plain white rice and roti; roti-sabzi is fine but should not repeat more than 2–3x/week — household finds it repetitive.
+00243 - Weekly batch of sprouts (green moong or kaale chana) is a standing staple — cook to prepare regularly, not one-off.
+00244 - Bitter gourd (karela) is welcome **if cooked well** — household has said they'd enjoy it done right.
+00245 - Favourites to lean on: grilled paneer with salad, poha with chickpeas, kale chana masala, chaat-style dishes, paneer/beetroot cutlets, rajma/kadi/chane.
+00247 ### Cooking & Preparation
+00248 - **Never use canned, preservative-forward, or restaurant-style pre-made ingredients** — fresh tomatoes only, no tomato passata/purée. Stated explicitly by Rohan (Sep 9) and reinforced again by Sharly (Sep 21: "prefer not using preservative-based products... esp when there is an option to make it fresh"). This is a repeated instruction — treat as standing, not situational.
+00249 - **No ginger-garlic paste, ever — raw ginger and garlic only.** Pinned household note.
+00250 - Buy unpeeled garlic and rooted coriander specifically — keeps them fresher for longer (Sharly's standing ask, Sep 19).
+00251 - Dals/legumes needing an overnight soak (chole, rajma) must be soaked the night before — this tripped up planning once (Sep 12) when a cancelled meal broke the soak schedule.
+00252 - One real quality miss on record: kala channa served watery and a bit raw (Sep 6) — cook needs to fully cook down legume dishes, not just heat them.
+00254 ### Kitchen
+00255 - **Cook must clean up the kitchen after every cooking session** — explicit, standing requirement confirmed by Rohan ahead of the current cook's trial ("kitchen cleanup after cooking remain the same as last time").
+00256 - Proactively check what's close to spoiling (sattu, besan, oats, pasta, suji — especially in monsoon) and use it first, rather than letting it sit.
+00257 - Leftovers: keep in the fridge up to 2 days max. Leftover dal is repurposed into dal tadka the next morning; anything else past 2 days is thrown, not reused.
+00258 - **Never buy or cook with Akshayakalpa brand dairy/paneer** — household-wide hard stop after a bad milk experience ("like a gel"); trust in the brand is fully lost.
+00260 ### Packing & Serving
+00261 - No lunchbox/packing-specific instructions on record — breakfast/lunch is for 2 people, dinner for 3, tracked per meal in the plan image. **Flag: confirm if lunch needs to be packed for office (Sharly leaves ~8–9am) — not yet documented.**
+00263 ### Routine
+00264 - Meal plan shared via WhatsApp image (Tell M @ Kitchen group), 3 days ahead; household must approve/flag changes, ideally by 12 PM same day so the cook can prep for evening.
+00265 - Headcount varies by meal and by travel — always confirm current headcount before the cook starts (Rohan and Sharly have each dropped in/out of the count while travelling).
+00266 - Ordering cadence: Sunday (post meal-plan finalisation) and Wednesday evening/Thursday.
+00268 ### Non-Negotiables
+00269 - No meat/chicken/fish for Nishchay under any circumstance.
+00270 - No canned/preservative/restaurant-style ingredients — fresh only.
+00271 - No ginger-garlic paste — raw only.
+00272 - No Akshayakalpa dairy/paneer.
+00273 - Kitchen must be cleaned after each cooking session.
+00275 ### Cook Capability Requirements
+00276 - Must be comfortable being briefed off a reference video for a specific dish (used for the original trial).
+00277 - Must be able to share his own ingredient list ahead of cooking so the kitchen coordinator can shop accurately — this cook does this proactively.
+00278 - Must cook legumes and dal-based dishes fully (not underdone/watery) and season within a low-oil, low-chilli band by default.
+00280 ### Unwritten / Learned (a new cook would not know this without being told)
+00281 - The "fresh over packaged" rule is not a one-off ask — it has been raised twice by two different residents and should be treated as a permanent standard, not a single correction.
+00282 - Garlic and coriander should be bought unpeeled/rooted specifically for shelf life, not for taste — an easy thing to miss.
+00283 - The household tracks pantry spoilage risk and expects the cook to use near-expiry staples proactively rather than waiting to be told.
+00284 - "Health-conscious" here has a specific meaning: low oil, low red chilli (aromatics fine), no deep-fry, quinoa/brown rice over white rice — a generic home-style cook may over-season or over-oil by local norms.
+00286 **Needs confirmation:**
+00287 - Whether lunch needs to be packed (tiffin-style) for Sharly's or anyone's office days — not documented anywhere.
+00288 - Sharly currently avoiding wheat (ragi/jowar atta substitute, Sep 18) — unclear if this is a lasting dietary change or temporary; treat as active until confirmed otherwise.
+00289 - Whether the Gorakh Bhaiya trial has since been formally confirmed or another cook change is in progress — as of Sep 18, Sharly asked for a few more days before giving formal feedback.
+00291 Rahul & Pooja
+00292 # HOUSEHOLD CHEF-COACH TRAINING BRIEF
+00293 **Household:** Rahul & Pooja, 401 Gopalan Admirality Court | **Cook:** Anitha Didi | **Prepared for:** Chef Coach / Trainer
+00295 ---
+00297 ## SECTION 1: OPERATIONAL STANDARDS
+00299 **1. Ingredient Standards**
+00300 - **Protein Precision:** Chicken — boneless only, breast cut for lunch (100g) and grilled (150g) for dinner-adjacent meals; never bone-in.
+00301 - **Fish Rule:** Seawater fish only (pomfret default, salmon/anjal acceptable) — NEVER basa, NEVER sea bass, NEVER freshwater fish; boneless preferred.
+00302 - **Red Meat Ban:** Mutton is a full household AVOID — never order or cook.
+00303 - **Legume/Veg Bans:** Baingan (eggplant) and lauki dal (bottle gourd dal) are not eaten — hard exclusion, not a taste preference.
+00304 - **Green Chilli Ban:** Household does not use green chilli in any dish — confirmed standing rule.
+00305 - **Peas:** Fresh peas only — frozen/IQF (e.g., Safal) rejected on sight.
+00306 - **Dairy:** Milk almost never drunk directly — bought (Amul Gold, 3–4 packets/session) purely to make paneer and dahi at home. Do not restock milk if curd/paneer was recently made.
+00307 - **Cream Ban:** No fresh cream in any recipe — milk is the substitute for lower calories.
+00309 **2. Cooking Process & Technique**
+00310 - **Homemade Mandate:** Paneer, dahi, ghee, dosa/idli batter, garam masala, ginger-garlic paste, tomato puree — ALL made fresh at home, never store-bought/batch-made. No batch cooking.
+00311 - **Oil & Ghee Discipline:** Less oil, less ghee, no cream — high-protein/low-calorie execution across all gravies.
+00312 - **Protein Timing Rule:** Paneer, fish, tofu = dinner proteins only. Chicken, soya, rajma = lunch only, never at night.
+00313 - **Gravy Style:** Semi-dry/semi-gravy preferred; low-spice throughout (household explicitly dislikes heavy spice).
+00314 - **Chicken Rotation:** Household demands variety in chicken preparations — repeating the same dish causes complaints.
+00316 **3. Portioning Standards**
+00317 - Breakfast: 3 boiled eggs (Rahul only) + 1 omelette, 2 eggs (Pooja only) = 5 eggs/day total — NEVER 3 boiled eggs "each."
+00318 - Lunch: 3 chapati typical; Dinner: 5 chapati typical.
+00319 - Headcount is dynamic — always confirm 👥1 vs 👥2 for the day before cooking; Rahul/Pooja frequently travel or eat elsewhere.
+00321 **4. Storage Standards**
+00322 - Frozen protein (chicken, fish) must be moved to fridge to thaw overnight ahead of the cook day — do not thaw same-day.
+00323 - Dal/legumes (rajma, chole, black dal) must be soaked the night before; a missed soak has caused meal cancellations before.
+00324 - Batter (dosa/idli) fermented overnight — track stock proactively, do not wait for same-day shortage.
+00326 **5. Allergens / Morbidities / Banned Items**
+00327 - **Rahul:** Gut sensitivity to Eggoz-brand eggs (confirmed switched to "Fresh Eggs White eggs" brand permanently — do not revert). Very low vegetable eater generally.
+00328 - **Pooja:** Eats all vegetables incl. leafy greens; no known allergy on record.
+00329 - **Hard AVOIDs (safety-equivalent):** Basa fish, sea bass, mutton, bone-in chicken/fish, green chilli, baingan, lauki dal, mushroom (Rahul explicitly does not eat mushroom — confirmed removed from all menus).
+00331 **6. Lifestyle Mandates**
+00332 - Rahul is on a dietitian-prescribed high-protein, medium-low carb diet — rotis over rice; millet rice/broken wheat/quinoa as rice alternates.
+00333 - Daily beetroot+carrot+amla juice (breakfast) + 2 amla juices at dinner — non-negotiable staple.
+00334 - Fruits at every lunch (apple/kiwi/pineapple rotation).
+00336 **7. Cooking Technique Standards**
+00337 - Simplified, home-style recipes preferred over complex commercial preparations.
+00338 - Recipe videos are sent to the cook ahead of each meal for consistency — coach should verify cook is watching/following, not improvising.
+00340 **8. Rationale**
+00342 | Category | Rationale |
+00343 |---|---|
+00344 | Calorific & Macro Control | Rahul follows a dietitian plan targeting high protein, medium-low carb, low fat — every ingredient/oil decision should default to the leanest option. |
+00345 | Digestive Sensitivity | Rahul's gut reacts to certain egg brands (Eggoz) — brand discipline on eggs is a digestive-safety matter, not a preference. |
+00346 | Immunity | Daily amla juice and fresh (never frozen) produce reflect a household immunity/wellness focus — freshness is treated as a health input, not a garnish choice. |
+00347 | Texture & Quality of Food | Homemade paneer/ghee/batter mandate exists because store-bought versions were found inconsistent in taste/texture. |
+00348 | Safety & Hygiene | Frozen-protein thaw discipline and soak-ahead prep exist to prevent under-cooked or rushed food on serving day. |
+00350 ---
+00352 ## SECTION 2: INCIDENT REPORT LOG
+00354 | Date | Incident Description |
+00355 |---|---|
+00356 | 2026-08-02 | Trial cook (Anita Didi) flagged for over-salting food and using excess oil during onboarding phase. |
+00357 | 2026-08-04 | Garlic ran out at household — ginger-garlic paste (homemade-only rule) could not be made. |
+00358 | 2026-08-09 | Rahul reported Eggoz-brand eggs "not sitting well with my stomach" — brand switch initiated. |
+00359 | 2026-08-18 | Rajma not soaked in time — dinner dish had to be substituted same-day. |
+00360 | 2026-08-18 | Garlic shortage recurred; also flagged frozen (Safal) green peas in stock against household's fresh-only rule. |
+00361 | 2026-08-20 | Sea bass proposed as a fish substitute — rejected by Pooja as a standing AVOID violation. |
+00362 | 2026-08-20 | Nectr bell pepper swap request by Pooja was not actioned in the final cart — unresolved discrepancy. |
+00363 | 2026-08-26 | Basa fish was added to cart as a substitute despite Pooja's standing AVOID; cancelled before delivery. |
+00364 | 2026-08-26 | Dinner fish plan cancelled entirely same-day due to repeated stockouts (white/black pomfret, basa rejected). |
+00365 | 2026-08-28 | Licious COD payment mix-up — delivery agent asked Rahul for cash despite ops having attempted payment. |
+00366 | 2026-08-31 | Duplicate milk SKUs (Amul Gold + Taaza) found in cart — Pooja flagged and had Taaza removed. |
+00367 | 2026-09-02 | Mushroom served/planned in menu despite Rahul's explicit standing dislike — removed after he flagged it again. |
+00368 | 2026-09-06 | Vegetable upma planned for Monday breakfast overridden last-minute by Pooja in favour of dosa (batter already available). |
+00370 ---
+00372 ## SECTION 3: STANDING INSTRUCTIONS
+00374 | Standard | Instruction Details |
+00375 |---|---|
+00376 | Egg Rule | Rahul: 3 boiled eggs/day (Fresh Eggs White brand only, never Eggoz). Pooja: 1 omelette (2 eggs)/day. Total 5 eggs/day — not 3 each. |
+00377 | Protein Timing | Chicken/soya/rajma = lunch only. Paneer/fish/tofu = dinner only. Never cross over. |
+00378 | Fish Sourcing | Seawater fish only, boneless preferred; default white pomfret via Licious. Never basa, never sea bass. |
+00379 | Vegetable Bans | No baingan, no lauki dal, no green chilli, no mushroom (Rahul) — hard exclusions across all meals. |
+00380 | Peas | Fresh peas only — never frozen/IQF. |
+00381 | Dairy Sourcing | Paneer/dahi/ghee made fresh at home; milk (Amul Gold) ordered only for this purpose, not for drinking. |
+00382 | Cooking Style | Less oil, less ghee, no cream; low-spice, semi-dry gravies; simple home-style recipes over commercial ones. |
+00383 | Chicken Variety | Rotate preparations — do not repeat the same chicken dish across the week. |
+00384 | Portioning | Confirm daily headcount (1 vs 2) before cooking — residents' presence varies day to day. |
+00385 | Prep Timing | Soak dals/legumes the night before; thaw frozen protein in fridge overnight, not same-day. |
+00386 | Batter Management | Dosa/idli batter fermented at home overnight — track stock proactively, don't wait for a same-day shortfall. |
+00387 | Juice Rule | 1 glass beetroot+carrot+amla juice every morning (Rahul); 2 amla juices with every dinner (household). |
+00388 | Bread Preference | Health Factory Zero Maida bread (staple); multigrain bread specifically for Wednesday avocado toast. |
+00389 | Meal Plan Cadence | 3-day rolling plan shared in advance via WhatsApp; household confirms/edits before cook is briefed; changes before 8 PM cutoff where possible. |
+00390 | Ordering Cadence | Groceries ordered weekly (not daily) after 7 AM; vegetables/fruits sourced fresh from local market, not ordered online. |
+00391 | Masala Sourcing | Garam masala and spice blends sourced from Rahul's mother (homemade, ~6-month supply) — do not substitute store-bought garam masala. |
+00392 
+
+
+
+
+
+
+
+
+# Cook Expectations — Rahul & Pooja Household
+00394 ## Food Preferences
+00395 - **No green chilli** — household-wide, confirmed by both members and the cook.
+00396 - **No baingan (eggplant), no lauki dal (bottle gourd dal)** — Rahul explicit, 2 Sep.
+00397 - **No fresh cream anywhere** — milk substituted for cream in every dish (lower calorie).
+00398 - **Boneless fish only, seawater fish only** (no freshwater fish); **basa and sea bass specifically rejected**.
+00399 - **Chicken and fish only** as non-veg — no mutton.
+00400 - **Rahul does not eat mushroom** at all; only Pooja eats it (in her omelette).
+00401 - **Rahul: 3 boiled eggs daily** (not omelette) + occasional South Indian breakfast. **Pooja: 1 omelette (2 eggs) daily** + whatever Rahul has.
+00402 - Daily protein: eggs (5/day combined), chicken 2–4x/week (boneless), paneer almost daily at dinner (homemade), tofu, soya chunks, fish when available.
+00403 - **Fresh peas, not frozen** — explicitly confirmed by both for matar paneer.
+00404 - Fresh mint/pudina: **only order when a specific dish needs it** — repeatedly wasted otherwise (Pooja, 24 Aug).
+00405 - **Palak (spinach) never at lunch or Tuesday dinner** — Pooja doesn't eat lunch at home and misses it otherwise.
+00406 - Cauliflower unavailable → **substitute cabbage**, per standing instruction.
+00407 - **Ridge gourd chutney is the default vegetable chutney; no coconut chutney.**
+00408 - Standard/non-branded produce preferred (normal cucumber, normal spinach) over premium/branded unless specifically asked.
+00410 ## Cooking & Preparation
+00411 - **Less oil, less ghee** throughout.
+00412 - **Everything freshly prepared — no batch cooking.** Tomato puree made fresh each time, not batched for the week.
+00413 - **Homemade only:** paneer (from milk), dosa/idli batter, curd/dahi, garam masala (do not use store-bought), ginger-garlic paste, ghee (made from the paneer-making process byproduct).
+00414 - Preferred oils: **olive oil (Jivo brand) and avocado oil**; ghee brand: **Barosi desi cow A2**.
+00415 - Chicken cooked only for dinner, never at night otherwise ("we don't eat chicken at night, only for dinner" — Rahul).
+00416 - Mixed salad vegetables must be **cut very fine/small** (explicit voice-note instruction).
+00417 - Fruit for Rahul's lunchbox is **cut fresh daily**, not pre-cut.
+00419 ## Kitchen
+00420 - **Do not heat/toast bread or pav** — household does this themselves at serving time (explicit rule, extended to pav bhaji).
+00421 - Kitchen inventory should be checked **before** ordering — avoid redundant orders (ghee, peas, etc. already in stock).
+00422 - Cook is expected to **flag low stock proactively** (photos of pantry/spice rack) rather than wait to be asked.
+00423 - **Utensils, kitchen, and floor mopped daily** after each cooking session (per onboarding interview) — ~1–1.5 hrs per morning session; rushing leads to unclean utensils.
+00425 ## Packing & Serving
+00426 - Rahul carries **cut fruit to office** with lunch.
+00427 - Currently only Rahul takes lunch at home routinely — Pooja eats at her clinic and does not carry a lunchbox.
+00428 - Portion convention: **breakfast for 2, lunch typically for 1 (fish marinated during lunch prep for dinner), dinner for 2** — adjust when headcount changes (e.g., travel).
+00430 ## Routine
+00431 - Cook arrival: **7:30 AM sharp** (morning) and around **7 PM** (evening) — timing is firm because Rahul leaves for office soon after.
+00432 - Morning session: breakfast + lunch, ends ~9 AM.
+00433 - Evening session: dinner only (roti, sabzi, juice) — lighter, ~1 hour.
+00434 - Menu instructions come from **either Rahul or Pooja** — no single fixed source; day-prior notice is expected so ingredients can be ordered in time.
+00435 - Meal plans are set weekly (Sunday) with daily adjustments common — cook should expect and act on day-of changes via WhatsApp voice notes.
+00437 ## Non-negotiables
+00438 - No green chilli, no baingan, no lauki dal, no fresh cream, no freshwater fish, no basa/sea bass, no mutton.
+00439 - Never heat/toast bread or pav.
+00440 - Never make garam masala from a packet — homemade only.
+00441 - Never serve palak at lunch or Tuesday dinner.
+00442 - Never order/serve mushroom to Rahul.
+00444 ## Cook Capability Requirements
+00445 - **Female cook only** (household stated preference during onboarding).
+00446 - Must be able to **read Hindi or English** to follow WhatsApp menu instructions directly.
+00447 - Comfortable making **South Indian breakfast rotation** (dosa, idli, uttapam, appam, poha) and **fresh batter from scratch**.
+00448 - Comfortable making **paneer from milk at home**.
+00449 - Should be trainable to **flag missing ingredients a day ahead** rather than discovering gaps at cooking time (explicit friction point raised in onboarding).
+00451 ## Unwritten / Learned (a new cook would not know without being told)
+00452 - Mint chutney/pudina bought but unused has caused repeated waste — don't over-order it "just in case."
+00453 - The "less oil/ghee, homemade everything" style is a running standard, not a one-off request — it applies to every dish, not just the one where it was first said.
+00454 - Bread/pav heating is a firm boundary the household enforces even when it seems like normal cook service.
+00455 - Cauliflower-to-cabbage substitution is an accepted, pre-approved swap — no need to ask each time.
+00456 - Eggs must come from **fresh eggs on Instamart** — the Eggoz brand was explicitly rejected as "not suiting" Rahul.
+00457 - Milk must be ordered as **pouches, not cartons/tetra packs** (Rahul's standing instruction).
+00459 ## Flags Needing Confirmation
+00460 - **Chana dal vs toor dal soaking instructions were confused in a recent exchange** (21 Sep) — the cook sent an unclear photo; worth a one-time clarification so future soaking instructions aren't misapplied.
+00461 - Portion convention ("lunch for 1, dinner for 2") is based on current routine where Pooja eats lunch at her clinic — **confirm this still holds** if her routine changes.
+00462 - "Mix masala" preference is flagged in the system as **inferred/pending review**, not explicitly confirmed by a resident — worth a direct confirmation.
+00464 Sanatha & Sai
+00465 # Chef Coach Training Brief — Sanatha & Sai Household
+00467 ## Section 1: Operational Standards
+00469 **1. Ingredient Standards**
+00470 - **Protein Precision:** Chicken breast — Nandu's is the preferred brand (450g pack); Godrej Real Good is the accepted fallback.
+00471 - **Paneer Grade:** Low-fat paneer only — Noice High Protein Paneer preferred, Milky Mist High Protein Low Fat as substitute.
+00472 - **Banned Vegetable:** Bhindi/okra is permanently removed from rotation — do not use under any circumstance.
+00473 - **Disliked Vegetables (Sai):** Karela (bitter gourd), bottle gourd (lauki), pumpkin (kaddu) — avoid entirely.
+00474 - **Curry Leaves:** Regular (non-organic) preferred over organic-certified.
+00475 - **Staple Rice:** Sona Masoori (5kg pack) for daily meals; Daawat basmati reserved for pulao/biryani.
+00476 - **Vegetable Rotation Pool:** Beans, carrot, cabbage, cauliflower, spinach, beetroot only.
+00477 - **Legume Rotation Pool:** Brown chana, chole, rajma — rotate one per cycle.
+00479 **2. Cooking Process & Technique**
+00480 - **Chicken Style Mandate:** Indian-style, tomato-onion based only — NEVER butter-garlic or Western-style/creamy prep.
+00481 - **Oil & Ghee Discipline:** Keep all dishes light on oil/ghee across the board — avoid ghee-heavy preps like ghee roast.
+00482 - **Prawn Prep:** Basic tomato-onion semi-gravy, low oil/butter — no garlic-butter style.
+00483 - **Fish Prep:** Grilled or Indian-style marinated only — never curried.
+00484 - **Paneer-Lunch Pairing:** Paneer at lunch must be served with rice + dal — never with roti.
+00485 - **Protein Repetition Rule:** Never repeat the same protein (e.g. paneer) at both lunch and dinner on the same day.
+00486 - **Rice Repetition Rule:** Never serve rice twice in the same day.
+00487 - **Vegetable Repetition Rule:** Never repeat the same sabji on consecutive days, unless inventory-driven.
+00488 - **Tuesday Veg Day:** Chicken is swapped for paneer every Tuesday without exception.
+00489 - **Trial-Day Recipe Fidelity:** Any dish first cooked on the service trial day must be replicated using that EXACT recipe every time (no simplified versions).
+00491 **3. Rationale**
+00493 | Category | Rationale |
+00494 |---|---|
+00495 | Calorific & Macro Control | High-protein diet focus (Sai) — eggs, paneer, and chicken are emphasized at nearly every meal to support the household's protein intake goals. |
+00496 | Digestive Sensitivity | Preference for light oil/ghee keeps meals easier to digest; leftovers capped at 2 days to avoid spoilage-related digestive issues. |
+00497 | Immunity | Daily photo-based perishable tracking (produce, dairy, meat, eggs) ensures spoiled or contaminated stock never reaches a cooked meal. |
+00498 | Texture & Quality of Food | Trial-day recipe fidelity and freshness checks on salads/raitas/rotis prevent quality drift and sogginess/wilting issues. |
+00499 | Safety & Hygiene | Reference-photo protocol for ingredients prone to mix-up (e.g., chana varieties) and fridge-malfunction reporting protect against contamination and spoilage incidents. |
+00501 ## Section 2: Incident Report Log
+00503 | Date | Incident Description |
+00504 |---|---|
+00505 | 2026-08-17 | Lady's finger (bhindi) found already in stock; duplicate cart item removed before order placement. |
+00506 | 2026-08-20 | Sai requested bhindi/okra be permanently removed from the vegetable rotation due to dislike. |
+00507 | 2026-08-23 | Fridge cooling malfunction caused a batch of fish (bought for a recipe) to spoil. |
+00508 | 2026-08-24 | Grilled Chicken Salad was made with a simplified dressing instead of the trial-day recipe. |
+00509 | 2026-08-25 | Kala chana vs kabuli chana mix-up during soaking, caused by a voice-only instruction without ingredient specificity. |
+00510 | 2026-08-26 | Wednesday dinner left unplanned, pending household confirmation on the proposed dish set. |
+00511 | 2026-08-27 | Duplicate cart order placed for 5 items already in household stock (pasta, soya chunks, curd, chilli powder, potatoes). |
+00512 | 2026-08-29 | Cereal container found contaminated with live insects/beetles. |
+00513 | 2026-09-04 | Full chicken packet nearly cooked for dinner when only half the quantity was needed. |
+00514 | 2026-09-06 | Thukpa recipe had to be remade after an ingredient was missed in the previous preparation. |
+00516 ## Section 3: Standing Instructions
+00518 | Standard | Instruction Details |
+00519 |---|---|
+00520 | Cook Schedule | Netravati visits twice daily — 6:30 AM (breakfast/lunch prep) and 6:30 PM (dinner prep), Mon–Sat. |
+00521 | Key Access | House key is left with the building guard; cook collects and returns it when residents are away. |
+00522 | Breakfast Ownership | Self-managed by residents — cook not involved; typically overnight oats + 3 boiled eggs each, or dosa/poha/egg variants, with tea. |
+00523 | Protein Rule | Chicken or paneer must be present at both lunch and dinner, never the same protein at both meals on the same day. |
+00524 | Veg Day | Tuesday is designated vegetarian — chicken is swapped for paneer. |
+00525 | Rice Rule | Never serve rice twice in the same day. |
+00526 | Vegetable Rotation | Rotate weekly through beans, carrot, cabbage, cauliflower, spinach, beetroot; no repeats on consecutive days unless inventory-driven. |
+00527 | Legume Rotation | Rotate brown chana, chole, and rajma across the meal cycle. |
+00528 | Paneer-Lunch Rule | Paneer at lunch is served with rice + dal, never roti. |
+00529 | Chicken Prep Style | Indian-style, tomato-onion based only; no butter-garlic or Western-style preparation. |
+00530 | Oil/Ghee Use | Keep oil and ghee light across all dishes. |
+00531 | Leftover Policy | Leftovers may be reheated and served up to 2 days old; cook must inform residents before discarding, not discard unilaterally. |
+00532 | Ingredient Confirmation | Reference photos sent for any ingredient with variety-confusion risk (e.g., chana types) before cooking begins. |
+00533 | Inventory Photos | Netravati sends daily 6:30 AM pantry photos and evening perishable photos to ops. |
+00534 | Ordering Windows | Grocery orders are placed only between 8–10 AM and 6–10 PM. |
+00535 | Duplication Check | Ops must verify pantry stock before adding items to cart to avoid duplicate purchases. |
+00536 | Trial-Day Recipe Fidelity | Any dish first made on the service trial day must be replicated using that exact recipe going forward. |
+00537 | Cart Screenshot Format | Cart images shared with the household must include the total cart value. |
+00538 | Travel Adjustment | No/reduced meal and grocery planning for Sep 12–27, 2026 due to household travel. |
+00540 Training brief compiled above — 3 sections, ready for the chef coach.
+00542 Pavitra & Vikas
+00543 # Chef Coach Training Brief — Pavitra & Vikas Household
+00545 ## Section 1: Operational Standards
+00547 **1. Ingredient Standards**
+00548 - **Protein Precision:** Vegetarian household only — paneer bhurji is the standing preparation, never tofu bhurji; eggs must be large-size only (past size-inconsistency complaint); Vikas takes a daily protein shake (Tumpa-prepared) or a boiled egg substitute if Tumpa is off.
+00549 - **Brand Lock-Ins:** Tata Sampann coriander powder only (a prior "Mill Story" batch was rejected for taste); Akshayakalpa organic dairy/paneer only (200g Malai Paneer, single unit); Sid's Farm/Akshayakalpa ghee 400-500g; Sahaja Organics sugar; Health Factory Whole Wheat (Zero Maida) bread; whole raw green moong dal only — Bina sprouts it herself, never pre-packaged sprouts.
+00550 - **Allergen — HARD STOP:** Pavitra is allergic to wheat and avoids gluten entirely — ragi roti is her mandatory substitute at every meal; zero cross-contamination with wheat flour in her portion.
+00551 - **Banned / Discontinued Items:** Capsicum sandwich (any variant) — permanently banned (Vikas, Sep 1 2026); green capsicum banned, only red/yellow permitted; cabbage — not eaten by the household; besan/gram flour — Vikas avoids; chilli flakes — Priya avoids; kadhai paneer and sabudana khichdi — discontinued dishes.
+00552 - **Individual Exclusions:** Pavitra does not eat bhindi (okra); Vikas dislikes gourds (lauki/tori) except in kofta form (~biweekly) and refuses carrot-beans sabzi; matar (peas) is removed from all meals for Vidhi.
+00553 - **Produce Quality Check:** Cauliflower and other fresh produce must be visually inspected on delivery for pest contamination before use (see Incident Log, Aug 20).
+00555 **2. Cooking Process & Technique**
+00556 - **Hygiene Standards:** Every ingredient must be checked/verified by the cook before cooking begins (standing checklist habit); all prepared food and fresh stock (fruits, vegetables, milk, curd, eggs) is photographed post-cooking for quality verification.
+00557 - **Storage Standards:** Leftovers are held for 1 day only — anything 2-3 days old is discarded without asking; milk must arrive before cooking starts; perishables like spinach/methi are ordered the evening before use to prevent spoilage.
+00558 - **Portioning Standards:** Lunch roti = 2 ragi (Pavitra) + 2 normal (others); Dinner roti = 2 ragi + 3 normal, scaling up to 8 normal when guests are staying; eggs split 1 for Vidhi + 8 combined for Pavitra & Vikas, none boiled Tuesday/Thursday. Confirm headcount before scaling any dish.
+00559 - **Cooking Technique Standards:** No marination — plain, simple preparation throughout; low-oil, low-spice North Indian style is the baseline; dal + soup is served every night at dinner regardless of the sabzi; weekday meals are kept deliberately "simple, boring" — elaborate/continental dishes are reserved for weekends and chef-coach sessions.
+00560 - **Lifestyle Mandates:** Monday is Pavitra's fasting day — no ragi roti or paneer bhurji that evening; Pavitra's daily Ayurvedic amla shot at breakfast is non-negotiable; household is strictly vegetarian.
+00562 **3. Rationale**
+00564 | Category | Rationale |
+00565 |---|---|
+00566 | Low-Oil, Low-Spice Cooking | Plain North Indian palate preference and digestive comfort for Pavitra |
+00567 | Wheat-Free Substitution (Ragi Roti) | Pavitra's wheat allergy/gluten avoidance — a hard medical exclusion, not a taste preference |
+00568 | No Marination | Keeps dishes light and easily digestible, aligned with low-processing lifestyle |
+00569 | Daily Amla Shot | Ayurvedic immunity/wellness routine for Pavitra |
+00570 | Dal + Soup Nightly | Digestive ease and consistent protein/fibre intake at dinner irrespective of sabzi |
+00571 | 1-Day Leftover Limit | Food safety — minimizes spoilage/bacterial risk in the kitchen |
+00572 | Large-Egg-Only Sourcing | Quality/consistency control after a prior size-inconsistency complaint |
+00573 | Portion Scaling for Guests | Ensures calorific/macro adequacy for a larger household without under-serving residents |
+00574 | Weekday "Simple" vs Weekend "Elaborate" Menus | Reduces helper workload on routine days; reserves bandwidth for skill-building during chef-coach sessions |
+00575 | Organic/Premium Branded Staples | Household's stated preference for lower-pesticide, higher-quality inputs — ties to immunity and texture/quality standards |
+00577 ## Section 2: Incident Report Log
+00579 | Date | Incident Description |
+00580 |---|---|
+00581 | 2026-07-22 | Duplicate milk & curd delivered due to overlapping personal + household Milkbasket subscriptions. |
+00582 | 2026-07-22 | Egg-size inconsistency reported by Pavitra; large-only sourcing mandated going forward. |
+00583 | 2026-07-24 | Soya chunks & maida found out of stock morning-of breakfast prep; helper ingredient-verification checklist introduced as fix. |
+00584 | 2026-08-03 | Ordering error — single sponge delivered instead of the standard 3-pack. |
+00585 | 2026-08-16 | Instamart order (cumin seeds, Colin, black salt, Kashmiri chilli powder) never delivered; escalated to platform support. |
+00586 | 2026-08-18 | Near-miss on the mandated 6 AM order-placement window for next-day essentials. |
+00587 | 2026-08-20 | Cauliflower delivered infested with worms/insects; flagged by Bina with photo evidence, replacement not pursued. |
+00588 | 2026-08-22 | Pavitra diagnosed with H1N1; self-managed recovery, household ordering scaled back to as-needed only. |
+00589 | 2026-08-23 | Excess milk/curd delivered (3 instead of 2) from subscription-pause confusion; vendor pickup arranged. |
+00590 | 2026-09-01 | Vikas raised a standing food dislike — capsicum sandwich permanently removed from the meal rotation. |
+00591 | 2026-09-05 | First formal chef-coach training visit (Ashwini + Sweety); continental breakfast well received ("Loved the breakfast" — Pavitra). |
+00593 ## Section 3: Standing Instructions
+00595 | Standard | Instruction Details |
+00596 |---|---|
+00597 | Delivery Window | No deliveries before 6:00 AM or after 8:30–9:00 PM; Sundays no delivery before 9:00 AM; align timing to Bina/Tumpa's presence. |
+00598 | Helper Arrival Confirmation | Call Bina daily at 5:45 AM and 5:45 PM to confirm 6:00 AM/6:00 PM cooking-shift arrival. |
+00599 | Menu Communication | Pavitra voice-notes Bina the next day's menu the night before (or 1-2 hrs ahead for evening changes). |
+00600 | Roti Portioning | Lunch: 2 ragi + 2 normal; Dinner: 2 ragi + 3 normal (Pavitra = ragi, others = regular); scale up for guests. |
+00601 | Egg Handling | Larger eggs only; none boiled Tuesday/Thursday; 1 egg Vidhi + 8 combined Pavitra & Vikas on egg days. |
+00602 | Fasting Day | Monday — no ragi roti or paneer bhurji at dinner for Pavitra. |
+00603 | Weekday vs Weekend Menu | Keep weekday meals simple/routine; reserve elaborate/continental dishes for weekends and chef-coach days. |
+00604 | Chef-Coach Training Days | The dish(es) taught in a training session become that day's actual household menu — avoids double cooking for Bina. |
+00605 | Ingredient Verification | Bina checks every ingredient before cooking; reports any shortage directly to ops, not to Pavitra. |
+00606 | Post-Cook Documentation | Photograph all prepared/stocked food items (fruits, veg, dairy, eggs) post-cooking for quality/inventory record. |
+00607 | Leftover Policy | Leftovers held for 1 day only; discard anything 2-3 days old without asking. |
+00608 | Evening Order Standing Add | Whenever an evening order is placed, always include curd (Vikas, standing instruction Sep 4 2026). |
+00609 | Ad-hoc Requests | Bundle any ad-hoc item request into the next day's regular order rather than a separate order. |
+00610 | Doorbell Rule | No doorbell before 8:00 AM — Vidhi is asleep; message and wait instead. |
+00611 | Brand Consistency | Do not change brand/pack-size on repeat SKUs (ghee, bread, cheese, atta, detergent, sponge) without explicit confirmation. |
+00612 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# What This Household Expects From Its Cook
+00614 **Household:** Pavitra, Vikas, daughter Vidhi (occasionally grandfather when visiting). Cook is **Bina** (Hindi-speaking, arrives 6:30 PM for dinner prep — cannot extend, has another job after). Vegetarian household (eggs allowed for Pavitra & Vikas only).
+00616 ---
+00618 ### Food Preferences
+00619 - **Vegetarian household** — no meat/poultry. Eggs eaten by Pavitra & Vikas only, but never on Tuesdays/Thursdays (routine, not allergy).
+00620 - **Both residents eat low spice** — Bina herself confirmed "वो तो कम ही खाते हैं." One dish, not separate spice levels, for both.
+00621 - **Pavitra**: wheat-free (ragi roti is her daily staple, not regular roti), avoids bhindi personally (still ordered weekly for Vikas/Vidhi), avoids chilli flakes in cooking, fasts Monday evenings — **no ragi roti, no paneer bhurji** that night.
+00622 - **Vikas**: avoids besan/gram flour in cooking; never wants capsicum sandwich again (permanent exclusion).
+00623 - **Karela (bitter gourd)** is never brought home or cooked — household-level avoidance, confirmed by Bina.
+00624 - **Capsicum**: only red/yellow, never green.
+00625 - **Eggs**: must be well cooked, never runny; Akshayakalpa bigger-size eggs only (small ones were rejected once — standing correction).
+00626 - **Cheese**: shredded/diced format preferred, not block.
+00627 - Weekly staples: bhindi, spinach (palak/methi paratha, spinach-corn sandwich), garlic, English cucumber (only variety ordered).
+00628 - **Paneer**: homemade from the Tower-2 neighbour when available (nightly WhatsApp cutoff); Akshayakalpa is the fallback only when that's missed. Friday tends to be a masala paneer batch.
+00630 ### Cooking & Preparation
+00631 - Oil: low-oil cooking is standard, not just for guests — reinforced repeatedly ("less oil and non-spicy" is the default instruction, not a one-off).
+00632 - Bhindi sabzi specifically: **made without onion**.
+00633 - Dinner gets a fixed daily side of a little cut onion + cut English cucumber, alongside dal + soup + roti — this is routine, not ad hoc.
+00634 - Vidhi's daily paratha is a filling type (methi/palak/dal), not plain stuffed roti; paneer paratha made separately as her favourite. Dal paratha only opportunistic (leftover dal), never planned.
+00635 - Vikas's roti count drops to 2 (from the standard 8-roti household batch) on light-menu days — a portioning rule, not a mistake.
+00637 ### Kitchen
+00638 - **Pavitra is the sole primary contact** for kitchen/grocery decisions; Vikas is secondary (ad-hoc additions only). Route meal-plan questions to Pavitra.
+00639 - Household avoids bulk storage — nothing bigger than 500g–1kg except cooking oil (5kg) and atta (5kg); pantry/fridge decluttered ~every 2 months.
+00640 - **Anything expired or about to go bad is thrown out immediately** — Pavitra does not want expired stock kept around.
+00641 - Cooking oil brand: Sunflower Gold (cook's own stated preference).
+00643 ### Packing & Serving
+00644 - Dinner is portioned for **3 people** (Pavitra, Vikas, Vidhi) as a standing rule; breakfast/lunch portions vary by day's plan.
+00645 - When rice/dal needs to be pre-measured for a substitute cook, Pavitra herself keeps it ready in a bowl with quantity — a workaround pattern, not the cook's job to guess.
+00647 ### Routine
+00648 - Bina's evening window is fixed at 6:30 PM and cannot stretch — plan dinner prep timing around this, not the other way round.
+00649 - Grandfather (visits 6–7 months/year) buys most fruit/veg himself on his daily walk and coordinates directly with Tumpa — ops/household produce ordering resumes only when he's away.
+00650 - MilkBasket is the reliable fallback for anything missed the previous day — guaranteed by 5:30 AM.
+00652 ### Non-Negotiables
+00653 - Never make capsicum sandwich again (Vikas, permanent).
+00654 - Never order/cook green capsicum.
+00655 - Never cook karela.
+00656 - No ragi roti or paneer bhurji Monday evenings (fast day).
+00657 - Eggs must never be runny.
+00658 - No dhaniya powder brand-switching — "stick to Tata Sampann," after a new brand was tried and rejected (Pavitra, 21 Jul).
+00659 - Besan never used in Vikas's food.
+00661 ### Cook Capability Requirements
+00662 - Bina cooks Indian vegetarian confidently; **needs training/guidance for Mediterranean/Asian/continental dishes** — the household is open to experimenting but does not assume she can do these unaided (hence the periodic Chef Coach training sessions, e.g. Sweety's visits).
+00663 - Must be able to work from a written/verbal meal plan sent daily by ops and flag substitutions rather than improvising silently.
+00665 ### Unwritten / Learned (a new cook would not know without being told)
+00666 - "Less oil, non-spicy" is the household's actual baseline flavour profile, not a special request — repeated across multiple independent instructions rather than said once.
+00667 - Onion + cucumber as a fixed, unannounced daily dinner side — never explicitly re-requested each day, just expected.
+00668 - Pavitra's ragi roti is a medical/dietary need (wheat-free), not a stylistic choice — mixing this up with regular roti would be a real miss.
+00669 - Bhindi is bought weekly for the family even though Pavitra herself never eats it — a cook naive to this could wrongly assume it's for everyone or stop ordering it.
+00670 - When a substitute cook is used, the household pre-preps (soaking chole, measuring rice) rather than trusting a new cook with judgment calls on quantities — signals low tolerance for guessed portions from unfamiliar cooks.
+00672 ### Flags Requiring Confirmation
+00673 - No direct written note yet confirms **salt level** preference (low/normal) — only oil and spice are explicitly documented; worth confirming with Pavitra directly.
+00674 - The household knowledge base lists "3 people" for meal portions but Vidhi's status (resident vs. visiting) isn't fully explicit in the roster — confirm current headcount for daily portioning.
+00675 - No standing instruction was found on **cutting style/size** for vegetables (e.g., diced vs. julienned) — only "without onion" for bhindi and the daily onion/cucumber side are documented; if there's a house-standard cut, it hasn't been stated on record.
+00677 Shonik
+00678 
+
+
+
+
+
+
+Based on everything on record — standing rules, notepad actions, cook feedback and WhatsApp history with Sukumar (current cook) and Selvi Akka (prior temp cook):
+00680 ## Food Preferences
+00681 - **Chicken is the anchor protein** — appears almost daily; "creamy mushroom chicken" and "mutton pulao" are explicitly asked to be kept as regular menu items.
+00682 - **Spice levels are person-specific**: Atul likes more spice, Shonik prefers less. Cook adjusts per person, same dish.
+00683 - **Never serve**: cauliflower, parwal (pointed gourd), chole/chickpeas (both residents), green peas (Atul dislikes), karela and brinjal (Shonik avoids), prawns (Shonik — Atul is fine with prawns, so this is person-specific, not household-wide).
+00684 - **Aloo paratha is permanently removed** from the menu (Atul, stated 4 Sep) — his stated alternative is aloo puri + green chutney.
+00685 - Rajma is fine for Atul (he requested it explicitly and it's in rotation) — an older AVOID note calling it "never eaten" is outdated; don't apply it.
+00686 - Fish: Atul wants it sourced specifically from **Licious**, not Blinkit.
+00687 - Paneer brand: **Amul only** for the plain/normal paneer — Atul flagged a substitute brand as "not good" (21 Sep) and asked ops to source Amul specifically if the cook hadn't already cooked with the other one.
+00689 ## Cooking & Preparation
+00690 - **Low oil / low masala is a standing constraint across all dishes**, not just one meal — flagged explicitly when chicken keema came out too oily/ghee-heavy (11 Aug). Treat this as a default cooking style, not a one-off complaint.
+00691 - **No fried food at home** — household has an air fryer (underused) and Atul has explicitly asked the cook to use it for healthy chicken preparations instead of frying.
+00692 - Cook is expected to use fresh ginger-garlic (organic ginger, pre-peeled garlic requested specifically — convenience over whole garlic).
+00693 - Recipes are shared as YouTube links with the daily plan; cook has shown he picks up new dishes quickly from video but has been flagged as needing **"controlled cooking, not speed"** — a documented training gap from onboarding, still relevant.
+00694 - A past temp cook (Selvi Akka) was corrected for **over-masala'd, chewy paneer with crunchy veggies** on a paneer fried rice — texture and doneness were the issues, and a corrected recipe was shared afterward. Treat "check doneness / texture before plating" as a standing expectation for any temp/backup cook, not just Selvi.
+00696 ## Kitchen
+00697 - No specific "reset the kitchen / cleaning after cooking" instruction is on record — **flag for confirmation**, since this is often assumed but never stated.
+00698 - Pantry stock checks are routine: cook sends a **daily post-cooking WhatsApp photo of stock** so ops/ops-team can verify what's on hand before the next order — this is now an expected habit, not ad hoc.
+00700 ## Packing & Serving
+00701 - No lunchbox/tiffin-packing instructions found on record. **Flag for confirmation** — unclear if any meal needs to be packed for outside consumption.
+00702 - Portions are communicated per day, and headcount changes same-day are common (e.g., Atul confirming/cancelling lunch attendance last-minute) — cook must be responsive to same-day headcount changes, cooking for 1 vs 2 as instructed.
+00704 ## Routine
+00705 - Cook communicates with ops **only via WhatsApp voice notes** (not text) — this is his established channel, in Hindi/Hinglish.
+00706 - Daily flow: ops sends the next day's meal plan (image) to the household group for approval → sends the cook the confirmed menu + recipe links via text, followed by a Hindi voice note with exact portion counts.
+00707 - **Leftover rule**: keep leftovers max till end of the next day; discard by day 3. Cook already follows this and removes food automatically — a standing routine, not something to re-teach.
+00708 - Ideal cook timing (from an earlier temp-cook note, Selvi Akka): dinner should be cooked closer to 5–6 PM so food is fresh when eaten, not made 3:30–4 PM and left sitting — worth carrying forward as a general principle even though it was said about a different cook.
+00710 ## Non-negotiables
+00711 - Never serve cauliflower, parwal, or chole to either resident.
+00712 - Never make aloo paratha.
+00713 - Low-oil, low-masala across all dishes — explicit, repeated constraint.
+00714 - Amul brand only for plain paneer.
+00715 - Fish must be sourced from Licious for Atul, not Blinkit.
+00717 ## Cook Capability Requirements
+00718 - Versatile cuisine range needed: Chinese, dosas, rasam, chawal, and non-veg (confirmed skillset for current cook Sukumar).
+00719 - Comfortable following a recipe from a YouTube link with minimal guidance.
+00720 - Needs to slow down and cook with control rather than rushing — documented as an explicit gap to manage, not resolved.
+00721 - Must be responsive to same-day changes in headcount and menu (this happens frequently).
+00723 ## Unwritten / Learned
+00724 - A new cook would NOT automatically know: the low-oil/low-masala standard applies to everything, not just the flagged dish; that Amul is the only acceptable paneer brand; that Atul's fish must come from Licious; that leftovers get discarded by day 3 automatically; or that portions differ per person, not just per dish (Atul spicier, Shonik milder).
+00725 - **Needs confirmation from the household**: kitchen reset/cleaning expectations after cooking, and whether any meal requires packing/lunchbox prep — neither is documented anywhere in the conversation history or rules store.
+00727 Abhishek Tiwari
+00728 
+
+
+
+# What This Household Expects From Its Cook — Abhishek Tiwari Household
+00730 ## Food Preferences
+00731 - Vegetarian-leaning routine: dal-rice is the daily lunch staple, roti + curry (sabzi varies) is the default dinner. Non-veg (chicken) is added on request, not a daily default.
+00732 - Likes home-style chicken curry with roti — asked for it as a repeat dish (Aug 26).
+00733 - Likes paneer paratha specifically; idli/dosa is fine occasionally for lunch or dinner.
+00734 - Dislikes: bitter gourd, brinjal (eggplant) — do not use either.
+00735 - Lactose intolerant — uses lactose-free milk; almond milk and soy milk are accepted alternatives. Never use regular dairy milk for him.
+00736 - Dal/pulses brand: Tata Sampann specifically.
+00737 - Interested in higher-protein, dietician-style healthy Indian dishes (fiancée is a dietician) — worth leaning into, not yet a strict rule.
+00739 ## Cooking & Preparation
+00740 - **Use the resident's own homemade garam masala** (he stocks raw ingredients and makes it himself) — not store-bought masala. Explicit trial feedback, now a standing instruction.
+00741 - **Cook curry masala/base longer before adding vegetables** for depth of flavour — a stated technique preference.
+00742 - **Season with confidence** — the first trial dinner was marked "good but under-seasoned" (short on salt, masala, spice). Don't default light; season to taste rather than mild.
+00743 - Cooking oil: **cold-pressed only. No palm oil, no refined oil** — applies to everything cooked.
+00744 - Chicken must be **ordered right before it is cooked**, never stocked days ahead with the general grocery cart — his explicit rule.
+00746 ## Kitchen
+00747 - **Kitchen must not be used until a scheduled deep-clean is completed** whenever cleaning is a prerequisite (e.g., post-pest-control). Cooking and cleaning must be arranged together, not cooking alone — this caused repeated friction (cook arrived twice unable to cook because kitchen wasn't cleaned first).
+00748 - Household has a **home masala storage section** the cook must be shown — missed during the initial trial and had to be corrected.
+00750 ## Packing & Serving
+00751 - No lunchbox/packing instructions on record — household eats at home; office days are covered by office-provided breakfast/lunch, so nothing needs packing those days.
+00752 - Portions: WFH days need 2 meals prepped (lunch + dinner) in a single visit; office days need only dinner.
+00754 ## Routine
+00755 - **Cook (Sona Didi) comes once daily, ~7 PM, Monday–Saturday; Sunday off.**
+00756 - **On WFH days, she prepares both dinner and next day's lunch in the same visit** to avoid a second visit — standing arrangement.
+00757 - Breakfast routinely left unset/skipped at home.
+00758 - Household checks in daily via WhatsApp for meal-plan approval and day-of changes (skip/cancel if resident unavailable).
+00760 ## Non-negotiables
+00761 - No palm oil, no refined oil — cold-pressed only.
+00762 - No bitter gourd, no brinjal.
+00763 - No regular dairy milk for the resident (lactose intolerant) — lactose-free/almond/soy only.
+00764 - Homemade garam masala only — never store-bought masala.
+00765 - Chicken bought same-day, not pre-stocked.
+00766 - Kitchen not used before a scheduled clean is done.
+00768 ## Cook Capability Requirements
+00769 - Comfortable building a curry from a slow-cooked masala base (technique-level, not just recipe-following).
+00770 - Able to season to a fuller/bolder taste profile confidently (correcting the initial "bland" impression).
+00771 - Able to work from the household's own stocked homemade masala rather than defaulting to packaged.
+00772 - Comfortable with a single-visit, two-meal-prep workflow on WFH days.
+00774 ## Unwritten / Learned
+00775 - The under-seasoning and masala-storage misses only surfaced during the **trial cook's first dinner** — treat these as onboarding gaps a new cook must be briefed on proactively, not things to wait for a complaint about.
+00776 - "Sona didi requests chicken be ordered" pattern shows she flags her own ingredient needs day-of — a new cook should be expected to speak up the same way rather than working around a gap silently.
+00777 - ⚠️ **Needs confirmation:** the exact weekly split of "dinner-only vs. dinner+lunch" days was asked by ops on Aug 25 and never got an explicit day-by-day answer on record — only the general WFH/office pattern above is confirmed.
+00778 - ⚠️ **Needs confirmation:** no explicit fresh-vs-packaged ingredient rule exists beyond the oil/masala instructions — don't assume a blanket preference either way without asking.
+00780 Preetish Dibyanshu
+00781 
+
+
+Let me check for repeated corrections and a few more specific topics (weight-loss goal, cook capability, mistakes).
+00783 I have enough to compile a comprehensive, evidence-backed brief.
+00785 # What This Household Expects From Its Cook (Jaba Das)
+00787 **Household:** Preetish & Dibyanshu — completely vegetarian, cooking for 2 people, weight-loss/high-protein focus.
+00789 ---
+00791 ## Food Preferences
+00792 - **Spice:** Low-to-medium only, never very spicy — stated explicitly by both residents.
+00793 - **Oil:** Mustard oil is the default for almost everything. Refined oil only for dishes that genuinely can't use mustard oil (e.g. Aloo Paratha) — this is a named exception, not a general pass.
+00794 - **Protein:** Paneer is the primary protein, especially at lunch (paneer bhurji most common). Soya/soya chunks and mushroom are secondary/tertiary proteins. Tofu is not a favourite generally, but when used it goes into veg fried rice — never mixed veg curry.
+00795 - **Dislikes (standing, not one-off):** Jackfruit and pumpkin (Preetish). Cauliflower/gobhi is a hard AVOID — Preetish asked for it to be removed "going forward" (25 Aug) after it had been a weekly favourite; it has reappeared in pantry stock twice since (29 Aug, 2 Sep), so this needs active enforcement, not passive knowledge.
+00796 - **Methi (fenugreek):** Currently paused (temporary, till ~29 Sep) — not a permanent dislike, existing methi dishes remain valid once lifted.
+00797 - **Broccoli:** Sauté only, do NOT fry ("फ्राई मत कीजिए" — explicit instruction).
+00798 - **Oats:** Never add chia seeds to overnight oats — Preetish corrected this explicitly once ops added it.
+00799 - **Weight-management goal:** Both target ~2,000 kcal/day (max 2,300), high protein, high fibre, low oil. This should shape sabzi/curry richness, not just protein counts.
+00801 ## Cooking & Preparation
+00802 - **Legume soak discipline:** Chana dal/kabuli chana/rajma etc. must be soaked 8–12 hrs the night before; chole is a standing **Tuesday** dish, so chickpeas soak Monday evening during dinner prep.
+00803 - **Paneer:** Cut and marinate 30 min–4 hrs before cooking; add towards the end of curries, never overcook (goes rubbery).
+00804 - **Overnight oats:** Prepared by cook at night, post-dinner, kept in fridge for morning — this is a nightly task, not ad hoc.
+00805 - **Portion sizing:** Always for 2 unless explicitly told otherwise (e.g. Preetish has flagged "dinner for 1 only" when travelling/out).
+00806 - **Recipes:** Cook is regularly sent YouTube recipe links for new/unfamiliar dishes (Hindi voice notes) — expect to follow the linked method, not improvise.
+00808 ## Kitchen
+00809 - **Vegetarian kitchen, strictly:** No eggs, no non-veg cooked at home ever — even though Preetish eats non-veg outside on Wed/Sat, nothing non-veg touches the home kitchen.
+00810 - **Sourcing:** Vegetables from Hoskula Fresh; other groceries mostly Zepto; perishables/fresh items FirstClub; Instamart occasional; Blinkit rare.
+00811 - **Pantry photo discipline:** Cook is expected to photograph fruit/veg/dairy/bread stock after breakfast and lunch prep, for remote tracking — this is a recurring, expected routine, not one-off.
+00812 - **Dishwash:** Vim Lemon Dishwash Gel is the standing brand.
+00814 ## Packing & Serving
+00815 - **Lunch packing:** Residents usually pack their own lunch; cook packs only if she's running late. A reminder call to the cook at 9:15–9:20 AM was set up after she came late once and Preetish missed packing — punctuality directly affects Preetish's ability to pack and leave for office.
+00816 - **Leftovers:** Never discarded — residents reheat and eat leftovers themselves. Cook should portion to avoid waste.
+00817 - **Herbs going unused:** Pudina and dhania are routinely wasted because no chutney is made — a recognised, repeated inefficiency worth correcting (make a small chutney with routine herbs rather than letting them spoil).
+00819 ## Routine
+00820 - Breakfast is self-managed by residents (not cooked by cook) except overnight oats, which the cook preps the night before.
+00821 - Lunch (morning shift) is mostly roti ± sabzi, sometimes rice; dinner (evening shift) is mostly roti-sabzi, sometimes dal-chawal. Roti is the primary staple across both meals.
+00822 - Meal plans arrive the evening before via WhatsApp (voice notes in Hindi to the cook directly, English text to residents) — cook should expect and follow next-day instructions nightly.
+00823 - Weekly pattern: Chole on Tuesdays (soaked Monday night).
+00825 ## Non-Negotiables
+00826 - No eggs, no non-veg cooked at home — ever.
+00827 - No cauliflower/gobhi in any form, in meals or in the pantry.
+00828 - No frying broccoli.
+00829 - No chia seeds in oats.
+00830 - Tofu, if used, only in veg fried rice — never mixed veg curry.
+00831 - Orders/menu changes must respect the low-to-medium spice ceiling and the mustard-oil default.
+00833 ## Cook Capability Requirements
+00834 - Must be able to follow a linked YouTube recipe video reasonably closely (regional/Odia dishes like Dalma, Santula have been assigned this way and confirmed as within her skill — "Jaba Das has already cooked Dalma... Preetish confirmed she knows this dish").
+00835 - Must communicate ingredient shortages proactively (has done so historically — e.g. "paneer khatam ho gaya").
+00836 - Must handle basic substitution communication (e.g. flagged leftover mushrooms needing use before spoiling) rather than silently discarding food.
+00838 ## Unwritten / Learned (a new cook would not know without being told)
+00839 - The cauliflower ban is recent (25 Aug) and reverses a long-standing weekly-staple habit — a new cook defaulting to "gobhi is a favourite" would get this wrong.
+00840 - The "no chia in oats" rule only exists because ops once added it by default — it isn't intuitive from the dish name.
+00841 - Mustard oil is a strong default even though most recipe videos assume refined/vegetable oil — needs active adaptation per dish, with named exceptions (aloo paratha).
+00842 - "Overnight oats" is a nightly prep task for the *next* morning, done after dinner service — not a same-morning breakfast job.
+00843 - Tofu's dish-placement rule (fried rice only, never curry) is non-obvious and specific to this household.
+00845 ---
+00846 ### ⚠️ Needs Confirmation
+00847 - **A household member (identity unclear — possibly elderly/extended family) reportedly requires light, low-oil, low-spice food** due to health issues — this reference in the knowledge store doesn't clearly map to a named member in the current roster (Preetish/Dibyanshu/Jaba Das) and should be confirmed with the residents before altering the standard menu on this basis.
+00848 - **Preferred fresh cream brand** is on record as "not yet identified" after a FirstClub stockout forced a substitution (Milky Mist) — worth asking directly rather than guessing again.
+00849 - Cauliflower has reappeared in pantry-stock photos twice since the ban (29 Aug, 2 Sep) — worth flagging directly to Jaba Das/ops to confirm the ban is understood and being followed at the sourcing end, not just the meal-plan end.
+00851 Karthik Aastha
+00852 
+
+
+Now I have sufficient evidence across all categories.
+00854 # Cook Expectations — Karthik & Astha Household
+00856 ## Food Preferences
+00857 - Simple home-style Indian food — onion-tomato base curries, no heavy/complex masalas. North Indian is the cook's strength and household default.
+00858 - Every meal needs at least 1 protein dish + 1 vegetable dish (leafy veg included) — non-negotiable per Karthik's written instruction (20 Sep).
+00859 - Do not repeat the same dish within a week (explicitly flagged after rajma and egg curry repeated).
+00860 - Astha: recently vegetarian, ovo-vegetarian (eats eggs, no meat/fish). Also: no aloo, no dairy (cheese/cream), lactose intolerant, new dislikes of dal and paneer since going vegetarian — give her a tofu/protein substitute when Karthik gets a meat dish (e.g. Tofu Curry instead of Chicken Curry).
+00861 - Karthik and Astha get the SAME breakfast — do not make two different breakfasts for the adults.
+00862 - Gauri (age 4): no spice at all in her portion; dislikes soy-based dishes and is not fond of dal-roti; likes aloo tikki, grilled cheese, mac & cheese, pasta, egg/chicken fried rice (low-spice); Kerala-style banana chips only (not the Noice brand); dinner by 5:30–6:00 PM or she gets cranky; sugar only once per weekend; pancakes/waffles weekends only.
+00863 - Chicken should not be served as the main protein 3 days in a row — Karthik has flagged this once; treat as a real rotation rule, not a one-off.
+00864 - A soup-and-bread meal is not considered filling alone — always add a substantial protein (sautéed chicken/paneer) alongside soup.
+00865 - Sunflower oil is used currently but Astha considers seed oils unhealthy — unresolved tension, flag before assuming it's settled long-term.
+00867 ## Cooking & Preparation
+00868 - Do not store opened raw meat for a later day — must be used the same day it's opened (explicit correction from Karthik, 16 Sep).
+00869 - Cook substitutes with what's on hand when a recipe's ingredients are missing, but must get Karthik's confirmation on the substitute dish before proceeding.
+00870 - Recipe/training videos must be Hindi-only — cook (Tara didi) struggles with English instructions.
+00871 - Lunch prep does not normally start until ~10 AM.
+00873 ## Kitchen
+00874 - Karthik runs all ordering and kitchen operations; Astha has no visibility into inventory or brands — do not expect Astha to answer sourcing questions.
+00875 - Cook is trusted to report her own inventory counts; re-confirming her counts has caused friction (Karthik pushed back on 15 Sep asking why re-verification was needed).
+00876 - Ops periodically asks for photos of fresh stock (fruit, veg, eggs, meat, paneer, curd) after lunch for a pantry audit — cook should expect this as routine, not a one-off ask.
+00877 - Report missing ingredients / out-of-stock items promptly (cook has proactively flagged oil and vegetable shortages via voice note — this is the expected channel).
+00879 ## Packing & Serving
+00880 - No specific lunchbox/packing instructions on record — **flag for confirmation**; Gauri does not eat lunch at home on weekdays (school lunch), so packing may not currently be in scope.
+00881 - Leftovers: check with the household before assuming leftovers replace a planned dinner (ops confirms with household rather than the cook deciding unilaterally).
+00883 ## Routine
+00884 - Daily meal instructions arrive as Hindi voice notes the evening before, with headcounts and YouTube links for any unfamiliar dish.
+00885 - Ordering cadence is ~twice a week; same-day top-up orders are avoided — the cook is expected to substitute from what's on hand rather than expect an emergency order.
+00886 - Milk/eggs/curd delivered daily 4–7 AM via subscription.
+00888 ## Non-negotiables
+00889 - Never store/reuse opened raw meat beyond the day it's opened.
+00890 - Same breakfast for Karthik and Astha — no separate dishes.
+00891 - At least 1 protein + 1 vegetable in every meal.
+00892 - No repeat dish within 7 days.
+00893 - No artificial vanilla flavoring — only pure/natural extract.
+00894 - Chicken not 3 days running as the main protein.
+00896 ## Cook Capability Requirements
+00897 - Must be comfortable with Hindi-only video instructions (English is a documented barrier).
+00898 - Must be able to follow voice-note instructions with headcounts and act on them independently.
+00899 - Must proactively flag missing ingredients rather than silently skipping or improvising without approval.
+00900 - Comfortable substituting a dish using on-hand ingredients when a planned recipe can't be made, and flagging the substitute for approval rather than serving it unannounced.
+00902 ## Unwritten / Learned
+00903 - Gauri's spice-free requirement is not written as a hard "allergy" anywhere but is treated as absolute in every meal plan — a new cook must be told explicitly, it will not be obvious from a written brief alone.
+00904 - The "same breakfast for both adults" rule exists only because it was corrected once in the notes — worth double-checking with Karthik/Astha that this still holds, since it's a single data point elevated to a standing rule here.
+00905 - The chicken 3-day rule came from one complaint (17 Sep) — real signal, but confirm whether it's a hard cap or just Karthik's fatigue with the specific dish that week.
+00906 - Sunflower oil vs. seed-oil concern is flagged by Astha but not actually resolved/enforced — a cook won't know this is contested unless told directly.
+00908 **Needs confirmation:** packing/lunchbox routine (nothing on record), portion sizes for adults (nothing quantified beyond dog food and Gauri's smoothie), and whether the "same breakfast" and "3-day chicken" rules are meant as hard policy or situational asks.
+00910 Krish
+00911 # Section 1: Operational Standards
+00913 **1. Ingredient Standards**
+00914 - **Protein Priority:** Primary proteins are chicken, mutton, and egg — no dish type restriction, any preparation accepted.
+00915 - **Pork Exception:** Pork and pork sausage are liked and can be used, despite primarily non-veg-protein rotation above.
+00916 - **Prawns — Do Not Use:** Resident does not eat prawns; historically flagged as difficult to prepare at home (requires oil-frying).
+00917 - **Banned Vegetables:** Potato, Cauliflower, Yellow Dal, Brinjal, Pumpkin — do not use in any preparation.
+00918 - **Rice Restriction:** No plain/steamed rice. Flavoured rice only (e.g., tomato rice, garlic rice) as an occasional exception.
+00919 - **Staple Carrier:** Meals are mainly eaten with rotis/parathas/chapati, not rice.
+00920 - **Sourcing Note:** Chicken has previously been sourced from "New Frosty" — confirm current vendor with ops before assuming this still applies.
+00922 **2. Cooking Process & Technique**
+00923 - **Gravy Consistency:** Preparations should be semi-gravy or dry — avoid thin/watery gravies.
+00924 - **Oil-Frying Avoidance:** Avoid heavy oil-frying techniques (this is the stated reason prawns are excluded); prefer techniques that don't require deep-frying.
+00925 - **Variety Mandate:** Lunch requires rotation/variety — repeat dishes should be avoided over short cycles (examples on file: kebab, achari, salad, pasta style lunches).
+00926 - **Breakfast Range:** Rotate across dosa, idly, poha, eggs, kara bath, English breakfast, shakshuka — do not default to one item repeatedly.
+00927 - **Flexibility Protocol:** When the resident is traveling, breakfast/lunch may flex, but dinner at home is non-negotiable and must always be prepared/delivered regardless of travel.
+00928 - **Last-Minute Change Handling:** Cook must be able to absorb same-evening/next-morning menu changes (precedent: breakfast changed from sausages to dosa+sambar with same-day notice).
+00930 **3. Rationale**
+00932 | Category | Rationale |
+00933 |---|---|
+00934 | Calorific & Macro Control | Diet is protein-forward (chicken/mutton/egg/pork) with low-carb inclination (no plain rice); no explicit calorie targets on file — cook should default to standard portion sizing unless instructed otherwise. |
+00935 | Digestive Sensitivity | No formal digestive diagnosis on record; banned vegetables (potato, cauliflower, brinjal, pumpkin, yellow dal) and prawns should be treated as a firm exclusion list regardless of stated reason. |
+00936 | Immunity | No morbidity or immunity-related restriction logged for this resident to date. |
+00937 | Texture & Quality of Food | Preference for semi-gravy/dry textures over liquid-heavy gravies; variety is prioritized to maintain engagement with meals — repetitive menus risk disengagement. |
+00938 | Safety & Hygiene | No specific hygiene incident or standard has been logged yet; follow standard M kitchen SOP until household-specific hygiene notes are recorded. |
+00940 ---
+00942 # Section 2: Incident Report Log
+00944 | Date | Incident Description |
+00945 |---|---|
+00946 | 2026-09-05 | Onboarding note flagged mild ops discomfort about the resident; advised cook be briefed to stay extra cautious and share feedback frequently — precautionary, not a confirmed incident. |
+00947 | 2026-09-06 | No incidents — resident gave positive trial-meal feedback ("It was good"), cook Amudha Akka approved to continue. |
+00949 *No adverse incidents (health, hygiene, food-quality complaints) have been raised by the resident or flagged internally in the period on record (household onboarded 2026-09-05, currently 2 days of history).*
+00951 ---
+00953 # Section 3: Standing Instructions
+00955 | Standard | Instruction Details |
+00956 |---|---|
+00957 | Dinner Guarantee | Dinner must be prepared/delivered at home every day, even if resident is traveling for part of the day. |
+00958 | Cook Schedule | Cook (Amudha Akka) visits 2x/day, cooking for a household of 3 (serving-size basis on file). |
+00959 | Meal Plan Cadence | Meal plans shared twice weekly (Sundays for Mon–Wed, Wednesdays for Thu–Fri); resident's changes must be locked in by 8 PM the evening before, so the cook can be briefed in time. |
+00960 | Communication Channel | All food/cook/meal-plan matters go through the "Tell M @ Kitchen" WhatsApp group; errands/vendor/laundry go through "Tell M @ Home" — do not mix. |
+00961 | Cart Approval Window | For the trial period (2026-09-05 to ~2026-09-19), all household orders are routed for resident approval before placement. |
+00962 | No-Rice Rule | Do not serve plain rice; flavoured rice (tomato/garlic rice) is the only accepted exception. |
+00963 | Excluded Vegetables | Potato, cauliflower, yellow dal, brinjal, pumpkin must never be used. |
+00964 | Excluded Protein | Prawns must never be served. |
+00965 
+
+# What This Household Expects From Its Cook — Krish Household
+00967 *Compiled from standing preference records, WhatsApp feedback (Krish, Amudha, kitchen ops), and meal-plan history through 22 Sep 2026.*
+00969 ## Food Preferences
+00970 - **Non-vegetarian household** — chicken, pork sausage, mutton, egg all in regular rotation. No dietary restriction (vegetarian/Jain) applies.
+00971 - **No North Indian dishes in the menu** — standing AVOID, yet the household has ordered aloo paratha, methi paratha, chole masala, poori in the same period. This is a genuine conflict — **flag for confirmation**: is "no North Indian" still active, or has it been superseded by Krish's own requests?
+00972 - **No dal** — standing AVOID, repeated as a standing instruction.
+00973 - **No artificial colour, no ajinomoto/MSG** in anything cooked or ordered — hard stop, always.
+00974 - **Meat sourcing**: fresh only, from **New Frosty's** exclusively — never online/frozen meat platforms.
+00975 - **Chicken**: bone-in, medium cut preferred.
+00976 - **Raita**: cucumber raita only — avoid onion raita or cucumber-onion raita.
+00977 - **Prawns**: disliked — deep-fried prep is considered a hassle to do at home.
+00978 - **Potato**: disliked (masala/potato dishes have been rejected specifically for this).
+00979 - **Dosa style**: plain dosa preferred over masala or vegetable dosa — confirmed twice independently.
+00980 - **Garlic**: peeled garlic only (standing helper-flagged preference).
+00981 - **Milk**: Nandini brand only, Full Cream, 1L pack.
+00982 - **Packaged water**: cold, preferred brand pattern established.
+00983 - **Likes on record**: aloo paratha with curd, kothu paratha, chapathi with bhindi, egg curry, egg+chicken hakka noodles, noodles+mutton pepper curry, garlic bread (wants it made well), vegetable pulao (rated 5+/excellent), tamarind rice/puliyogare, rice-sambar-poriyal combo.
+00985 ## Cooking & Preparation
+00986 - **Cauliflower must never be made spicy** — repeated, explicit "never do this."
+00987 - **Capsicum**: reduce quantity used in cooking generally.
+00988 - **Mutton**: too much onion/vegetable has been flagged — reduce both, protein should be the star.
+00989 - **Biryani**: chicken quantity relative to rice was called out as short (only 10 pieces in a full box) — described as wasteful/embarrassing; increase chicken proportion.
+00990 - **Salt**: Neer dosa has been flagged for too much salt; chicken has been flagged for too little — salt needs to be dish-specific, not a single house setting.
+00991 - **Tomato rice**: needs more flavour (Sep 21 feedback).
+00992 - **Pulao**: use jeera rice, not basmati; standard veg mix is peas, capsicum, beans, carrot — avoid overloading with vegetables; cauliflower optional.
+00993 - **Chettinad chicken**: whole pepper and coriander seeds must be ground fresh for the masala.
+00994 - **Poori**: must be wrapped in silver foil when packed/served.
+00995 - **Spices/masalas used sparingly** in this household — cook should not over-season by default; matches the small-packet ordering pattern (star anise, whole coriander, kalpasi all "small packet only").
+00997 ## Kitchen
+00998 - **Kitchen must be left clean before the cook leaves** — explicit standing rule: no onion peels or vegetable scraps on the floor, sink must be clean and clutter-free. Krish called this a hygiene-first requirement for "effortless" running of the kitchen.
+00999 - **Dishwashing split**: only Krish's own plate (post-meal) is washed by Achia; all other dishwashing stays with the cook/helper — do not assume Achia covers general kitchen dishes.
+01000 - All food is prepared **on-site** at the home, not from a central kitchen.
+01002 ## Packing & Serving
+01003 - No explicit lunchbox rules found on record — flag as **unconfirmed / no data** if packing for outside consumption is ever required.
+01004 - Poori is specifically to be wrapped in silver foil for serving.
+01005 - Leftovers: Krish has asked (Sep 22) for uneaten lunch to be refrigerated rather than served again or discarded — treat as a live, one-off-turned-pattern instruction worth confirming as standing.
+01007 ## Routine
+01008 - Household serves **3 people** per meal by default — adjust when Krish flags a different headcount (e.g., "dinner for 2 people only" has happened before).
+01009 - Cook visits **twice a day** (per current cook arrangement with Kalaiarasi/Vinuthha).
+01010 - Cooks do not work Sundays — this is a service-level fact, not a household choice, but the cook should plan lead-time prep (soaking, marination) accordingly before a Sunday/Monday gap.
+01011 - Daily pantry photo requests each morning are routine — a new cook should expect to photograph pantry stock (veg, fruit, dairy, non-veg, eggs) after prep is done.
+01012 - Krish actively tracks chicken stock (pieces used/remaining) via voice notes — protein wastage is watched closely.
+01013 - Krish gives direct feedback to ops and explicitly asks that praise be relayed to the cook — feedback culture is two-way and expected to reach staff, not just be logged.
+01015 ## Non-Negotiables
+01016 - No MSG / artificial colour, ever.
+01017 - No dal.
+01018 - Meat only from New Frosty's, only fresh.
+01019 - Cauliflower never spicy.
+01020 - Kitchen left clean (floor + sink) before the cook leaves each day.
+01021 - "No North Indian dishes" is stated as a hard AVOID — **but is contradicted by repeated actual orders**; needs owner confirmation on whether it still holds.
+01023 ## Cook Capability Requirements
+01024 - Comfortable with **Mangalore-style cooking** (neer dosa, chicken chukka/sukka) — this was the specific basis for hiring the current trial cook (Kalaiarasi).
+01025 - Comfortable with **Chettinad-style** preparation (fresh-ground pepper/coriander masala).
+01026 - Able to make **South Indian staples** well: tomato rice, puliyogare, vegetable pulao, idli/dosa, sambar/poriyal.
+01027 - Competent with **chicken/mutton non-veg mains** and portion-fair biryani.
+01028 - Able to make **good coffee** — explicitly praised as a differentiator for the current cook and noted by Krish as a reason he rates her above the previous cook.
+01029 - Must be precise on **quantity control** — biryani chicken shortfall and "too much made" incidents have drawn direct complaints.
+01031 ## Unwritten / Learned (a new cook wouldn't know without being told)
+01032 - Salt levels are dish-specific, not a single default — chicken needs more, neer dosa needs less.
+01033 - "Spicy chicken" and "neer dosa" must stay separable — the dosa itself should be plain even when a spicy protein is served alongside it.
+01034 - Methi runs out fast relative to demand for methi paratha (7 parathas used up a full stock last time) — fresh methi must be pre-ordered if that dish is requested again.
+01035 - Garlic bread should be toasted with butter, not built as a from-scratch garlic butter bread — this was a cook-specific technique correction, not a generic recipe note.
+01036 - Fried-rice-style dishes (and similar) need day-old cooled rice — a same-day cook plan without leftover rice risks a mushy result (platform prep rule, worth building into scheduling).
+01037 - Praise as well as complaints get relayed — a new cook should expect direct, frequent feedback in both directions via the kitchen WhatsApp group, not just corrections.
+01039 ## Flags Requiring Confirmation
+01040 1. **"No North Indian dishes"** conflicts with actual repeated orders (aloo/methi paratha, chole masala, poori) — clarify current status with Krish.
+01041 2. **Fridge-instead-of-discard** for leftover lunch (Sep 22) — confirm if this is now a standing instruction or was a one-off.
+01042 3. **No lunchbox/packing instructions on record** — confirm whether any meals are packed for outside consumption; nothing found to guide that if so.
+01043 4. **Salt correction pattern** (neer dosa over-salted, chicken under-salted) is only two data points so far — worth confirming as a standing dish-level calibration rather than one-off feedback.
+01045 Tushar, Yash & Siddharth
+01046 # Section 1: Operational Standards
+01048 1. **Ingredient Standards**
+01049 - **Protein Precision:** Household is vegetarian at the dining-table level for Tushar and Yash — no eggs, no paneer, no meat cooked at home; non-veg (for Siddharth only) is ordered in from outside, never cooked in-house.
+01050 - **Paneer:** Avoided entirely for Tushar; Yash avoids paneer as part of his vegetarian/AVOID list; only Siddharth eats paneer — separate utensils maintained for eggs/paneer vs. the rest.
+01051 - **Dal/Legume Base:** Yellow tadka dal and moong dal raita/vegetable raita are the preferred standing varieties; yellow moong dal is a distinct SKU from green moong dal — do not substitute.
+01052 - **Atta & Grains:** Dehat brand atta preferred; foxtail millet is a recurring staple — track stock closely (has run out before).
+01053 - **Garlic:** Raw garlic is banned entirely for Tushar (causes sleepiness/headache); garlic quantity must be kept low or entirely excluded across all household dishes (caused stomach discomfort previously); no garlic at all in dosa masala/chutney for Yash.
+01054 - **Produce Brand Standards:** Organic potato, desi tomato, local carrot, peeled garlic preferred; Akshayakalpa "blue packaging" (Amrutha A2) milk only — not the green variant.
+01055 - **Ghee/Dairy Brand:** Akshay Kalpa A2 cow ghee (500g tin) and Akshay Kalpa curd/protein curd are the standard brand across the household.
+01056 - **Bread:** Chhuta walla (small/loose pack) preferred by cook; The Health Factory Zero Maida Whole Wheat (350g) is the standing brand when packaged bread is used.
+01058 2. **Hygiene Standards**
+01059 - **Utensil Washing:** All glass and steel utensils (especially food-storage/carry containers) must go in the dishwasher, not be hand-washed — hand-washing leaves residue/stains and raises breakage risk. Hard-anodised and plastic ware are excluded from the dishwasher.
+01060 - **Kitchen Floor:** Swept and mopped twice daily (morning and evening), immediately after each cooking session.
+01061 - **Counter Discipline:** Items taken down from shelves above the slab must be re-racked after use; minimal items are to be left sitting on the slab.
+01062 - **Perishables Check:** Cook must check perishables regularly to prevent spoilage/waste (past lapses: fungus on cucumbers, expired curd).
+01063 - **Inventory Photo Routine:** Cook sends individual (one-item-per-photo) images of vegetables, fruits, eggs, milk, curd, paneer, dal, bread, and meat/chicken for pantry tracking — evening cadence is acceptable if mornings are busy.
+01065 3. **Portioning Standards**
+01066 - **Headcount Sensitivity:** Breakfast typically serves all residents present; lunch/dinner headcount must be actively updated whenever a resident is travelling, skipping a meal, or guests are added — this has been a recurring error point.
+01067 - **Egg Portions:** Tushar's egg curry portion = 3 eggs; Siddharth's daily breakfast = 2 boiled eggs, or a simple 4-egg omelette (onions only) when requested.
+01068 - **Roti/Dosa Counts:** Standard reference portions — ~10 dosas for 3 residents plus sautéed vegetables; roti counts tied to headcount confirmed same-day.
+01069 - **No Padding:** Do not routinely add extra salad/raita sides unless specifically asked — household eats 1–2 meals/day and over-preparation adds unneeded cook workload.
+01071 4. **Storage Standards**
+01072 - **Leafy Greens & Herbs:** Palak, methi, dhaniya, curry leaves, pudina must go into plastic fridge packets (kept in a kitchen drawer) immediately on delivery — prior lapse caused curry leaves to dry out.
+01073 - **Fridge Organization:** "Fresh Zone" drawer has separate Fruit/Vegetable sections using mesh bags (onions, tomatoes); fridge must be kept neat at all times and organized by househelp 1–2x/week.
+01074 - **Ghee Storage:** Currently decanted into a katori from the 500g tin — flagged as unhygienic; a dedicated ghee pot is pending procurement.
+01076 5. **Allergens & Medical Restrictions (Hard Stops)**
+01077 - **Yash — Spinach/Palak:** Doctor-advised complete avoidance due to kidney-stone history — a hard exclusion across all meals, no exceptions.
+01078 - **Yash — Vegetarian:** No eggs, no paneer (explicit AVOID, religious/personal, not negotiable).
+01079 - **Yash — Digestive Sensitivity:** Bhindi avoided — documented as "doesn't work well for stomach"; excess garlic previously caused stomach discomfort.
+01080 - **Tushar — Clinician Action Plan:** Increase spinach (alt. days), Greek yogurt, eggs, and almonds — tied to B12, BUN/Creatinine ratio, and triglyceride management. Do not disclose these personal health details to the cook.
+01081 - **Siddharth — No eggs on Saturdays** (personal/religious); no non-veg on Saturdays or major Hindu festivals.
+01083 6. **Banned Items**
+01084 - **Tushar:** Paneer, dairy/milk/cream in vegetables, maida, fried food, sugar, capsicum, raw onion, raw garlic, honey, non-stick cookware.
+01085 - **Yash:** Eggs, paneer, dairy/milk/cream, maida, fried food, sugar, capsicum, raw onion, bhindi.
+01086 - **Siddharth:** Maida, fried food, sugar, karela, bhindi; corn is disliked (not medically restricted).
+01087 - **Household-wide:** No non-stick cookware of any kind.
+01089 7. **Lifestyle Mandates**
+01090 - **Tushar:** Eats only ONE of breakfast/lunch (not both) most days; standing daily inclusion of Greek yogurt, peeled almonds, fruits, and eggs at his one meal — vary preparation daily.
+01091 - **Meal Flexibility:** Household frequently pauses/resumes meals on short notice ("no meals until further notice", single-day skips) — always confirm current status before assuming a standing plan applies.
+01092 - **Guest Protocol:** When guests are hosted, non-veg/paneer items are ordered in from outside; cook only handles vegetarian staples (dal, raita, roti/paratha, rice, salad) to protect his bandwidth.
+01093 - **Breakfast Rotation:** Oats/yogurt-bowl style ~3x/week; remaining days rotate Besan Chila, Dosa, Idli, Uttapam, Poha.
+01095 8. **Cooking Technique Standards**
+01096 - **Oil & Spice:** Low oil, low masala, more boiled preparations — healthy is prioritized over taste across the household.
+01097 - **Style Corrections:** Dum Aloo / Tari Aloo style = more gravy, less oil and masala; poori-based breakfasts must be non-fried, non-masaledar when flagged "healthy version."
+01098 - **No Garam Masala/Cream:** Explicit ban for Tushar's dishes.
+01099 - **Prep Timing:** Cook's FIRST task every morning on arrival = peel soaked almonds + cut fruits, before any other cooking; other prep (soaking, chopping, papaya-cutting) is to be shifted to the evening before, to ease morning bandwidth strain.
+01100 - **Skill Ceiling:** Cook (Prashant) is strong on Indian/basic Chinese; weaker on sabudana khichdi (over-oily), khichdi, and upma — factor this into training priorities.
+01102 9. **Rationale**
+01104 | Category | Rationale |
+01105 |---|---|
+01106 | Calorific & Macro Control | Tushar follows a clinician action plan targeting B12, BUN/Creatinine ratio, and triglycerides — driving the daily egg/yogurt/almond/spinach mandate and the low-oil, no-sugar, no-maida discipline. |
+01107 | Digestive Sensitivity | Garlic overload has caused documented stomach discomfort (Yash) and sleepiness/headaches (Tushar); bhindi is flagged as poorly tolerated by Yash — hence the household-wide low-garlic and bhindi-exclusion rules. |
+01108 | Immunity | Kidney-stone history (Yash) drives a hard, non-negotiable spinach/palak exclusion regardless of clinician guidance for other members. |
+01109 | Texture & Quality | Low-oil, low-masala, more-boiled cooking style reflects an explicit household preference to prioritize health outcomes over indulgent taste — repeated quality complaints (e.g. garlicky chutney, oily sabudana) stem from technique drift away from this standard. |
+01110 | Safety & Hygiene | Dishwasher-only policy for glass/steel exists to eliminate food residue and reduce breakage; fridge-packet storage for greens prevents spoilage/waste; regular perishable checks were mandated after fungus/expired-curd incidents. |
+01112 ---
+01114 # Section 2: Incident Report Log
+01116 | Date | Incident Description |
+01117 |---|---|
+01118 | 2026-07-13 | Meal plan not followed by cook — flagged for follow-up. |
+01119 | 2026-08-07 | Excess raw garlic in chutney caused bad burps for Tushar. |
+01120 | 2026-08-08 | Temp cook Basudev's aloo puri found disappointing by Tushar — quality complaint. |
+01121 | 2026-08-14 | Heavy garlic in dosa aloo caused Yash stomach discomfort, requiring remedies. |
+01122 | 2026-08-14 | Raw garlic flagged as causing Tushar sleepiness and headaches — escalated to full ban. |
+01123 | 2026-08-16 | Yash's kidney-stone history surfaced — spinach/palak flagged for full exclusion going forward. |
+01124 | 2026-08-17 | Temp cook Basudev dismissed for unannounced leaves and consistently poor cooking quality. |
+01125 | 2026-08-18 | Bhindi confirmed as a digestive-sensitivity item for Yash. |
+01126 | 2026-08-20 | Curry leaves found dried out in fridge — not stored in packets as required. |
+01127 | 2026-08-20 / 26 / 29 | Recurring lapse — cook not peeling almonds/cutting fruits as first morning task (flagged three times). |
+01128 | 2026-08-22 | Garlic use escalated to a complete ban across all dishes household-wide. |
+01129 | 2026-08-24 | Fridge inspection prompted cleaning request — organization/Fresh Zone drawer issue. |
+01130 | 2026-08-25 | Spoilage incident — fungus on cucumbers and expired curd found in fridge. |
+01131 | 2026-08-26 | Tushar flagged green/mint chutney quality as notably bad. |
+01132 | 2026-08-29 | Cook workload conflict — Prashant told Yash 3 vegetables plus other duties made him late for his next job. |
+01133 | 2026-08-29 | Ripe papaya found unaddressed in kitchen, at risk of spoiling. |
+01134 | 2026-08-30 | Prashant reported no morning time for a task; deferred to evening. |
+01135 | 2026-09-01 | Prashant flagged breakfast prep alone taking ~1.5 hours, jeopardizing lunch timing. |
+01136 | 2026-09-02 | Kitchen floor reported dirty/unwalkable after meal prep. |
+01137 | 2026-09-03 | Wrong garbage bag size (medium instead of large/XL) ordered — communication gap with Deepa. |
+01138 | 2026-09-03 | Hand-washed glassware found with water stains/food residue — dishwasher policy issued. |
+01139 | 2026-09-04 | Prashant unwell and absent for both morning and evening shifts. |
+01141 ---
+01143 # Section 3: Standing Instructions
+01145 | Standard | Instruction Details |
+01146 |---|---|
+01147 | No Raw Garlic (Tushar) | Zero raw garlic in any preparation — causes sleepiness/headache. |
+01148 | Low/No Garlic (Household) | Keep garlic quantity minimal to none in all dishes — prior overuse caused stomach discomfort. |
+01149 | Spinach/Palak Exclusion (Yash) | Full exclusion, all meals — doctor's advice, kidney-stone history. |
+01150 | Fried Food Ban (Tushar & Yash) | No fried preparations for either resident. |
+01151 | Dairy/Maida/Sugar Ban (Tushar) | No dairy/milk/cream/paneer, no maida, no sugar, no capsicum, no raw onion, no honey. |
+01152 | Vegetarian + Avoid List (Yash) | No eggs, no paneer, no dairy/milk/cream, no maida, no fried food, no sugar, no capsicum, no raw onion, no bhindi. |
+01153 | Avoid List (Siddharth) | No maida, no fried food, no sugar, no karela, no bhindi; dislikes corn. |
+01154 | Saturday Rule (Siddharth) | No eggs and no non-veg on Saturdays or major Hindu festivals. |
+01155 | Daily Eggs (Tushar) | One egg preparation daily, rotated (boiled/omelette/egg curry) — clinician-driven. |
+01156 | Daily Yogurt/Almonds/Fruit (Tushar) | Greek yogurt, peeled almonds, and fruit at his one daily meal, varied. |
+01157 | Daily Protein Base (Tushar) | At least one of daal/rajma/chole/sprouts included daily. |
+01158 | Non-Stick Cookware Ban | No non-stick cookware anywhere in the kitchen. |
+01159 | Leafy Greens Storage | Store in plastic fridge packets immediately on delivery. |
+01160 | Fridge Upkeep | Kept neat at all times; organized by househelp 1–2x/week. |
+01161 | Dishwasher-Only for Glass/Steel | Never hand-wash glass/steel; hard-anodised and plastic excluded. |
+01162 | Kitchen Floor Cleaning | Swept and mopped twice daily, right after cooking. |
+01163 | Counter/Shelf Discipline | Re-rack items after use; keep the slab minimally cluttered. |
+01164 | Cook's First Morning Task | Peel soaked almonds and cut fruits before any other cooking. |
+01165 | Evening Prep Shift | Soaking, chopping, and papaya-cutting moved to evening to ease morning load. |
+01166 | Dosa Batter Readiness | Batter must be ready before cook arrives on dosa-breakfast days. |
+01167 | Guest Meal Protocol | Non-veg/paneer ordered in from outside; cook handles only veg staples. |
+01168 | No Unneeded Sides | Don't routinely add extra salad/raita unless specifically requested. |
+01169 | Staff Absence Notice | Cook/househelp must notify ops the night before any planned absence. |
+01170 | Perishables Check | Cook checks perishables regularly to prevent spoilage. |
+01171 | Breakfast Rotation | Oats/yogurt bowl ~3x/week; remaining days rotate Chila/Dosa/Idli/Uttapam/Poha. |
+01172 | Cook Salary–Scope Tier | ₹10,000/month = single breakfast type + basic lunch/dinner only; complex items (eggs, cut fruits, two breakfast dishes) require the ₹14,000 tier. |
+01173 | Health Data Confidentiality | Tushar's personal clinician/health details are not to be shared with the cook. |
+01174 
+I have solid coverage across all categories now. Compiling the briefing.
+01176 # Cook Expectations — Tushar, Yash & Siddharth Household
+01178 ## Food Preferences
+01179 - **Hard avoids, household-wide:** raw onion (all three), capsicum, fresh cream, sugar, maida, fried food, dairy/cream/milk in any vegetable (Tushar); paneer (Tushar — even though the household orders Akshayakalpa paneer for others); eggs entirely (Yash — strict vegetarian, no eggs, no exceptions); spinach/palak entirely (Yash — doctor-advised, kidney stone history).
+01180 - **Per-person diet split:** Tushar — vegetarian, no eggs, no paneer, low-oil/low-spice. Yash — vegetarian, no eggs, no maida, not fried. Siddharth — non-vegetarian; eats eggs almost daily but ordered/cooked separately — **no eggs Tue/Sat**, and strict vegetarian on Sat/Hindu festivals. Non-veg dishes are never cooked at home — ordered in, typically Sundays.
+01181 - **Protein is mandatory in every meal** — rotate rajma, chole, dal, boiled (not sprouted) chana/kabuli chana/black chole. Tushar dislikes sprouts specifically — legumes must be soaked overnight and boiled, never sprouted.
+01182 - **Flour rotation required:** don't default to only wheat atta — rotate in ragi, jowar, and other millet rotis regularly (explicit, repeated instruction from Tushar).
+01183 - **Limit aloo** to roughly once a week; include at least one greens/vegetable-forward day.
+01184 - **No garlic in any chutney** (broadened from a dosa-specific rule to all chutneys) — Yash's repeated instruction.
+01185 - **Standing substitution:** soy chunks (Nutrela) replace tofu in all dinner dishes going forward (escalated from a one-off swap, cook already acknowledged).
+01186 - Siddharth dislikes corn; Tushar likes sweet corn — don't default corn dishes across the board.
+01188 ## Cooking & Preparation
+01189 - Chop mushrooms into small pieces (Siddharth's explicit instruction).
+01190 - Boil legumes for salads/chaat — never use sprouted legumes.
+01191 - Low-oil, low-spice ("non-fried, non-masaledar") is Tushar's general cooking preference, not just a one-off.
+01192 - Fruit/almond prep (cutting, peeling) should be done evening/night before, not the morning of — avoids morning time pressure.
+01193 - New dishes are usually briefed via a recipe video/voice note the night before; cook is expected to flag ingredients he needs so ops can order in time.
+01195 ## Kitchen
+01196 - No non-stick cookware.
+01197 - Monthly full pantry/dry-goods audit expected (dal, chawal, besan, ketchup etc.) to avoid duplicate ordering — arose after 4 pouches of ketchup piled up.
+01198 - Ghee is decanted into a katori from bulk tins — a dedicated ghee pot/applicator has been requested but not yet resolved (**flag: confirm if sourced**).
+01200 ## Packing & Serving
+01201 - Tushar's separate/office meal pattern: dal, vegetable, brown rice or chapati, raita, fruit — fruit needs peeling/cutting.
+01202 - When Tushar eats apart from the group (e.g., guest at home), his pattern is paneer(for others)+dal(for 2)+roti(2)+raita+salad — but paneer is never for Tushar himself; breakfast alone is peeled almonds + rotating cut fruit.
+01203 - Roti/roti counts are given per-person in writing but sometimes as a batch total in voice notes to the cook — **both mean the same thing; clarify phrasing when relaying to avoid confusion** (documented past confusion point).
+01205 ## Routine
+01206 - Headcount varies by meal and by day — breakfast often serves more people than lunch/dinner; always confirm day's headcount, don't assume it carries over from the prior meal.
+01207 - Members message directly to skip/add meals same-day (e.g., "no dinner for me," "add a portion for guest") — cook must be ready for last-minute headcount changes.
+01208 - Kitchen instructions are relayed to Prashant via Hindi voice note, night-before or same-morning, detailing dish, quantity per person, and prep timing (e.g., "soak chole in the morning so it's ready for dinner").
+01210 ## Non-negotiables ("Never do this")
+01211 - Never serve raw onion to any of the three residents.
+01212 - Never serve eggs to Yash or Tushar (both have explicit standing no-eggs rules).
+01213 - Never serve paneer to Tushar.
+01214 - Never serve spinach/palak to Yash (doctor's orders).
+01215 - Never put garlic in chutneys.
+01216 - Never sprout legumes for salads — soak and boil only.
+01217 - Never use non-stick cookware.
+01218 - Never serve capsicum, fresh cream, sugar, or maida to Tushar.
+01220 ## Cook Capability Requirements
+01221 - Prashant cooks standard North Indian home-style food; rotating through regional cuisines (Rajasthani, Kerala, Mumbai style) caused friction — he flagged this himself as a mismatch with what's expected of him. **Keep the plan to his comfort zone.**
+01222 - He does not know how to cook Litti Chokha — this had to be swapped out of a planned dinner (Sep 11). **Flag: verify his repertoire before assigning unfamiliar regional dishes.**
+01223 - Recipe videos are shared for genuinely new dishes (methi kofta, makke ki roti) — treat as a signal he needs visual reference for anything outside his standard set.
+01225 ## Unwritten / Learned (a new cook wouldn't know without being told)
+01226 - "Whole-wheat atta" in this household specifically means the light brown atta, as distinguished by voice note when prior confusion arose over puri flour.
+01227 - Ragi idli chutney was repeatedly served without salt — recurring feedback (most recent: Sep 22) says add salt and vary the chutney; sambar has been suggested as an accompaniment.
+01228 - Deepa Didi/ops periodically cross-checks pantry stock with the cook via photo before reordering — cook is expected to confirm what's already at home rather than assume nothing is in stock.
+01229 - The household keeps a running preference/dislike list (capsicum, paneer, soya, etc.) specifically so corrections aren't needed repeatedly — Tushar has explicitly asked this be maintained (Jul 13 exchange), meaning **repeated correction is a known friction point for this household** and should be avoided proactively.
+01231 ## Flags requiring confirmation
+01232 - Ghee pot/applicator — shortlisted but not confirmed as sourced.
+01233 - Cook's full dish repertoire is not documented — only known gaps are Litti Chokha (confirmed can't cook) and general discomfort with non-North-Indian regional cuisine.
+01234 - "No raw onion for Tushar" rule is marked **pending review** in the standing rules — worth reconfirming it's fully locked in before treating as absolute.
+01236 Gurupriyan & Raksha
+01237 # Household Kitchen Training Brief — Gurupriyan & Raksha
+01238 *Indira Nagar, Bangalore | 2 Residents | 1 Pet (Cat) | Cook: Yasmeen Didi (7:00–7:30 AM, Mon–Sat)*
+01240 ---
+01242 ## Section 1: Operational Standards
+01244 **1. Ingredient Standards**
+01245 - **Protein Precision:** Chicken is the household's preferred non-veg protein — capped at 1–2x/week, cooked as a "hero" ingredient (no supplementary veg dish required that meal).
+01246 - **Mutton — Do Not Cook At Home:** Gurupriyan has a borderline aversion (avoids smell and taste); acceptable only occasionally as biryani when eating out — never to be prepared in-house.
+01247 - **Shellfish Restriction:** Prawns/clams/shellfish disliked by Gurupriyan (Raksha loves them) — do not default to shellfish for shared meals; treat as a per-person call.
+01248 - **Paneer Frequency Cap:** Not more than once every 2 weeks (Gurupriyan).
+01249 - **Rice Grade Rules:** Ponni white rice for daily use; basmati reserved for Hyderabadi dishes; jeera rice for biryani/ghee rice; red rice NOT preferred — do not substitute.
+01250 - **Onion Prep Rule:** Raw onions disliked by Gurupriyan (fine cooked); deep-fried/burnt onions are a favorite — always cook onions through unless garnish-frying.
+01251 - **Tomato Sourcing:** Home-cooked/raw tomatoes fine; restaurant-style tomatoes disliked by Raksha (perceived "rotten" taste) — sensory quality check needed at sourcing.
+01252 - **Coriander Caution:** Tastes "like soap" to Gurupriyan on some days — use sparingly / offer on the side rather than mixed in.
+01253 - **Excluded Vegetables:** Cabbage and karela — do not cook for this household. Bhindi (okra) only acceptable if prepared "bhagwan bhindi" style.
+01254 - **Disliked Health Foods:** Quinoa, generic "superfoods," avocado — do not substitute into meals even for health upgrades ("cardboardish" taste per household).
+01256 **2. Hygiene & Storage Standards**
+01257 - **No Planned Leftovers:** Portions calibrated strictly for 2 residents — do not over-prepare.
+01258 - **1-Day Shelf Rule:** Nothing is typically kept beyond 1 day in the fridge, except chapati (only if the accompanying side is mild).
+01259 - **Reheating Asymmetry:** Raksha dislikes eating carried-over/fridge food generally; Gurupriyan is more accepting of reheated food, especially non-veg.
+01260 - **Table Display Rule:** Cut fruit and snack vegetables (carrot, cucumber, sweetcorn) must be visibly displayed on the table daily — not hidden away in the fridge.
+01261 - **Zero Waste on Purchased Veg:** Cook must not proactively dispose of any purchased vegetable — inventory and meal planning must ensure every item bought gets used.
+01263 **3. Allergens, Medical & Banned Items**
+01264 - **No known allergies** on record for either resident.
+01265 - **Curd — Hard Exclusion for Gurupriyan:** He does not eat curd in any form; any curd-based dish/side must be limited to Raksha's portion only.
+01266 - **Methi (fenugreek):** Disliked by Raksha — avoid in her portion.
+01267 - **Golden-fried/deep-fried food:** Disliked by Raksha (exception: fried onions in biryani).
+01269 **4. Portioning Standards**
+01270 - Cook service is contracted for **2 people, 1 visit/day**.
+01271 - Guests: ops must be notified proactively; ~₹100/guest/day billed for short durations, plan adjusted for longer stays.
+01272 - Travel/Absence: household to notify proactively so cook does not over-prepare; service can be paused during travel.
+01274 **5. Cooking Technique Standards**
+01275 - **Spice Level:** Medium hot, household-wide default.
+01276 - **Oil/Salt:** Sparing but justified — not zero-oil, but no excess.
+01277 - **Equipment:** Air fryer actively used for lower-oil cooking; OTG under consideration for future baking use.
+01278 - **Cuisine Split Target:** ~40% South Indian, ~30% North Indian, ~30% experimental/Asian (pasta, noodles, Indo-Chinese) — rotate accordingly, don't over-index on one cuisine.
+01279 - **Weekend Pattern:** Saturday/Sunday skew toward pasta or biryani (cooked by Gurupriyan himself on these days).
+01281 **6. Rationale**
+01283 | Category | Rationale |
+01284 |---|---|
+01285 | Calorific & Macro Control | Household preparing for an upcoming wedding — actively moving toward higher protein + greens, reduced oil; gradual introduction of salads, egg/veg sandwiches, and whole grains (wheat/rye/soba/rava) is encouraged. |
+01286 | Digestive Sensitivity | Curd fully excluded for Gurupriyan; coriander tolerance varies day to day — under-season with coriander and let residents add fresh garnish themselves if needed. |
+01287 | Immunity / Nutrition Goal | Household wants more fish in rotation for lean protein variety — currently blocked by cook's skill gap in fish prep; a key coaching opportunity for the chef coach. |
+01288 | Texture & Quality of Food | Deep-frying and "golden-fried" textures are disliked (Raksha) — favor roasted, grilled, or air-fried textures; onions must be either fully cooked or deep-fried/burnt, never raw-served. |
+01289 | Safety & Hygiene | No-leftover culture — cook must manage daily quantities tightly to avoid both waste and food safety risk from extended storage. |
+01291 ---
+01293 ## Section 2: Incident Report Log
+01295 | Date | Incident Description |
+01296 |---|---|
+01297 | 2026-09-05 | Green chillies were added to the grocery cart then had to be removed after the cook found stock already at home — pantry check gap before ordering staples. |
+01298 | 2026-09-06 | Household disclosed for the first time (5 days into service) that Gurupriyan does not eat curd — this was missed during onboarding and had to be corrected mid-cycle. |
+01299 | 2026-09-06 | Household raised a new standing rule (no rice/cucumber at night) only after the 3-day meal plan was already shared — indicates a preference-capture gap at onboarding that surfaced reactively. |
+01301 ---
+01303 ## Section 3: Standing Instructions
+01305 | Standard | Instruction Details |
+01306 |---|---|
+01307 | Curd | Gurupriyan does not eat curd — restrict to Raksha's portion only. |
+01308 | Night Meals | Avoid rice and cucumber at dinner, across all days. |
+01309 | Meal Plan Cadence | Plans confirmed twice weekly (Sun & Wed) via WhatsApp; lock-in by 8:00 PM the day before cooking. |
+01310 | Ad-hoc Swaps | Household may request lunch/dinner carry-overs or swaps close to execution (e.g. exclude cucumber salad from a swap) — cook must stay flexible to late WhatsApp updates. |
+01311 | Cook Schedule | Yasmeen Didi, Mon–Sat, 7:00–7:30 AM arrival; Sunday is her weekly off (paid add-on possible, no same-cook guarantee). |
+01312 | Lunchbox | Cook to pack Gurupriyan's lunchbox the same way she prepares breakfast. |
+01313 | Table Display | Cut fruit + snack veggies (carrot, cucumber, sweetcorn) kept visibly on the table daily. |
+01314 | Inventory Discipline | Check pantry stock (esp. sambar staples: green chilli, coconut, drumsticks, sambar onions) before adding to cart — avoid duplicate ordering. |
+01315 | Vegetable Utilization | No proactive disposal of purchased vegetables — plan meals to use everything bought. |
+01316 | Fish Goal | Household wants more fish introduced into rotation — current cook needs skill-building support here (coaching priority). |
+01317 
+
+
+I now have enough evidence across all dimensions to compile the household cook profile.
+01319 # Cook Expectations — Gurupriyan & Raksha Household
+01321 ## Food Preferences
+01322 - **Spice/oil/salt:** Medium-hot spice; oil and salt "sparing but justified" — not bland, not heavy-handed (Gurupriyan, explicit).
+01323 - **Reduced-oil push:** Household is actively moving toward lower-oil, higher-protein/greens cooking ahead of a wedding. Air fryer is owned specifically for this — use it for items that would otherwise be deep-fried.
+01324 - **Chicken:** Boneless cut preferred over curry-cut/bone-in, for butter chicken and generally. Non-veg (chicken) capped at ~1–2x/week, treated as the "hero" ingredient — doesn't need a separate veg side that day. Buy fresh/frozen chicken on the day of cooking, not stocked ahead.
+01325 - **Curd:** Gurupriyan does not eat curd at all — any curd dish/preparation is for Raksha only.
+01326 - **Tomato:** Gurupriyan doesn't eat tomato in raita specifically (raita should use onion + carrot, not tomato + curd). Raksha dislikes "restaurant-style" tomato (finds it rotten-tasting) but is fine with raw/cooked tomato at home.
+01327 - **Bhindi (ladies finger):** Gurupriyan dislikes it unless made "bhagwan bhindi" style — confirm what this style means before serving bhindi.
+01328 - **Rice/cucumber at night:** Hard stop — no rice, no cucumber, at dinner/night.
+01329 - **Salads:** General instruction to avoid salads in meal plans; when a mixed veg salad is made, no cucumber, and corn goes into the mix rather than as a separate corn salad.
+01330 - **Sandwiches:** Not for dinner — go soggy by night; breakfast/earlier meals only.
+01331 - **Vegetables loved:** Gobi, broccoli, carrot, potato, mushroom — lean into these.
+01332 - **Breakfast style:** Karnataka/Kerala leaning (neer dosa, idli stew, upma, pathri) is the preferred register.
+01333 - **Vegetable brand avoid:** Never buy "Nectr" brand produce (household-wide AVOID).
+01335 ## Cooking & Preparation
+01336 - **Dry veg + curry carried to dinner with rotis** is the household's standard approach — not separate poriyal-style sides at both meals.
+01337 - **Batch/reheat logic:** Cook a large batch at lunch (chana masala, butter chicken) and reuse as dinner rather than making a fresh dinner dish — this is normal practice, not a shortfall.
+01338 - **Don't repeat:** Avoid repeating a heavily-used ingredient/dish from the prior week (e.g., drumstick twice), and don't re-cook a dish already made that day elsewhere in the week.
+01339 - **Carrot in dishes:** Adding carrot to the moong dal breakfast preparation once made it too sweet — avoid or reduce carrot there specifically (this is dish-specific, not a general carrot rule).
+01341 ## Kitchen
+01342 - **Daily-use staples must never run out:** curry leaves, green chilli, coriander, salt, cooking oil, jeera powder, black pepper powder — Yasmeen has repeatedly and insistently flagged these must be restocked proactively, before they hit zero, not after.
+01343 - **Curry leaves specifically:** called out multiple times as non-negotiable — needed for tadka in "almost every dish."
+01344 - **Grocery ordering timing:** Place ingredient orders the evening/night before, not the morning of — so the cook has everything ready at start of prep.
+01345 - **Pantry photo protocol:** Yasmeen photographs fruits, vegetables, eggs, milk, bread, paneer, curd, meat daily post-cooking — each item as a SEPARATE photo, never one combined fridge shot.
+01347 ## Packing & Serving
+01348 - **Gurupriyan's lunchbox** should be packed by the cook the same way breakfast is handled (i.e., proactively, not left undone).
+01349 - **Leftovers differ by person:** Raksha generally dislikes eating carried-over/fridge food; Gurupriyan is more okay reheating next-day, especially non-veg. Chapati can be kept to next morning only if the side is mild.
+01350 - **Nothing typically kept beyond 1 day.**
+01351 - **Table display:** Cut fruit and snack vegetables (carrots, cucumber, sweetcorn) should be kept visibly on the table daily — not hidden away in the fridge.
+01352 - **Cooking rhythm:** Yasmeen pre-cooks ahead of serving time — all three meals are typically prepped in the morning, with dinner cooked in the afternoon and held ready rather than cooked fresh at dinnertime.
+01354 ## Routine
+01355 - Meal plan for the next day (breakfast/lunch/dinner, 2 servings) is sent the evening before via WhatsApp, often with a YouTube recipe link for unfamiliar dishes.
+01356 - Yasmeen checks in each morning (~7 AM group) confirming pantry stock via Hindi voice notes + photos.
+01357 - Vegetables should not be proactively discarded by the cook — inventory/meal planning is expected to ensure everything purchased gets used; spoilage should be flagged, not silently binned.
+01359 ## Non-negotiables
+01360 - No curd for Gurupriyan, anywhere.
+01361 - No rice or cucumber at night.
+01362 - No cucumber in any salad.
+01363 - Curry leaves, green chilli, coriander always in stock — never let these run out.
+01364 - Never buy "Nectr" brand produce.
+01365 - Raita: onion + carrot base, never tomato + curd.
+01367 ## Cook Capability Requirements
+01368 - **Language:** Instructions must be in clear, simple **Hindi** — Yasmeen does not understand English ingredient/recipe names and gets confused when instructions use them. This is a repeated, explicit request, not a one-off.
+01369 - **Recipe videos:** Must have either on-screen text labels or spoken narration specifying exact ingredients and quantities. A video Yasmeen received once had neither, and she couldn't tell if milk, curd, or jeera powder was needed — she has also asked for videos to not be too fast-paced.
+01370 - **Advance notice needed** whenever a substitute cook covers for Yasmeen — household wants the substitute's name and preferred language shared beforehand.
+01372 ## Unwritten / Learned
+01373 *(Things a new cook would not know without being told)*
+01374 - The household's "bhagwan bhindi" style for okra is undefined here — **needs confirmation** on what this preparation actually is before bhindi is served.
+01375 - "Lentils" in English communication specifically means **masoor dal** in this household's shorthand — a new cook or coordinator could easily default to toor or urad dal instead.
+01376 - Raksha's tomato dislike is specifically about *restaurant-style* tomato flavor — she's fine with tomato cooked/raw at home, so a new cook shouldn't over-generalize and drop tomato from her dishes entirely.
+01377 - Dinner being "already made" (afternoon-cooked, held till evening) is the house norm, not a sign of the cook skipping fresh cooking — a new reviewer might mistakenly flag this as a freshness issue.
+01379 **Flag for confirmation:** the "bhagwan bhindi" style is the one clear unresolved gap — everything else above has repeated or explicit backing.
+01381 Aman & Parul
+01382 I now have enough evidence to compile the cook expectations profile.
+01384 # Cook Expectations — Aman & Parul Household
+01386 ## Food Preferences
+01387 - **Pure vegetarian, no exceptions in-home** — no meat, fish or eggs cooked or kept in the kitchen, and no non-veg masalas (e.g. chicken masala) even as a flavouring. Aman eats non-veg only outside. This is a hard stop, not a preference.
+01388 - **Grapes currently avoided** (household-wide, standing through Sep 27) — do not include in fruit cutting or menus till then.
+01389 - **Paneer is the default protein** — most common dinner item, both residents like it. Tofu is a welcome alternative (Aman likes sautéed Chinese-style tofu).
+01390 - **Lunch is rice-based** (Aman strongly prefers rice at lunch); **dinner is always phulka, never rice**.
+01391 - Comfort foods to know: Aman — kadhi chawal, rajma chawal, puri-parotta with chai+achar. Parul — bhindi (okra), beans, methi.
+01392 - Cuisine: primarily North & South Indian; open to Chinese/Italian occasionally (once in 4–5 days), not into junk food.
+01393 - Aman is fine eating the same thing daily; **Parul needs breakfast variety** — do not repeat her breakfast dish too many days running.
+01395 ## Cooking & Preparation
+01396 - **Low oil for daily cooking** — just a splash; more oil is only acceptable for Chinese-style dishes.
+01397 - **Spice/salt brands**: Tata (also JK, Catch as backups) for masalas; Tata cold-pressed for oil and salt; Aashirvaad/Fortune for atta.
+01398 - **Cut fruits and cut carrot-tomato salad** are a standing routine — prepare and store in a fridge container for the household to eat through the day; this must be part of daily prep, not an ad hoc add-on.
+01399 - **Soak dals/rajma the night before** — a documented miss already happened (rajma not soaked, forced a lunch swap to kadhi pakoda on Sep 17). Treat any dal/rajma/chole lunch as needing overnight soak.
+01400 - Recipe links are sent daily by ops via voice note/WhatsApp for breakfast/lunch/dinner — cook is expected to follow these, not freelance the dish.
+01402 ## Kitchen
+01403 - **Cook is cooking-only** — explicitly not responsible for home cleaning; only cleans utensils/equipment used during their own cooking. A separate house-help handles general cleaning.
+01404 - Household is flexible on equipment — if a utensil is missing, the cook should flag it and it gets ordered immediately; **never compromise technique for lack of equipment**.
+01405 - Cook is expected to photograph pantry stock (fruits, veg, milk, eggs, paneer, curd, protein powder, etc.) daily after finishing meal prep, so ops know what to reorder.
+01407 ## Packing & Serving
+01408 - **Portions must be generous** — Marwadi household, running short is treated as a bigger failure than slight excess. Repeated instruction: "never under-portion."
+01409 - A repeated correction on portion **balance** exists too — rice was disproportionately larger than the accompanying sabzi/manchurian on at least one occasion; balance the mains against the accompaniment, not just quantity overall.
+01410 - Besan chilla dinner is served with **only green chutney + ketchup, no side sabzi**.
+01411 - Lunch defaults to serving 1 (Parul) — Aman is often out for lunch and pings ahead if he'll join; don't over-prepare lunch by default for 2 unless notified.
+01413 ## Routine
+01414 - Breakfast is **late** — cook arrives ~11:30 AM (schedule has shifted; recent notes show 10:30 AM slot too — confirm current standing time with ops before relying on either).
+01415 - **Dinner prep time is 8:00 PM** (moved from 8:30 PM as of Sep 14, because Sanjay's slot doesn't allow later).
+01416 - Protein shakes are a fixed daily breakfast item: **Aman = milk + protein powder + banana; Parul = water + protein powder, no milk, no banana** — this was an explicit correction from Parul and must never be swapped between the two.
+01417 - Weekends should differ slightly from weekdays (more indulgent/different cuisine); Sunday the cook is off and household self-manages.
+01419 ## Non-negotiables
+01420 - No meat/fish/eggs in the house, ever (hard stop).
+01421 - No non-veg masala as an ingredient, even flavouring.
+01422 - Parul's protein shake is water-based — never milk, never banana (documented correction, repeatedly reaffirmed).
+01423 - Dinner is phulka, never rice.
+01424 - Cook does not do home cleaning beyond own cooking utensils.
+01425 - Portions should never run short.
+01427 ## Cook Capability Requirements
+01428 - Must know how to make sabudana khichdi, kadhi pakoda, phulka/paratha, dal preparations, paneer dishes, and occasional Italian (pasta, garlic bread) — variety across North Indian, South Indian, and occasional Chinese/Italian is expected.
+01429 - Must reliably soak dals/rajma the night before when on the plan — this has already caused one menu miss.
+01430 - Comfortable taking daily recipe links via WhatsApp voice note and executing accordingly.
+01432 ## Unwritten / Learned (a new cook would not know without being told)
+01433 - Parul's protein shake is water-based, not the "standard" milk version most cooks would default to.
+01434 - Cut fruit + cut carrot-tomato salad accompanies most meals and needs to be prepped proactively, not only when named on the plan.
+01435 - Lunch is sized for one (Parul) by default; watch for late notice if Aman is joining.
+01436 - Besan chilla dinner skips the usual accompanying sabzi.
+01437 - "Portion excess is fine, shortage is not" is a cultural expectation (Marwadi household), not just a one-off comment.
+01438 - Photographing prepped stock after cooking is a recurring ops routine the cook must remember unprompted.
+01440 ## Flags Requiring Confirmation
+01441 - **Cook arrival/meal timing is inconsistent across records** — some notes say breakfast cook-arrival ~11:30 AM, another (Sep 17) finalizes Sanjay's timing as breakfast 10:30 AM / dinner 7:30 PM, and a separate note fixes dinner prep at 8:00 PM (Sep 14). Confirm the current standing schedule with the household before briefing any new cook.
+01442 - The Sep 15 photo of a "golden-brown okra curry with dark protein/ingredient pieces" was flagged in household knowledge as needing verification that it was vegetarian — worth confirming this was resolved, given the strict no-meat rule.
+01443 
+
+
+
+
+
+
+I have sufficient evidence now, spanning the full record. No allergies or morbidities are on record — I'll flag that explicitly rather than invent one. Compiling the incident log from all dated events found across searches.
+01445 # Section 1: Operational Standards
+01447 **1. Ingredient Standards**
+01448 - **Diet Ceiling:** Pure vegetarian household — no meat, fish, or eggs cooked or stored in the kitchen, under any circumstance.
+01449 - **Meat/Non-Veg Masala Ban:** Non-veg masalas (e.g. chicken masala) are banned even as a flavouring agent — this includes packaged spice mixes with non-veg derivatives.
+01450 - **Protein Sourcing:** Paneer is the primary protein; tofu, soya, tempeh are approved alternates. Household is actively trying to increase protein density across meals.
+01451 - **Fruit Exclusion (Active Window):** Grapes are currently avoided household-wide (standing through Sep 27, 2026) — do not use in fruit-cutting or menus till lifted.
+01452 - **Brand Mandates:** Tata (cold-pressed) for oil and salt; Tata/JK/Catch for masalas; Aashirvaad/Fortune for atta.
+01453 - **Cut Fruit & Salad Standing Requirement:** Cut fruit and carrot-tomato salad must accompany daily meals — non-negotiable running prep, not menu-dependent.
+01455 **2. Cooking Process & Technique**
+01456 - **Oil-Free Mandate:** Daily cooking uses minimal oil ("just a splash") — heavier oil only permitted for Chinese-style dishes.
+01457 - **Soaking Discipline:** Dals, rajma, chole must be soaked the night before if planned for next-day lunch — a documented miss has already occurred here.
+01458 - **No Rice at Dinner:** Dinner is always phulka-based; rice is a lunch-only staple.
+01459 - **Protein Shake Precision:** Aman = milk + protein powder + banana (trainer-recommended, high-calorie). Parul = water + protein powder only — no milk, no banana. This distinction must never be reversed.
+01460 - **Besan Chilla Serving Rule:** Served only with green chutney + ketchup — no side sabzi.
+01461 - **Cuisine Range Required:** North Indian & South Indian primary; Chinese/Italian occasional (once in 4–5 days) — cook must be trained across all three.
+01463 **3. Rationale:**
+01465 | Category | Rationale |
+01466 |---|---|
+01467 | Calorific & Macro Control | Aman follows a trainer-directed high-calorie, high-protein breakfast (protein shake with banana) to support fitness/muscle goals; household is deliberately increasing protein across meals given the no-egg, pure-veg constraint (paneer/dal limited, so tofu/soya/tempeh are being introduced). |
+01468 | Digestive Sensitivity | Low-oil daily cooking is a standing lifestyle choice, not a medical restriction — supports easier digestion for a household that eats at home most days. |
+01469 | Immunity | No specific immunity protocol on record — cut fruit and vegetable inclusion at every meal is a general wellness routine, not a clinical mandate. |
+01470 | Texture & Quality of Food | Portion imbalance (e.g., rice overwhelming a side dish) has been flagged before — dishes must be composed proportionately, not just quantity-heavy. |
+01471 | Safety & Hygiene | Cook role is strictly cooking-only; separate house-help handles home cleaning — this avoids cross-contamination of tasks and keeps kitchen hygiene the cook's sole, focused responsibility. |
+01472 | Portioning Philosophy | Marwadi household culture — running short on food is treated as a bigger failure than slight excess; cook must always err generous. |
+01473 | Allergens / Morbidities | **None on record.** No allergy or medical condition has been stated by either resident to date — flag to household directly to confirm before assuming none exists. |
+01475 # Section 2: Incident Report Log
+01477 | Date | Incident Description |
+01478 |---|---|
+01479 | 2026-08-21 | Trial meal portion imbalance — rice quantity disproportionately large vs. gobi manchurian; corrected going forward. |
+01480 | 2026-08-21 | Aman's protein shake defaulted to milk+powder only (no banana) — cook previously could not execute high-calorie version well; simplified version still in use. |
+01481 | 2026-09-14 | Dinner prep time moved from 8:30 PM to 8:00 PM due to cook's 8:00 PM slot constraint. |
+01482 | 2026-09-15 | Cook shared a photo of okra (bhindi) curry with dark ingredient pieces that internally raised a vegetarian-compliance verification flag (unresolved in records — confirm ingredients were vegetarian). |
+01483 | 2026-09-17 | Cook forgot to soak rajma ahead of planned lunch — forced same-day swap to kadhi pakoda; rajma lunch rescheduled. |
+01484 | 2026-09-20 | Fruit item (grapes) removed from meal plan due to poor quality on delivery. |
+01485 | 2026-09-23 | Chef coach "Sweety" scheduled on-site visit for dinner training/observation. |
+01487 # Section 3: Standing Instructions
+01489 | Standard | Instruction Details |
+01490 |---|---|
+01491 | Diet | Pure vegetarian home — no meat, fish, eggs, or non-veg masala, ever. |
+01492 | Fruit Ban (temporary) | No grapes till Sep 27, 2026 — quality-based exclusion. |
+01493 | Oil Usage | Minimal oil daily; more oil only for Chinese-style dishes. |
+01494 | Dinner Structure | Always phulka + curry/sabzi; never rice at dinner. |
+01495 | Lunch Structure | Rice-based, sized for 1 (Parul) by default — Aman notifies ahead if joining. |
+01496 | Protein Shake | Aman: milk + protein powder + banana. Parul: water + protein powder only — never swapped. |
+01497 | Portioning | Always generous — under-portioning is unacceptable; slight excess is fine. |
+01498 | Dish Balance | Proportion mains against sides — avoid one component visually/quantitatively dominating. |
+01499 | Soaking Prep | Dals/rajma/chole soaked the night before if on next-day's plan. |
+01500 | Cut Fruit & Salad | Prepare and store daily regardless of whether explicitly listed on the plan. |
+01501 | Besan Chilla Serving | Only with green chutney + ketchup — no accompanying sabzi. |
+01502 | Cook Scope | Cooking only — no home cleaning; cleans own cooking utensils only. |
+01503 | Equipment Gaps | Flag missing utensils immediately — never compromise technique to work around it. |
+01504 | Stock Photos | Photograph pantry stock daily after finishing prep for ops reordering. |
+01505 | Brand Compliance | Tata oil/salt, Tata/JK/Catch masalas, Aashirvaad/Fortune atta. |
+01506 | Breakfast Variety | Parul needs breakfast variety; Aman is fine with repetition — don't repeat Parul's breakfast dish too often. |
+01507 | Weekend Adjustment | Weekend meals should differ slightly from weekday routine; Sunday cook is off. |
+01508 | Timing (confirm) | Multiple conflicting timings on record (breakfast 10:30/11:30 AM, dinner 7:30/8:00 PM) — reconfirm current standing schedule with household before training. |
+01510 Neeru
+01511 **Food Preferences**
+01512 - Less oily, less spicy, mild/normal salt across the board — both have sensitive stomachs and sitting jobs; generous ginger‑garlic; onions/tomatoes must be well-cooked, never kaccha.
+01513 - Legumes (black chana, kabuli chana, rajma, kadhi) need generous garlic (lehsun) — insufficient garlic has caused digestion trouble lasting all day when eaten in the morning.
+01514 - Hard stops: no garam masala anywhere (Neeru does not eat it at all — use black pepper instead), no mushroom, no maida, no cream in cooking (fresh milk only), regular tomatoes not cherry tomatoes.
+01515 - White urad dal only — black urad dal is off-limits (allergy flagged by household help; pending review but treated as a hard stop).
+01516 - Eggs eaten regularly: hard-boiled preferred over soft-boiled; omelette must be well-done, cooked both sides.
+01517 - Doesn't like paneer much (but likes omelette) and is not fond of cheese — use in limited quantity. Paneer itself is sourced separately from a local vendor ("Greenage"), not ordered on the usual grocery apps.
+01518 - Parwal liked only if properly cooked/well-done. Aloo matar sabzi is a liked rotation dish, but matar quantity was flagged to be reduced ("less matar going forward" — recurring correction, Sep 9).
+01519 - French beans not a preferred vegetable — if used at all, keep quantity minimal.
+01520 - Avoid too much pasta/pizza/burgers — simple-carb dishes to be limited.
+01521 - Diabetic (Neeru): avoid sugary fruits like banana/chikku in smoothies or snacks.
+01522 - ⚠️ One inferred, low-confidence rule says "household does not eat chicken" — but Licious (meat/poultry) orders exist on file. This is UNCONFIRMED and should be checked directly with Neeru/Ashish before treating it as a rule.
+01524 **Cooking & Preparation**
+01525 - Buttermilk and rava idli batter are made from scratch by the cook — never ordered ready-made.
+01526 - Sprouts must be used fresh (soak one day, eat the next) — stale sprouts cause bloating and must never be served if spoiled.
+01527 - Salad (carrots, cucumber, etc.) and cut fruit are a default daily prep, without needing to be asked each day — repeated feedback notes cooks won't do this unless told, and unsoaked/uncut produce otherwise goes to waste in the fridge.
+01528 - Weekly menu should rotate in regional dishes (Bihar, Rajasthan, Punjab, South Indian) as sabzi or starter.
+01529 - Ragi malt: salty variant with curd + tadka is the default, not sweet.
+01530 - Millet (pulao/bisi bele bath style) is welcomed as a rice substitute, but must be low-prep — long-soak methods don't fit Neeru's schedule.
+01531 - Garam masala dal was disliked when tried once; the cook now sources her own dal from her sister and avoids this preparation going forward.
+01533 **Kitchen**
+01534 - Kitchen is managed solely by Neeru — the cook does not have ordering authority; stock/shopping decisions route through Neeru/M.
+01535 - Dal is used sparingly — a single order lasts months; do not restock dal on a routine cycle, only once fully depleted.
+01536 - Cook has been asked to photograph key ingredients (dhania, zucchini, matar, milk, capsicum, beans, cucumber, beetroot, carrot, chana dal, papaya, jeera, jeera powder, rava/sooji, makhana) after finishing cooking, to verify stock — an ongoing routine check, not one-off.
+01537 - No specific cleaning/reset checklist was found on record for post-cooking kitchen reset — **flag for confirmation** with Neeru on whether one exists.
+01539 **Packing & Serving**
+01540 - 2 rotis per person per meal (4 total for 2 people) — a fixed portion rule.
+01541 - Household does NOT eat roti-sabji for dinner as a norm; dinner is typically a light meal (soup, rolls, cutlet) — roti-sabji is treated as a snack-alternative, not the everyday dinner.
+01542 - Portion sizes should run smaller than a full "restaurant" portion — direct correction from Neeru (Sep 16): "quantity should be very less. We are not able to finish the food." Treat as a standing instruction on portioning, not a one-off, since it echoes the general "eat light" theme from onboarding.
+01543 - No lunchbox/tiffin-specific instructions found on record — **flag for confirmation** if either resident needs one packed.
+01545 **Routine**
+01546 - Confirmed regular cook (Sangeeta Didi), 2 visits/day, cooking for 2 people: Mon–Fri 7:00 AM and 7:00–7:30 PM; Saturday 8:00–8:30 AM and 6:00 PM.
+01547 - Menu comes as a rolling 3-day (up to weekly) plan shared in advance, with a window for the household to request changes before it's finalized.
+01548 - When ingredients for a planned dish are missing, the default is to substitute or make in-house (e.g., Bisi Bele Bath masala unavailable → make masala at home from what's in stock) rather than skip the dish.
+01549 - Soaking tasks (e.g., chana for chana chaat) can be handled ahead of the cook's shift by the residents if she isn't in for that slot — shows the household is willing to bridge small prep gaps, not that this is the cook's job to skip.
+01551 **Non-negotiables**
+01552 - Never use garam masala.
+01553 - Never serve mushroom.
+01554 - Never use maida.
+01555 - Never use cream — fresh milk only.
+01556 - Never use black urad dal — white urad dal only.
+01557 - Never serve stale/spoiled sprouts.
+01558 - Never skip the daily salad/cut-fruit prep by default.
+01559 - Never let onions/tomatoes go into a dish kaccha (undercooked) — this is a gastric-health issue, not a taste preference.
+01561 **Cook Capability Requirements**
+01562 - Must be able to prepare buttermilk and rava idli batter from scratch (no shortcuts via ready-made batter/buttermilk).
+01563 - Must handle regional recipes across Bihar, Rajasthan, Punjab and South Indian styles as part of normal rotation.
+01564 - Must judge portioning by "will realistically get finished" rather than a standard full serving — the household has corrected over-quantity before.
+01565 - Must follow ingredient-quantity discipline on legumes (generous garlic) for digestive comfort, not just taste.
+01566 - Must be reliable on daily default prep (salad/cut fruit) without a reminder each day.
+01568 **Unwritten / Learned**
+01569 - The emphasis is consistently "cooked properly" over "what is cooked" — from the onboarding interview: "food, the main thing is it should be cooked properly rather than what is cooked," tied to their health conditions (Neeru is diabetic, anemic, weak-stomached; both have sitting jobs).
+01570 - A new cook would not know from the menu alone that dinner should stay light (soup/rolls/cutlet) rather than a full roti-sabji meal — this is a house norm, not written into daily menus explicitly.
+01571 - A new cook would not know portions should run smaller than typical restaurant-style servings unless told directly — this came from a direct, specific correction rather than a written spec.
+01572 - Paneer is fetched from a separate local vendor (Greenage) rather than the usual grocery platforms — a new cook or ops helper could easily default to ordering it from Blinkit/FirstClub instead.
+01573 - The "no garam masala, use black pepper" swap is a personal taste rule (Neeru specifically), easy to miss since garam masala is a default ingredient in most North Indian recipes.
+01575 **Needs confirmation with the household:**
+01576 1. Whether "household does not eat chicken" is accurate — conflicts with Licious (meat) purchase history on file.
+01577 2. Whether there's a specific kitchen-reset/cleaning checklist for the cook at the end of each shift.
+01578 3. Whether either resident needs a packed lunchbox/tiffin, and if so what it should contain.
+01579 # HOUSEHOLD KITCHEN TRAINING BRIEF — Neeru & Ashish (EB 1904 Greenage)
+01580 **For: Chef Coach / Cook Trainer | Cook: Sangeeta Didi | Household size: 2 adults**
+01582 ---
+01584 ## SECTION 1: OPERATIONAL STANDARDS
+01586 **1. Ingredient Standards**
+01587 - **Protein Precision:** No chicken on record (unconfirmed, treat as restricted — verify with residents before use). No mushroom under any circumstance — hard stop.
+01588 - **Legume Rule:** Black urad dal is BANNED — flagged allergy risk; white urad dal only.
+01589 - **Dal Discipline:** Dal used sparingly — one stock lasts months; never restock on routine cycle, only on depletion.
+01590 - **Masala Ban:** Garam masala never used in any dish — substitute black pepper.
+01591 - **Refined Flour Ban:** Maida banned across all preparations.
+01592 - **Dairy Rule:** No cream in any preparation — fresh milk only.
+01593 - **Tomato Standard:** Regular tomatoes only, never cherry tomatoes.
+01594 - **Paneer Sourcing:** Paneer comes from a local vendor ("Greenage"), not standard grocery platforms — do not substitute grocery-app paneer.
+01595 - **French Beans:** Minimal use only — not a preferred vegetable.
+01596 - **Simple Carbs:** Pasta, pizza, burgers to be minimized — not house staples.
+01598 **2. Hygiene & Safety Standards**
+01599 - **Wound Protocol:** Cook must report injuries immediately and use the first-aid box — NOT self-treat with turmeric/home remedies (see Incident Log, 2026-09-03).
+01600 - **Sprout Handling:** Sprouts must be soaked one day, eaten the next — spoiled/stale sprouts must never be served (bloating risk for both residents).
+01601 - **Cooked-Through Rule:** Onions and tomatoes must always be well-cooked, never kaccha — direct gastric-health mandate, not a taste call.
+01603 **3. Portioning Standards**
+01604 - **Roti Count:** 2 rotis per person per meal (4 total for 2 people) — fixed.
+01605 - **Yield Control:** Batch sizes must run smaller than standard — direct correction on record ("quantity should be very less, we are not able to finish the food").
+01606 - **Matar Control:** Reduce matar quantity in aloo matar specifically — standing correction, not one-off.
+01607 - **Dinner Weight:** Dinner is light by default (soup, rolls, cutlet) — NOT a full roti-sabji meal.
+01609 **4. Storage Standards**
+01610 - **Batter/Dough:** Prepared fresh in-house (buttermilk, rava idli, dosa batter) — never store-bought.
+01611 - **Daily Prep Default:** Salad and cut fruit must be prepped fresh daily without being asked — undone, this causes fridge wastage.
+01612 - **Perishables Photo-Check:** Cook is expected to photo-confirm key stock items post-cooking (dhania, milk, capsicum, beans, carrot, chana dal, jeera, rava, etc.) as a standing inventory-accuracy habit.
+01614 **5. Allergens & Morbidities**
+01615 - **Neeru:** Diabetic, anemic (on iron supplements), weak/sensitive stomach (severe bloating history), needs B12 & vitamin D support.
+01616 - **Ashish:** Sensitive stomach, sitting job (low physical activity).
+01617 - **Household Allergen:** Black urad dal — confirmed allergy risk, white urad dal substitute mandatory.
+01619 **6. Banned Items**
+01620 - Garam masala | Mushroom | Maida | Cream | Black urad dal | Cherry tomatoes | Chicken (unconfirmed — verify).
+01622 **7. Lifestyle Mandates**
+01623 - Health-conscious, largely vegetarian, high-fiber/protein diet (egg white omelette, sprouted moong, ragi roti, quinoa soup, millet dosa are typical).
+01624 - Diabetic-safe snacking: avoid high-sugar fruits (banana, chikku) in smoothies/snacks for Neeru.
+01625 - Regional rotation expected weekly: Bihar, Rajasthan, Punjab, South Indian dishes as sabzi/starter.
+01627 **8. Cooking Technique Standards**
+01628 - Low oil, low spice, mild/normal salt as the default seasoning profile — non-negotiable baseline for every dish.
+01629 - Generous ginger-garlic in every preparation, especially legumes (chana/rajma/kadhi) — insufficient garlic has caused day-long digestive discomfort.
+01630 - Eggs: hard-boiled preferred over soft; omelette must be well-done, cooked both sides.
+01631 - Parwal must be properly cooked/well-done to be acceptable.
+01632 - Millet dishes (pulao/bisi bele bath style) must use low-prep methods — long-soak techniques don't fit the household's schedule.
+01634 **9. Rationale**
+01636 | Category | Rationale |
+01637 |---|---|
+01638 | Calorific & Macro Control | Neeru is diabetic — carb/insulin spikes must be minimized; complex carbs and iron-rich foods (spinach) favored over simple carbs (pasta/pizza/sugary fruit). |
+01639 | Digestive Sensitivity | Both residents have sensitive stomachs and sedentary jobs — low oil, low spice, well-cooked onion/tomato, and adequate garlic in legumes all directly prevent bloating and gastric discomfort. |
+01640 | Immunity | Neeru's anemia and B12/D deficiency drive the preference for iron-rich, nutrient-dense meals over empty-calorie or highly processed food. |
+01641 | Texture & Quality of Food | Onboarding interview explicitly stated "food, the main thing is it should be cooked properly rather than what is cooked" — technique consistency matters more than variety. |
+01642 | Safety and Hygiene | Household help handles raw ingredients daily in a home (not commercial) kitchen — wound protocol and fresh-batter/no-shortcut rules protect both food safety and the cook's wellbeing. |
+01644 ---
+01646 ## SECTION 2: INCIDENT REPORT LOG (Last ~2 Months)
+01648 | Date | Incident Description |
+01649 |---|---|
+01650 | 2026-08-28 | Trial dishes (apple salad, paneer) well received — confirmed cook onboarding, positive baseline set. |
+01651 | 2026-09-03 | Cook cut her finger badly; self-treated with turmeric instead of reporting immediately — first-aid protocol gap identified. |
+01652 | 2026-09-09 | Excess bread ordered on top of existing stock — could not be finished before going stale; pack-size correction issued. |
+01653 | 2026-09-09 | Excess matar in aloo matar sabzi flagged — quantity correction issued for future preparations. |
+01654 | 2026-09-15 | Cook disclosed black urad dal allergy risk to household for the first time — white urad dal sourcing corrected going forward. |
+01655 | 2026-09-16 | Portion sizes flagged as too large across meals — "not able to finish the food," direct correction from Neeru. |
+01656 | 2026-09-16 | Planned chana masala swapped to lighter dal-chawal — resident noted "eating outside lately," requesting lighter home meals. |
+01657 | 2026-09-20 | Bisi Bele Bath masala unavailable — resolved by making masala in-house rather than skipping the dish. |
+01658 | 2026-09-21 | Tata salt running low — flagged before stock-out. |
+01659 | 2026-09-22 | Query raised on repeating the same dish for both morning and evening meals — needs clarity on repetition tolerance. |
+01661 ---
+01663 ## SECTION 3: STANDING INSTRUCTIONS
+01665 | Standard | Instruction Details |
+01666 |---|---|
+01667 | Spice/Oil/Salt | Low oil, low spice, mild/normal salt in every dish — default, not dish-specific. |
+01668 | Garlic-Ginger | Generous ginger-garlic always; extra emphasis on legumes (chana/rajma/kadhi). |
+01669 | Onion/Tomato Cooking | Must be fully cooked, never kaccha, in any preparation. |
+01670 | Roti Portion | 2 rotis per person per meal (4 total). |
+01671 | Overall Portioning | Keep batch sizes smaller than standard — household frequently cannot finish full portions. |
+01672 | Dinner Style | Light meal only (soup/cutlet/rolls) — not roti-sabji as the norm. |
+01673 | Buttermilk/Batter | Always made fresh in-house — never ordered ready-made. |
+01674 | Daily Salad/Fruit | Cut fresh daily by default, without being asked. |
+01675 | Sprouts | Use only fresh-soaked (1-day cycle); discard if stale/spoiled. |
+01676 | Dal Restocking | Reorder only once fully depleted — not on a routine cycle. |
+01677 | Paneer Sourcing | From local vendor "Greenage," not grocery platforms. |
+01678 | Garam Masala | Never use — black pepper is the substitute. |
+01679 | Maida / Cream | Never use either, in any dish. |
+01680 | Black Urad Dal | Never use — white urad dal only. |
+01681 | Mushroom | Never serve. |
+01682 | Cherry Tomatoes | Never use — regular tomatoes only. |
+01683 | Eggs | Hard-boiled preferred; omelette well-done, both sides. |
+01684 | Regional Rotation | Include Bihar/Rajasthan/Punjab/South Indian dishes weekly. |
+01685 | Diabetic Snacking | No banana/chikku or high-sugar fruit in smoothies/snacks. |
+01686 | Injury Protocol | Report any cut/injury immediately and use first-aid box — do not self-treat. |
+01687 | Stock Verification | Photograph key perishables/staples post-cooking for inventory accuracy. |
+01689 **Items requiring confirmation with residents before finalizing training:** (1) chicken exclusion status — conflicts with meat-vendor order history on file; (2) formal kitchen-reset/cleaning checklist post-shift; (3) whether either resident needs a packed lunchbox/tiffin and its spec.

@@ -1,0 +1,82 @@
+{
+  "id": "shonik_atul",
+  "display_name": "Shonik & Atul",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Shonik", "notes": "prefers less spice; avoids karela, brinjal and prawns"},
+    {"name": "Atul", "notes": "likes more spice; dislikes green peas; fine with prawns; wants creamy mushroom chicken and mutton pulao as regulars; aloo paratha permanently removed (alternative: aloo puri + green chutney); rajma is fine; fish from Licious only"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Sukumar",
+    "schedule": "Daily; dinner should be cooked closer to 5-6 PM so it is fresh, not at 3:30-4 PM",
+    "days_off": [],
+    "language": "Hindi/Hinglish (WhatsApp voice notes only)",
+    "notes": ["Picks up new dishes quickly from YouTube but needs 'controlled cooking, not speed'.", "Check doneness/texture before plating (over-masala'd chewy paneer incident with a temp cook).", "Sends a daily post-cooking stock photo."]
+  },
+  "diet": "Non-Veg",
+  "hard_exclusions_ingredients": ["Cauliflower", "Cauliflower Florets", "Pointed Gourd", "Parwal", "Chickpeas", "Kabuli Chana", "Chole", "Green Peas", "Peas", "Frozen Green Peas", "Bitter Gourd", "Karela", "Brinjal", "Eggplant", "Baby Eggplant", "Prawns", "Shrimp", "King Prawn", "Jumbo Prawns Shrimp"],
+  "hard_exclusions_dish_keywords": ["aloo paratha", "gobi", "cauliflower", "parwal", "chole", "chana masala", "chickpea", "karela", "brinjal", "baingan", "bharta", "prawn", "shrimp", "matar"],
+  "person_rules": [
+    {"person": "Shonik", "kind": "hard_exclusion", "ingredients": ["Bitter Gourd", "Brinjal", "Prawns"], "note": "Shonik avoids karela, brinjal, prawns (Atul is fine with prawns - person-specific).", "enforcement": "exclude"},
+    {"person": "Atul", "kind": "hard_exclusion", "ingredients": ["Green Peas"], "note": "Atul dislikes green peas.", "enforcement": "exclude"},
+    {"person": "Atul", "kind": "like", "dishes": ["creamy mushroom chicken", "mutton pulao", "rajma", "aloo puri"], "note": "Keep creamy mushroom chicken and mutton pulao as regular menu items.", "enforcement": "soft"},
+    {"person": "Shonik", "kind": "dislike", "ingredients": ["Red Chili Powder"], "note": "Shonik prefers less spice; Atul more - adjust per person from the same dish.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [],
+  "dish_keyword_rules": [],
+  "frequency_caps": [
+    {"name": "Mutton", "match_ingredients": ["Mutton", "Mutton Mince"], "max_per_plan": 1, "note": "Mutton pulao is a liked regular; keep to about once per plan."}
+  ],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Breakfast", "Lunch", "Dinner"],
+  "default_servings": 2,
+  "brand_rules": [
+    {"brand": "Amul", "action": "prefer", "note": "Amul ONLY for plain paneer - a substitute brand was flagged 'not good'."},
+    {"brand": "Licious", "action": "prefer", "note": "Fish for Atul must be sourced from Licious, not Blinkit."},
+    {"brand": "Blinkit (fish)", "action": "never_buy", "note": "Do not source fish from Blinkit."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Ginger / Garlic", "rule": "Fresh ginger-garlic; organic ginger, pre-peeled garlic (convenience)."},
+    {"ingredient": "Paneer", "rule": "Amul only for plain paneer; check doneness - never chewy/over-masala'd."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.2, "North Indian": 0.4, "Experimental/Asian": 0.4},
+  "liked_ingredients": ["Chicken", "Mushroom", "Mutton", "Rajma", "Fish", "Paneer", "Egg"],
+  "disliked_ingredients_soft": ["Fried food", "Ghee (heavy)"],
+  "breakfast_style": "Varied; dosas, eggs, aloo puri + green chutney (Atul's aloo paratha replacement).",
+  "cooking_technique": {
+    "oil_masala": "Low oil / low masala is a standing constraint across ALL dishes (chicken keema came out too oily once)",
+    "frying": "No fried food at home - use the air fryer for chicken preparations",
+    "spice": "Per person: Atul spicier, Shonik milder - same dish, adjusted portions",
+    "pace": "Controlled cooking, check doneness and texture before plating",
+    "timing": "Cook dinner at 5-6 PM so it is fresh"
+  },
+  "nutrition_direction": ["Chicken is the anchor protein (almost daily)", "Low oil, low masala, air-fried instead of fried"],
+  "weekend_pattern": "",
+  "standing_instructions": [
+    "Never serve cauliflower, parwal or chole to either resident.",
+    "Never make aloo paratha.",
+    "Low-oil, low-masala across all dishes; no frying - air fryer.",
+    "Amul only for plain paneer; fish from Licious for Atul.",
+    "Leftovers kept till end of next day, discarded by day 3 (cook does this automatically).",
+    "Recipes arrive as YouTube links with the daily plan; portions and headcount via Hindi voice note; same-day headcount changes are common.",
+    "Daily post-cooking stock photo to ops."
+  ],
+  "non_negotiables": [
+    "Never serve cauliflower, parwal, or chole.",
+    "Never make aloo paratha.",
+    "Low-oil, low-masala across all dishes.",
+    "Amul brand only for plain paneer.",
+    "Fish must be sourced from Licious, not Blinkit."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Ginger", "Garlic", "Coriander Leaves"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main", "accompaniment?"],
+    "Lunch": ["curry|protein_main|one_pot", "dry_veg?", "bread|staple"],
+    "Dinner": ["curry|protein_main", "dry_veg?", "bread"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": true}
+  },
+  "notes": ["Confirm kitchen reset/cleaning expectations and whether any meal needs packing - neither is documented.", "An older 'rajma never eaten' note is outdated - rajma is in rotation."]
+}

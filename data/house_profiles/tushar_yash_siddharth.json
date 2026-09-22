@@ -1,0 +1,103 @@
+{
+  "id": "tushar_yash_siddharth",
+  "display_name": "Tushar, Yash & Siddharth",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Tushar", "notes": "vegetarian for shared meals; no paneer, no dairy/milk/cream in vegetables, no maida, no fried food, no sugar, no capsicum, no raw onion, no raw garlic (sleepiness/headache), no honey, no garam masala; eats only ONE of breakfast/lunch most days; clinician plan (private - do not disclose to cook): daily Greek yogurt, peeled almonds, fruit, eggs (cooked separately), spinach alt days; dislikes sprouts (boil legumes, never sprout); likes sweet corn; flour rotation (ragi/jowar/millet rotis)"},
+    {"name": "Yash", "notes": "strict vegetarian - no eggs, no paneer, no dairy/milk/cream, no maida, no fried food, no sugar, no capsicum, no raw onion; SPINACH/PALAK fully excluded (doctor - kidney-stone history); bhindi upsets his stomach; garlic minimal to none, never in chutneys"},
+    {"name": "Siddharth", "notes": "non-veg but non-veg is never cooked at home (ordered in); eats eggs almost daily, cooked separately - no eggs Tue/Sat; strict vegetarian on Saturdays and Hindu festivals; no maida, fried food, sugar, karela, bhindi; dislikes corn; chop mushrooms small"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Prashant",
+    "schedule": "Twice daily (morning + evening); first morning task = peel soaked almonds + cut fruits; soaking/chopping shifted to the evening before",
+    "days_off": [],
+    "language": "Hindi (voice notes night-before or same-morning)",
+    "notes": ["Strong on North Indian home-style and basic Chinese; weaker on sabudana khichdi, khichdi, upma; cannot cook Litti Chokha; regional rotation (Rajasthani, Kerala, Mumbai) caused friction - keep to his comfort zone.", "Dishwasher-only for glass/steel; floor mopped twice daily; no non-stick cookware.", "Dosa batter must be ready before he arrives on dosa days.", "Salary tier: 10k = single breakfast + basic lunch/dinner; complex items need the 14k tier."]
+  },
+  "diet": "Vegetarian",
+  "hard_exclusions_ingredients": ["Egg", "Eggs", "Egg Whites", "Chicken", "Fish", "Mutton", "Prawns", "Paneer", "Low-fat Paneer", "Spinach", "Spinach Leaves", "Baby Spinach", "Palak", "Okra", "Bhindi", "Bitter Gourd", "Karela", "Capsicum", "Bell Pepper", "Green Bell Pepper", "Red Bell Pepper", "Yellow Bell Pepper", "Green Capsicum", "Red Capsicum", "Yellow Capsicum", "Mixed Bell Peppers", "Colorful Bell Peppers", "Fresh Cream", "Heavy Cream", "Whipping Cream", "Whipped Cream", "Maida", "All Purpose Flour", "Refined Flour", "Sugar", "Honey", "Sprouts", "Mixed Sprouts", "Green Moong Sprouts", "Green Gram Sprouts", "Tofu", "Cheese", "Khoya", "Condensed Milk", "Garam Masala"],
+  "hard_exclusions_dish_keywords": ["egg", "omelette", "omelet", "chicken", "fish", "mutton", "prawn", "paneer", "palak", "spinach", "bhindi", "okra", "karela", "capsicum", "bell pepper", "sprout", "pakora", "pakoda", "bhajiya", "puri", "poori", "bhatura", "bhature", "vada", "samosa", "kachori", "kurkuri", "deep fried", "malai", "makhani", "kheer", "halwa", "ladoo", "barfi", "cake", "kofta", "litti"],
+  "person_rules": [
+    {"person": "Tushar", "kind": "hard_exclusion", "ingredients": ["Raw Garlic"], "note": "Zero raw garlic (sleepiness/headache); household-wide garlic minimal to none - never in chutneys.", "enforcement": "soft"},
+    {"person": "Tushar", "kind": "conditional", "ingredients": ["Milk", "Curd", "Butter", "Ghee", "Yogurt"], "note": "No dairy/milk/cream IN VEGETABLES for Tushar (raita / Greek yogurt on the side are fine).", "enforcement": "soft"},
+    {"person": "Siddharth", "kind": "dislike", "ingredients": ["Sweet Corn", "Corn", "Frozen Corn", "Baby Corn"], "note": "Siddharth dislikes corn; Tushar likes sweet corn - don't default corn dishes across the board.", "enforcement": "soft"},
+    {"person": "Tushar", "kind": "like", "ingredients": ["Ragi Flour", "Jowar Flour", "Bajra Flour", "Rajma", "Chole", "Dal", "Greek Yogurt", "Almonds"], "note": "Rotate millet rotis; a dal/rajma/chole/legume base daily.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["chutney"], "ingredients": ["Garlic", "Garlic Paste", "Ginger Garlic Paste", "Raw Garlic"], "note": "Never garlic in any chutney (Yash)."},
+    {"dish_keywords": ["salad", "kachumber", "raita"], "ingredients": ["Onion", "Red Onion", "Shallots"], "note": "Never raw onion to any of the three residents."},
+    {"dish_keywords": ["sabzi", "sabji", "subzi", "curry", "masala", "korma", "kadhai", "kadai", "kofta", "bhurji"], "ingredients": ["Milk", "Fresh Cream", "Cream", "Butter", "Cheese", "Curd", "Yogurt"], "note": "No dairy/milk/cream in vegetables (Tushar)."}
+  ],
+  "frequency_caps": [
+    {"name": "Aloo", "match_ingredients": ["Potato", "Baby Potato"], "max_per_plan": 1, "note": "Limit aloo to roughly once a week; include a greens/vegetable-forward day."}
+  ],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Breakfast", "Lunch", "Dinner"],
+  "default_servings": 3,
+  "brand_rules": [
+    {"brand": "Akshayakalpa", "action": "prefer", "note": "A2 cow ghee (500 g tin), curd/protein curd; Amrutha A2 'blue packaging' milk only - not the green variant."},
+    {"brand": "Dehat", "action": "prefer", "note": "Atta; 'whole-wheat atta' here means the light brown atta."},
+    {"brand": "The Health Factory", "action": "prefer", "note": "Zero Maida Whole Wheat bread (350 g) when packaged bread is used."},
+    {"brand": "Nutrela", "action": "prefer", "note": "Soy chunks replace tofu in all dinner dishes."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Garlic", "rule": "Minimal to none in all dishes; zero raw garlic for Tushar; never in chutneys."},
+    {"ingredient": "Legumes", "rule": "Soak overnight and BOIL - never sprout (Tushar dislikes sprouts); daily inclusion of dal/rajma/chole."},
+    {"ingredient": "Flour", "rule": "Rotate ragi, jowar and other millet rotis - don't default to wheat atta only."},
+    {"ingredient": "Moong dal", "rule": "Yellow moong dal is a distinct SKU from green moong - do not substitute."},
+    {"ingredient": "Produce", "rule": "Organic potato, desi tomato, local carrot, peeled garlic."},
+    {"ingredient": "Mushroom", "rule": "Chop into small pieces (Siddharth)."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.15, "North Indian": 0.8, "Experimental/Asian": 0.05},
+  "liked_ingredients": ["Rajma", "Chickpeas", "Dal", "Ragi", "Jowar", "Oats", "Greek Yogurt", "Almonds", "Sweet Corn", "Mushroom", "Soya Chunks"],
+  "disliked_ingredients_soft": ["Garlic", "Onion (raw)", "Corn (Siddharth)", "Fried food", "Garam Masala"],
+  "breakfast_style": "Oats/yogurt bowl ~3x/week; remaining days rotate besan chila, dosa, idli, uttapam, poha (ragi idli chutney needs salt and variety - sambar suggested).",
+  "cooking_technique": {
+    "oil_spice": "Low oil, low masala, more boiled preparations - health over taste; 'non-fried, non-masaledar'",
+    "gravies": "Dum aloo / tari aloo style = more gravy, less oil and masala",
+    "garlic": "Minimal to none; never raw",
+    "legumes": "Soaked overnight and boiled, never sprouted",
+    "prep_timing": "Fruit/almond prep the evening before; batter ready before the cook arrives",
+    "cookware": "No non-stick cookware anywhere"
+  },
+  "nutrition_direction": ["Protein mandatory every meal (rajma/chole/dal/boiled chana)", "Millet flour rotation; aloo about once a week", "Low oil, no sugar, no maida"],
+  "weekend_pattern": "Saturday: Siddharth strictly vegetarian (no eggs); non-veg (ordered in, never cooked) typically Sundays.",
+  "standing_instructions": [
+    "Shared cooking is vegetarian with no eggs and no paneer; Siddharth's eggs are cooked separately (never Tue/Sat) and non-veg is ordered in, never cooked at home.",
+    "Spinach/palak fully excluded (Yash - doctor's orders). Bhindi and karela excluded.",
+    "Garlic minimal to none; zero raw garlic for Tushar; never in chutneys.",
+    "Never raw onion to any resident; no capsicum, fresh cream, sugar, maida, fried food.",
+    "Protein in every meal (rajma, chole, dal, boiled chana); legumes boiled, never sprouted.",
+    "Rotate millet rotis (ragi/jowar/bajra); limit aloo to ~once a week.",
+    "Soy chunks (Nutrela) replace tofu in all dinner dishes.",
+    "Breakfast: oats/yogurt bowl ~3x/week, else chila/dosa/idli/uttapam/poha; batter ready before the cook arrives.",
+    "Do not add extra salad/raita sides unless asked; headcount varies by meal - confirm daily.",
+    "Guests: non-veg/paneer ordered in; cook handles only veg staples.",
+    "Tushar's health details are confidential - never shared with the cook."
+  ],
+  "non_negotiables": [
+    "Never serve raw onion to any of the three residents.",
+    "Never serve eggs to Yash or Tushar; never paneer to Tushar (excluded from shared meals).",
+    "Never serve spinach/palak to Yash.",
+    "Never put garlic in chutneys.",
+    "Never sprout legumes - soak and boil only.",
+    "Never use non-stick cookware.",
+    "Never capsicum, fresh cream, sugar or maida for Tushar."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Ghee", "Curd", "Greek Yogurt", "Almonds", "Wheat Flour", "Ragi Flour", "Jowar Flour", "Toor Dal", "Rajma", "Chickpeas"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main", "accompaniment?"],
+    "Lunch": ["dal", "dry_veg", "bread|staple", "accompaniment?"],
+    "Dinner": ["dal", "dry_veg", "bread"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": false}
+  },
+  "notes": [
+    "CONFLICT to confirm: Section 1 says Tushar has one egg preparation daily (clinician-driven) while Cook Expectations says 'never serve eggs to Tushar'. Shared plan is egg-free; eggs, if any, are cooked separately.",
+    "'No raw onion for Tushar' is marked pending review in the standing rules.",
+    "Ghee pot/applicator sourcing unconfirmed; cook's repertoire beyond North Indian is undocumented."
+  ]
+}

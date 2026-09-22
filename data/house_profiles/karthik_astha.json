@@ -1,0 +1,90 @@
+{
+  "id": "karthik_astha",
+  "display_name": "Karthik & Astha",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Karthik", "notes": "non-veg; runs all ordering and kitchen ops; wants at least 1 protein + 1 vegetable dish every meal; flagged chicken 3 days running and repeated dishes"},
+    {"name": "Astha", "notes": "recently ovo-vegetarian (eggs yes, no meat/fish); lactose intolerant - no cheese/cream/milk; no aloo; new dislikes of dal and paneer since going vegetarian - give her a tofu/protein substitute when Karthik gets a meat dish; considers seed oils unhealthy (unresolved); no visibility into inventory"},
+    {"name": "Gauri", "notes": "age 4: no spice at all in her portion; dislikes soy dishes and dal-roti; likes aloo tikki, grilled cheese, mac & cheese, pasta, low-spice egg/chicken fried rice; dinner by 5:30-6:00 PM; sugar once per weekend; pancakes/waffles weekends only; school lunch on weekdays"}
+  ],
+  "pets": [{"name": "", "kind": "Dog", "portioning_note": "Dog food portions are handled separately."}],
+  "cook": {
+    "name": "Tara didi",
+    "schedule": "Daily; lunch prep starts ~10 AM; dinner ready by 5:30-6:00 PM for Gauri",
+    "days_off": [],
+    "language": "Hindi only (English is a documented barrier - videos must be Hindi)",
+    "notes": ["Substitutes from what's on hand when ingredients are missing, but must get Karthik's confirmation on the substitute dish first.", "Reports her own inventory counts (re-verifying caused friction).", "Never store opened raw meat for a later day - use the same day."]
+  },
+  "diet": "Non-Veg",
+  "hard_exclusions_ingredients": ["Mutton", "Lamb", "Beef"],
+  "hard_exclusions_dish_keywords": ["mutton", "lamb", "keema"],
+  "person_rules": [
+    {"person": "Astha", "kind": "hard_exclusion", "ingredients": ["Chicken", "Fish", "Prawns", "Mutton"], "note": "Astha is ovo-vegetarian - meat/fish dishes are Karthik's; plan a tofu/protein substitute for her whenever the meal's protein is meat (e.g. Tofu Curry beside Chicken Curry).", "enforcement": "soft"},
+    {"person": "Astha", "kind": "conditional", "ingredients": ["Milk", "Cheese", "Fresh Cream", "Heavy Cream", "Cheese Slice", "Cheddar Cheese", "Mozzarella Cheese", "Parmesan Cheese", "Khoya", "Condensed Milk"], "note": "Lactose intolerant - no dairy (cheese/cream/milk) for Astha; dishes with dairy as the base are not shared mains.", "enforcement": "portion_only"},
+    {"person": "Astha", "kind": "dislike", "ingredients": ["Potato", "Baby Potato", "Paneer", "Dal", "Toor Dal", "Moong Dal", "Masoor Dal", "Chana Dal"], "note": "No aloo for Astha; new dislikes of dal and paneer - tofu/eggs/legume-alternatives for her portion.", "enforcement": "soft"},
+    {"person": "Gauri", "kind": "dislike", "ingredients": ["Soya Chunks", "Tofu", "Soy Sauce"], "note": "Gauri dislikes soy-based dishes and is not fond of dal-roti; zero spice in her portion.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["soup"], "slots": ["Dinner", "Lunch"], "ingredients": [], "note": "A soup-and-bread meal is not filling alone - always pair with a substantial protein (sauteed chicken/paneer). Soups are excluded as a meal component here; add via swap if a protein main is present."}
+  ],
+  "frequency_caps": [
+    {"name": "Chicken as main", "match_ingredients": ["Chicken"], "max_per_plan": 2, "note": "Chicken must not be the main protein 3 days in a row."}
+  ],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": false,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Breakfast", "Lunch", "Dinner"],
+  "default_servings": 3,
+  "rotation_reuse_pct": 0.0,
+  "brand_rules": [
+    {"brand": "Noice", "action": "never_buy", "note": "Banana chips - Kerala-style only, not Noice."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Vanilla", "rule": "Only pure/natural extract - no artificial vanilla flavouring."},
+    {"ingredient": "Oil", "rule": "Sunflower oil currently; Astha considers seed oils unhealthy - unresolved, flag before assuming settled."},
+    {"ingredient": "Raw meat", "rule": "Use opened raw meat the same day; never store for later."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.1, "North Indian": 0.6, "Experimental/Asian": 0.3},
+  "liked_ingredients": ["Egg", "Chicken", "Tofu", "Spinach", "Pasta", "Rice", "Cheese"],
+  "disliked_ingredients_soft": ["Soya Chunks", "Potato", "Paneer", "Dal"],
+  "breakfast_style": "Same breakfast for Karthik and Astha (never two different adult breakfasts); Gauri gets her own child-friendly version; pancakes/waffles weekends only.",
+  "cooking_technique": {
+    "style": "Simple home-style Indian - onion-tomato base curries, no heavy/complex masalas; North Indian is the cook's strength",
+    "spice": "Gauri's portion zero spice; adults normal",
+    "protein_rule": "Every meal: at least 1 protein dish + 1 vegetable dish (leafy veg included)",
+    "soup": "Never soup + bread alone - add a substantial protein"
+  },
+  "nutrition_direction": ["At least 1 protein + 1 vegetable per meal", "Leafy vegetables included regularly"],
+  "weekend_pattern": "Pancakes/waffles and one sugar treat allowed on weekends only.",
+  "standing_instructions": [
+    "Every meal needs at least 1 protein dish + 1 vegetable dish.",
+    "Do not repeat the same dish within a week.",
+    "Chicken not the main protein 3 days in a row.",
+    "Same breakfast for both adults; Gauri: no spice, dinner by 5:30-6:00 PM.",
+    "When Karthik has a meat dish, Astha gets a tofu/protein substitute (no dairy, no aloo, dal/paneer disliked).",
+    "Never store opened raw meat beyond the day; substitutes need Karthik's confirmation first.",
+    "Hindi-only recipe videos; instructions as Hindi voice notes the evening before with headcounts.",
+    "Ordering ~twice a week, no same-day top-ups - substitute from what's on hand.",
+    "Milk/eggs/curd delivered daily 4-7 AM."
+  ],
+  "non_negotiables": [
+    "Never store/reuse opened raw meat beyond the day it's opened.",
+    "Same breakfast for Karthik and Astha.",
+    "At least 1 protein + 1 vegetable in every meal.",
+    "No repeat dish within 7 days.",
+    "No artificial vanilla flavouring.",
+    "Chicken not 3 days running as the main protein."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Milk", "Egg", "Curd"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main"],
+    "Lunch": ["protein_main|curry", "dry_veg", "bread|staple"],
+    "Dinner": ["protein_main|curry", "dry_veg", "bread|staple"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": true}
+  },
+  "notes": [
+    "Confirm: packing/lunchbox routine, adult portion sizes, whether 'same breakfast' and '3-day chicken' rules are hard policy.",
+    "Gauri's no-spice rule is treated as absolute even though not written as an allergy."
+  ]
+}

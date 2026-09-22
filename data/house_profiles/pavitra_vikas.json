@@ -1,0 +1,108 @@
+{
+  "id": "pavitra_vikas",
+  "display_name": "Pavitra & Vikas",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Pavitra", "notes": "allergic to wheat / avoids gluten entirely - ragi roti is her mandatory substitute at every meal, zero cross-contamination; does not eat bhindi; avoids chilli flakes; Monday evening fast (no ragi roti, no paneer bhurji that night); daily Ayurvedic amla shot at breakfast; sole primary contact for kitchen decisions"},
+    {"name": "Vikas", "notes": "avoids besan/gram flour; dislikes gourds (lauki/tori) except as kofta ~biweekly; refuses carrot-beans sabzi; never capsicum sandwich again; daily protein shake; roti count drops to 2 on light-menu days"},
+    {"name": "Vidhi", "notes": "daughter (child); no peas (matar) in any of her meals; daily filling paratha (methi/palak/dal, paneer paratha as favourite); 1 egg on egg days; asleep before 8 AM - no doorbell"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Bina (dinner) + Tumpa (mornings)",
+    "schedule": "Bina arrives 6:30 PM for dinner prep and cannot extend (another job after); morning shift 6:00 AM",
+    "days_off": [],
+    "language": "Hindi",
+    "notes": ["Confident in Indian vegetarian; needs guidance for Mediterranean/Asian/continental (chef-coach sessions).", "Checks every ingredient before cooking; reports shortages to ops, not Pavitra.", "Photographs prepared food and fresh stock post-cooking."]
+  },
+  "diet": "Eggetarian",
+  "hard_exclusions_ingredients": ["Cabbage", "Red Cabbage", "Purple Cabbage", "Bitter Gourd", "Karela", "Gram Flour", "Besan", "Chilli Flakes", "Green Peas", "Peas", "Frozen Green Peas", "Green Bell Pepper", "Green Capsicum", "Bottle Gourd", "Ridge Gourd", "Tofu"],
+  "hard_exclusions_dish_keywords": ["capsicum sandwich", "kadhai paneer", "kadai paneer", "sabudana khichdi", "tofu bhurji", "cabbage", "karela", "matar", "peas", "lauki", "tori", "turai", "carrot beans", "carrot green bean"],
+  "person_rules": [
+    {"person": "Pavitra", "kind": "conditional", "ingredients": ["Wheat Flour", "Whole Wheat Flour", "Atta", "Maida", "All Purpose Flour", "Semolina", "Rava", "Bread", "Pasta", "Noodles", "Vermicelli"], "note": "WHEAT ALLERGY: Pavitra's portion is always ragi roti / gluten-free; regular roti is cooked for Vikas and Vidhi separately (2 ragi + 2/3 normal). Zero cross-contamination with wheat flour.", "enforcement": "soft"},
+    {"person": "Pavitra", "kind": "dislike", "ingredients": ["Okra", "Bhindi"], "note": "Pavitra does not eat bhindi; it is still bought weekly for Vikas and Vidhi. Bhindi sabzi is made without onion.", "enforcement": "soft"},
+    {"person": "Vikas", "kind": "hard_exclusion", "ingredients": ["Gram Flour", "Besan"], "note": "Besan never used in Vikas's food.", "enforcement": "exclude"},
+    {"person": "Vidhi", "kind": "hard_exclusion", "ingredients": ["Green Peas", "Peas"], "note": "Matar removed from all meals for Vidhi.", "enforcement": "exclude"}
+  ],
+  "slot_ingredient_bans": [],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["bhindi", "okra"], "ingredients": ["Onion", "Red Onion", "Shallots"], "note": "Bhindi sabzi is made without onion."},
+    {"dish_keywords": ["egg", "omelette", "omelet"], "slots": [], "ingredients": ["Cheese"], "note": "Cheese shredded/diced format only; eggs well cooked, never runny."}
+  ],
+  "frequency_caps": [
+    {"name": "Egg dishes", "match_ingredients": ["Egg", "Eggs"], "max_per_plan": 2, "note": "Eggs for Pavitra & Vikas only; never Tue/Thu; 1 egg for Vidhi + 8 combined for the adults on egg days; must be well cooked."}
+  ],
+  "weekday_rules": [
+    {"weekday": "Tuesday", "slots": [], "ban_ingredients": ["Egg", "Eggs", "Egg Whites"], "ban_dish_keywords": ["egg", "omelette", "omelet"], "note": "No eggs on Tuesdays (routine, not allergy)."},
+    {"weekday": "Thursday", "slots": [], "ban_ingredients": ["Egg", "Eggs", "Egg Whites"], "ban_dish_keywords": ["egg", "omelette", "omelet"], "note": "No eggs on Thursdays (routine, not allergy)."},
+    {"weekday": "Monday", "slots": ["Dinner"], "ban_ingredients": [], "ban_dish_keywords": ["ragi", "paneer bhurji"], "note": "Monday is Pavitra's fasting day - no ragi roti or paneer bhurji at dinner."}
+  ],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": false,
+  "disallow_marination": true,
+  "planned_slots": ["Breakfast", "Lunch", "Dinner"],
+  "default_servings": 3,
+  "brand_rules": [
+    {"brand": "Tata Sampann", "action": "prefer", "note": "Coriander powder only - a 'Mill Story' batch was rejected; never switch dhaniya powder brand."},
+    {"brand": "Akshayakalpa", "action": "prefer", "note": "Organic dairy/paneer (200 g Malai Paneer), bigger-size eggs, ghee (or Sid's Farm)."},
+    {"brand": "Sahaja Organics", "action": "prefer", "note": "Sugar."},
+    {"brand": "Health Factory", "action": "prefer", "note": "Whole Wheat Zero Maida bread."},
+    {"brand": "Sunflower Gold", "action": "prefer", "note": "Cooking oil (cook's preference)."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Roti", "rule": "Lunch: 2 ragi (Pavitra) + 2 normal; Dinner: 2 ragi + 3 normal (up to 8 normal with guests)."},
+    {"ingredient": "Paneer", "rule": "Paneer bhurji is the standing preparation, never tofu bhurji; homemade paneer from the Tower-2 neighbour when available, Akshayakalpa fallback; Friday tends to be a masala paneer batch."},
+    {"ingredient": "Eggs", "rule": "Large size only, well cooked, never runny; none boiled Tue/Thu."},
+    {"ingredient": "Capsicum", "rule": "Only red/yellow - never green."},
+    {"ingredient": "Cucumber", "rule": "English cucumber is the only variety ordered."},
+    {"ingredient": "Moong dal", "rule": "Whole raw green moong only - Bina sprouts it herself, never pre-packaged sprouts."},
+    {"ingredient": "Cauliflower / produce", "rule": "Visually inspect on delivery for pest contamination (worm-infested cauliflower incident)."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.1, "North Indian": 0.7, "Experimental/Asian": 0.2},
+  "liked_ingredients": ["Paneer", "Ragi", "Spinach", "Fenugreek Leaves", "Okra", "Garlic", "Cucumber", "Sweet Corn", "Dal"],
+  "disliked_ingredients_soft": ["Bottle Gourd", "Ridge Gourd", "Chilli Flakes", "Green Chilli"],
+  "breakfast_style": "Vidhi's daily filling paratha (methi/palak/dal; paneer paratha favourite); spinach-corn sandwich; continental breakfasts on weekends/chef-coach days; amla shot for Pavitra.",
+  "cooking_technique": {
+    "spice": "Low spice for everyone - one dish, one spice level",
+    "oil": "Low oil is the standard, not just for guests",
+    "marination": "No marination - plain, simple preparation throughout",
+    "dinner_structure": "Dal + soup every night regardless of the sabzi, with roti and a fixed side of cut onion + English cucumber",
+    "weekday_vs_weekend": "Weekday meals deliberately simple; elaborate/continental reserved for weekends and chef-coach sessions"
+  },
+  "nutrition_direction": ["Low-oil, low-spice North Indian baseline", "Daily dal + soup at dinner for consistent protein/fibre", "Protein shake daily for Vikas"],
+  "weekend_pattern": "Weekends: more elaborate / continental dishes (chef-coach sessions); Sunday deliveries only after 9 AM.",
+  "standing_instructions": [
+    "Pavitra = ragi roti at every meal (wheat allergy); others get regular roti; zero cross-contamination.",
+    "Monday evening fast: no ragi roti or paneer bhurji for Pavitra at dinner.",
+    "No eggs Tue/Thu; eggs large and well cooked; 1 egg Vidhi + 8 combined adults on egg days.",
+    "Dinner every night = dal + soup + sabzi + roti + cut onion/English cucumber side.",
+    "No peas for Vidhi; no besan for Vikas; capsicum only red/yellow; karela never brought home.",
+    "Bhindi sabzi without onion; bhindi bought weekly though Pavitra does not eat it.",
+    "Leftovers 1 day only; anything 2-3 days old discarded without asking; expired stock thrown immediately.",
+    "Spinach/methi ordered the evening before use; milk must arrive before cooking starts.",
+    "Always add curd to any evening order (Vikas).",
+    "Confirm headcount before scaling (grandfather visits 6-7 months/year and buys produce himself).",
+    "Route meal-plan questions to Pavitra; no doorbell before 8 AM."
+  ],
+  "non_negotiables": [
+    "Never make capsicum sandwich again.",
+    "Never order/cook green capsicum.",
+    "Never cook karela.",
+    "No ragi roti or paneer bhurji Monday evenings.",
+    "Eggs never runny; no eggs Tue/Thu.",
+    "Stick to Tata Sampann coriander powder.",
+    "Besan never in Vikas's food; no peas for Vidhi.",
+    "Vegetarian household - no meat/poultry."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Ragi Flour", "Wheat Flour", "Curd", "Garlic", "Amla", "English Cucumber", "Onion"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main"],
+    "Lunch": ["dry_veg|curry|dal", "bread"],
+    "Dinner": ["dal", "dry_veg|curry", "bread", "soup?"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": false}
+  },
+  "notes": [
+    "Wheat is modelled as a per-person portion rule (Pavitra) rather than a house exclusion because Vikas and Vidhi eat regular roti; the bread dish in the plan stands for 'ragi for Pavitra + regular for others'.",
+    "Confirm salt-level preference (only oil and spice documented), Vidhi's resident status for portioning, and any house-standard vegetable cut."
+  ]
+}

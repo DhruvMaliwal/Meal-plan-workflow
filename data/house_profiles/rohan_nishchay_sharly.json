@@ -1,0 +1,103 @@
+{
+  "id": "rohan_nishchay_sharly",
+  "display_name": "Rohan, Nishchay & Sharly",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Rohan", "notes": "pescatarian-leaning non-veg; wants a separate non-veg dish (chicken curry / grilled chicken) every 2-3 days alongside the shared veg main; questions cream usage - keep dishes light"},
+    {"name": "Nishchay", "notes": "strict vegetarian - no meat/chicken/fish ever; thyroid medication -> no soy at breakfast/lunch (soy only at dinner); does yoga"},
+    {"name": "Sharly", "notes": "mostly vegetarian, occasionally pescatarian; coach-prescribed plan ~1,408 kcal (70 g protein / 194 g carbs / 39 g fat), 2 eggs at lunch; cholesterol concern -> no deep-fried/very oily/ghee-heavy food; gluten sensitivity -> no wheat chapati (millet rotis); avoids plain white rice (brown rice / millets); gym 7-8 PM so dinner ready by 6:30-7:00 PM"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Gorakh Bhaiya",
+    "schedule": "Dinner only, arrives 6:30-7:00 PM (trial since Sep 2); household declined breakfast/lunch expansion",
+    "days_off": [],
+    "language": "Hindi",
+    "notes": ["Kitchen cleanup after every session is part of scope.", "Shares his own ingredient list ahead of cooking.", "Must cook legumes fully (kala chana was watery/raw once)."]
+  },
+  "diet": "Vegetarian",
+  "hard_exclusions_ingredients": ["Wheat Flour", "Whole Wheat Flour", "Atta", "Maida", "All Purpose Flour", "Refined Flour", "Tomato Puree", "Tomato Paste", "Tomato Ketchup", "Ginger Garlic Paste"],
+  "hard_exclusions_dish_keywords": ["deep fried", "pakora", "pakoda", "bhajiya", "puri", "poori", "bhatura", "kachori", "samosa", "kurkuri"],
+  "person_rules": [
+    {"person": "Nishchay", "kind": "hard_exclusion", "ingredients": ["Chicken", "Fish", "Prawns", "Mutton", "Egg", "Eggs"], "note": "Strict vegetarian - the shared plan is vegetarian; Rohan's non-veg is a separate add-on dish every 2-3 days; Sharly's 2 lunch eggs are self-managed.", "enforcement": "exclude"},
+    {"person": "Nishchay", "kind": "conditional", "ingredients": ["Soy Sauce", "Tofu", "Soya Chunks", "Soy Milk", "Tempeh"], "note": "No soy at breakfast/lunch (thyroid medication); soy allowed at dinner only.", "enforcement": "soft"},
+    {"person": "Sharly", "kind": "conditional", "ingredients": ["Rice", "Basmati Rice", "Sona Masoori Rice", "Jasmine Rice"], "note": "Sharly avoids plain white rice - prefer brown rice / millets / quinoa.", "enforcement": "soft"},
+    {"person": "Rohan", "kind": "dislike", "ingredients": ["Fresh Cream", "Cream", "Heavy Cream"], "note": "Keep dishes light, minimal cream even in wrap-style dishes.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [
+    {"slot": "Breakfast", "ingredients": ["Soy Sauce", "Tofu", "Soya Chunks", "Soy Milk", "Tempeh"], "note": "No soy for Nishchay at breakfast/lunch (thyroid).", "classes": []},
+    {"slot": "Lunch", "ingredients": ["Soy Sauce", "Tofu", "Soya Chunks", "Soy Milk", "Tempeh"], "note": "No soy for Nishchay at breakfast/lunch (thyroid).", "classes": []}
+  ],
+  "dish_keyword_rules": [],
+  "frequency_caps": [
+    {"name": "Roti-sabzi", "match_dish_keywords": ["roti", "chapati", "phulka"], "max_per_plan": 2, "note": "Roti-sabzi max 2-3x/week - vary with grilled, curry or legume dishes."}
+  ],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": false,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Dinner"],
+  "default_servings": 3,
+  "brand_rules": [
+    {"brand": "Akshayakalpa", "action": "never_buy", "note": "Milk/paneer banned after a bad experience (milk turned gel-like)."},
+    {"brand": "Milky Mist", "action": "never_buy", "note": "Milk avoided by Sharly; Milky Mist PANEER is the only acceptable paneer fallback, with Rohan's approval."},
+    {"brand": "Health 'N Plants", "action": "never_buy", "note": "Tofu banned - 'really bad' quality."},
+    {"brand": "iD Fresh", "action": "prefer", "note": "Soft & Creamy Paneer 200 g is the household default."},
+    {"brand": "Moose", "action": "prefer", "note": "Only tofu brand."},
+    {"brand": "Tata", "action": "prefer", "note": "Cold-pressed oils only (Sharly)."},
+    {"brand": "Barosi / Anvesham", "action": "prefer", "note": "Ghee."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Roti", "rule": "Millet rotis (jowar / ragi / bajra) only - wheat chapati causes bloating for Sharly."},
+    {"ingredient": "Rice", "rule": "Brown rice or millets; plain white rice avoided by Sharly."},
+    {"ingredient": "Tomato", "rule": "Fresh tomatoes only - no passata/puree/canned."},
+    {"ingredient": "Ginger / Garlic", "rule": "Raw ginger and garlic only - no ginger-garlic paste, ever. Buy unpeeled garlic and rooted coriander."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.2, "North Indian": 0.5, "Experimental/Asian": 0.3},
+  "liked_ingredients": ["Paneer", "Sprouts", "Chickpeas", "Kala Chana", "Rajma", "Beetroot", "Pumpkin", "Bottle Gourd", "Bitter Gourd", "Tofu", "Egg"],
+  "disliked_ingredients_soft": ["Fresh Cream", "Maida", "Ghee (heavy)", "Red Chilli (keep minimal)"],
+  "breakfast_style": "Self-managed - not cooked by the cook.",
+  "cooking_technique": {
+    "spice": "Low - 2/5; aromatics fine, red chilli minimal (paneer wrap was 'very spicy' once)",
+    "oil": "Low - 2/5; no deep-frying, no ghee-heavy food",
+    "legumes": "Pre-soak properly (overnight for chole/rajma) and cook fully - watery/raw kala chana was a real complaint",
+    "fresh_only": "No canned, preservative-forward or restaurant-style pre-made ingredients; fresh tomatoes only",
+    "favourites": "Grilled paneer with salad, poha with chickpeas, kale chana masala, chaat-style dishes, paneer/beetroot cutlets (not deep-fried), rajma / kadhi / chane; weekly batch of sprouts; karela welcome if cooked well"
+  },
+  "nutrition_direction": [
+    "Sharly: coach-prescribed macros (70 g protein / 194 g carbs / 39 g fat, ~277 kcal dinner) - measured portions",
+    "Protein-forward vegetarian (paneer, tofu at dinner, eggs, dal, sprouts)",
+    "Quinoa / brown rice over white rice; millet rotis over wheat"
+  ],
+  "weekend_pattern": "",
+  "standing_instructions": [
+    "Dinner-only service: cook arrives 6:30-7:00 PM; dinner ready by 6:30-7:00 PM for Sharly's gym.",
+    "Dinner is planned for 3 (Rohan, Nishchay, Sharly); confirm headcount - residents travel.",
+    "When non-veg is served (Rohan, every 2-3 days), it is a SEPARATE dish alongside a veg main for Nishchay & Sharly.",
+    "Meal plan shared 3 days ahead; household approves by 12 PM same day.",
+    "Roti-sabzi max 2-3x/week; rotate grilled items, curries, legume dishes and interesting vegetables (pumpkin, bottle gourd, beetroot).",
+    "Weekly batch of sprouts (green moong or kaale chana) is a standing staple.",
+    "Leftovers kept max 2 days; leftover dal becomes dal tadka next morning.",
+    "Use near-expiry dry goods (sattu, besan, oats, pasta, suji) first in monsoon.",
+    "Verify home stock before ordering; share cart for confirmation."
+  ],
+  "non_negotiables": [
+    "No meat/chicken/fish for Nishchay under any circumstance.",
+    "No canned/preservative/restaurant-style ingredients - fresh only.",
+    "No ginger-garlic paste - raw ginger and garlic only.",
+    "No Akshayakalpa dairy/paneer.",
+    "Kitchen must be cleaned after each cooking session.",
+    "No soy in Nishchay's breakfast/lunch."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Ginger", "Garlic", "Coriander Leaves"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main"],
+    "Lunch": ["curry|dal", "dry_veg", "bread|staple"],
+    "Dinner": ["curry|dal|protein_main", "dry_veg|salad", "bread|staple?"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": true}
+  },
+  "notes": [
+    "Sharly's wheat avoidance (Sep 18) may be temporary - treated as active until confirmed.",
+    "Confirm whether lunch needs packing for Sharly's office days.",
+    "Gorakh Bhaiya trial confirmation pending as of Sep 18."
+  ]
+}

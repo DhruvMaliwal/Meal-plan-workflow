@@ -65,8 +65,10 @@ with st.sidebar:
         st.warning("ANTHROPIC_API_KEY is not set - API calls will fail. Export it or use mock mode.")
     st.divider()
     guests = st.number_input("Guests (added to residents)", 0, 10, 0)
-    servings = profile.n_residents + int(guests)
-    st.caption(f"Servings for quantity math: **{servings}** ({profile.n_residents} residents + {guests} guests)")
+    servings = profile.servings + int(guests)
+    st.caption(f"Servings for quantity math: **{servings}** ({profile.servings} default + {guests} guests)")
+    if len(profile.planned_slots) < 3:
+        st.caption("Cook serves: **" + ", ".join(profile.planned_slots) + "** (other meals self-managed)")
     start_date = st.date_input("Plan start date", value=dt.date.today() + dt.timedelta(days=1))
     use_llm = st.toggle("Assemble with Claude + Epicure MCP", value=not mock, disabled=mock,
                         help="Off = deterministic heuristic assembler only (fast, free).")
@@ -92,7 +94,9 @@ with tab_profile:
         st.markdown(f"**Residents:** " + ", ".join(r.name for r in profile.residents) +
                     (f" · **Pets:** {', '.join(p.kind for p in profile.pets)}" if profile.pets else ""))
         st.markdown(f"**Cook:** {profile.cook.name} - {profile.cook.schedule} · off: {', '.join(profile.cook.days_off) or '-'}")
-        st.markdown(f"**Diet:** {profile.diet}")
+        st.markdown(f"**Diet (shared meals):** {profile.diet} · **Slots planned:** {', '.join(profile.planned_slots)} · **Servings:** {profile.servings}")
+        if profile.weekday_rules:
+            st.markdown("**Weekday rules:** " + "; ".join(f"{w.weekday}{' ' + '/'.join(w.slots) if w.slots else ''}: no {', '.join(w.ban_ingredients + w.ban_dish_keywords)}" for w in profile.weekday_rules))
         st.markdown("**Hard exclusions:** " + ", ".join(profile.hard_exclusions_ingredients))
         with st.expander("Per-person rules", expanded=True):
             st.dataframe(pd.DataFrame([pr.model_dump() for pr in profile.person_rules]), use_container_width=True, hide_index=True)
@@ -317,12 +321,14 @@ with tab_generate:
         # grid
         grid = pd.DataFrame(index=[f"Day {d}" + (f" · {plan.get(d,'Breakfast').date}" if plan.start_date else "") for d in range(1, plan.days + 1)], columns=SLOTS)
         for s in plan.slots:
-            grid.loc[f"Day {s.day}" + (f" · {s.date}" if plan.start_date else ""), s.slot] = " + ".join(s.names()) + (f"  (~{s.est_minutes_total} min)" if s.est_minutes_total else "")
+            grid.loc[f"Day {s.day}" + (f" · {s.date}" if plan.start_date else ""), s.slot] = ("- (self-managed)" if not s.planned else " + ".join(s.names()) + (f"  (~{s.est_minutes_total} min)" if s.est_minutes_total else ""))
         st.table(grid)
         if plan.tradeoffs:
             st.info("**Trade-offs (from the assembler):** " + plan.tradeoffs)
         st.markdown("### Why each dish")
         for s in plan.slots:
+            if not s.planned:
+                continue
             with st.expander(f"Day {s.day} · {s.slot}: {' + '.join(s.names())}" + ("  ⚠️" if s.warnings else ""), expanded=False):
                 if s.rationale:
                     st.markdown(f"*{s.rationale}*")
@@ -340,7 +346,7 @@ with tab_generate:
         st.markdown("### Swap a dish")
         s1, s2, s3, s4 = st.columns([1, 1, 2, 2])
         sw_day = s1.selectbox("Day", list(range(1, plan.days + 1)))
-        sw_slot = s2.selectbox("Slot", SLOTS)
+        sw_slot = s2.selectbox("Slot", profile.planned_slots)
         cur = plan.get(sw_day, sw_slot).names()
         sw_old = s3.selectbox("Replace", cur) if cur else None
         if sw_old:

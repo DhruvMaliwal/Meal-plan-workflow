@@ -6,6 +6,7 @@ legality). Soft preferences are NOT enforced here; they go to the scorer/LLM.
 """
 from __future__ import annotations
 
+import datetime as dt
 import math
 import re
 from dataclasses import dataclass, field
@@ -104,6 +105,7 @@ class RuleEngine:
         self.plan_cfg = self.cfg["plan"]
         self._static_cache: dict[tuple, Verdict] = {}
         self._cap_cache: dict[str, list[str]] = {}
+        self.start_date: dt.date | None = None
 
     def set_history(self, history: PlanHistory, repo_dishes: dict[str, Dish]) -> None:
         self.history = history
@@ -133,7 +135,7 @@ class RuleEngine:
     def check_dish(self, dish: Dish, a: DishAttributes, slot: str, day_idx: int, state: DayState | None = None) -> Verdict:
         """Static (memoised) rules + stateful rules for the current plan position."""
         soak_from = int(self.cfg["lead_time"].get("soaking_allowed_from_day", 2))
-        key = (dish.name, slot, day_idx + 1 >= soak_from, a.source, a.est_minutes, tuple(a.slots), a.component, a.gravy)
+        key = (dish.name, slot, day_idx + 1 >= soak_from, a.source, a.est_minutes, tuple(a.slots), a.component, a.gravy, self.weekday(day_idx))
         base = self._static_cache.get(key)
         if base is None:
             base = self._static_check(dish, a, slot, day_idx)
@@ -164,9 +166,28 @@ class RuleEngine:
                 reasons.append(f"meal time {agg} min would exceed {slot} window {hi} min")
         return reasons
 
+    def weekday(self, day_idx: int) -> str | None:
+        if self.start_date is None:
+            return None
+        return (self.start_date + dt.timedelta(days=day_idx)).strftime("%A")
+
     def _static_check(self, dish: Dish, a: DishAttributes, slot: str, day_idx: int) -> Verdict:
         v = Verdict(ok=True)
         p = self.p
+        # weekday rules (Tuesday veg day, Monday fast, ...)
+        wd = self.weekday(day_idx)
+        if wd:
+            for wr in p.weekday_rules:
+                if wr.weekday != wd or (wr.slots and slot not in wr.slots):
+                    continue
+                hit = [i.name for i in dish.ingredients if any(ingredient_matches(k, i) for k in wr.ban_ingredients)]
+                if hit:
+                    v.reasons.append(f"{wd} rule: {hit[0]} ({wr.note.split('.')[0] or 'banned on ' + wd})")
+                kw = dish_name_matches(wr.ban_dish_keywords, dish.name)
+                if kw:
+                    v.reasons.append(f"{wd} rule: '{kw}' dishes ({wr.note.split('.')[0] or 'banned on ' + wd})")
+        if p.disallow_marination and a.needs_marination:
+            v.reasons.append("house does not marinate (plain preparation only)")
         # diet
         if DIET_RANK.get(a.diet, 3) > DIET_RANK.get(p.diet, 3):
             v.reasons.append(f"diet: dish is {a.diet}, house is {p.diet}")
@@ -291,4 +312,6 @@ class RuleEngine:
     # ---------------------------------------------------------- rotation
     def rotation_allowance(self, total_dishes: int) -> int:
         pct = float(self.plan_cfg.get("rotation_reuse_pct", 0.15))
+        if self.p.rotation_reuse_pct is not None:
+            pct = float(self.p.rotation_reuse_pct)
         return int(math.floor(total_dishes * pct + 1e-9))

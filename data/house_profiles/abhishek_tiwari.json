@@ -1,0 +1,76 @@
+{
+  "id": "abhishek_tiwari",
+  "display_name": "Abhishek Tiwari",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Abhishek", "notes": "lactose intolerant (lactose-free / almond / soy milk only); dislikes bitter gourd and brinjal; dal-rice daily lunch staple, roti + curry default dinner; chicken on request (home-style chicken curry with roti); likes paneer paratha; fiancee is a dietician - interested in higher-protein healthy Indian dishes; seasons boldly"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Sona Didi",
+    "schedule": "Once daily ~7 PM, Mon-Sat; on WFH days she prepares dinner AND next day's lunch in the same visit",
+    "days_off": ["Sunday"],
+    "language": "Hindi",
+    "notes": ["Build curries from a slow-cooked masala base; season to a fuller, bolder profile (first dinner was under-seasoned).", "Use the resident's own homemade garam masala (masala storage section in the kitchen).", "Kitchen must not be used until a scheduled deep-clean is done when one is a prerequisite."]
+  },
+  "diet": "Non-Veg",
+  "hard_exclusions_ingredients": ["Bitter Gourd", "Karela", "Brinjal", "Eggplant", "Baby Eggplant", "Milk", "Cooled Milk", "Condensed Milk", "Mutton", "Lamb", "Beef", "Prawns", "Fish"],
+  "hard_exclusions_dish_keywords": ["karela", "brinjal", "baingan", "bharta", "mutton", "lamb", "fish", "prawn", "kheer", "payasam", "milkshake"],
+  "person_rules": [
+    {"person": "Abhishek", "kind": "conditional", "ingredients": ["Fresh Cream", "Cream", "Heavy Cream", "Khoya", "Cheese", "Butter"], "note": "Lactose intolerant - dairy-heavy dishes only if the dairy can be swapped (lactose-free/almond/soy milk); never regular dairy milk.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [],
+  "dish_keyword_rules": [],
+  "frequency_caps": [
+    {"name": "Chicken", "match_ingredients": ["Chicken"], "max_per_plan": 1, "note": "Chicken is added on request, not a daily default; ordered right before cooking, never pre-stocked."}
+  ],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": false,
+  "allow_lunch_to_dinner_carryover": true,
+  "planned_slots": ["Lunch", "Dinner"],
+  "default_servings": 1,
+  "brand_rules": [
+    {"brand": "Tata Sampann", "action": "prefer", "note": "Dals/pulses."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Oil", "rule": "Cold-pressed only - no palm oil, no refined oil."},
+    {"ingredient": "Garam Masala", "rule": "Resident's homemade garam masala only - never store-bought."},
+    {"ingredient": "Milk", "rule": "Lactose-free, almond or soy milk only."},
+    {"ingredient": "Chicken", "rule": "Order the same day it is cooked; never stocked ahead."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.15, "North Indian": 0.7, "Experimental/Asian": 0.15},
+  "liked_ingredients": ["Dal", "Paneer", "Chicken", "Rice", "Roti"],
+  "disliked_ingredients_soft": ["Palm Oil", "Refined Oil", "Milk"],
+  "breakfast_style": "Breakfast routinely skipped at home - not planned.",
+  "cooking_technique": {
+    "seasoning": "Season with confidence - salt, masala and spice to taste, not mild",
+    "curry_base": "Cook the masala base longer before adding vegetables for depth",
+    "oil": "Cold-pressed only",
+    "masala": "Homemade garam masala from the resident's stock"
+  },
+  "nutrition_direction": ["Lean toward higher-protein, dietician-style healthy Indian dishes (not yet a strict rule)"],
+  "weekend_pattern": "Sunday: cook off.",
+  "standing_instructions": [
+    "WFH days: lunch + dinner prepped in one evening visit; office days: dinner only (breakfast/lunch provided at office).",
+    "Dal-rice is the daily lunch staple; roti + curry (sabzi varies) the default dinner; idli/dosa occasionally.",
+    "Chicken only on request, ordered the same day.",
+    "Kitchen not to be used before a scheduled deep-clean is completed; arrange cleaning and cooking together.",
+    "Daily WhatsApp check-in for meal-plan approval and skip/cancel."
+  ],
+  "non_negotiables": [
+    "No palm oil, no refined oil - cold-pressed only.",
+    "No bitter gourd, no brinjal.",
+    "No regular dairy milk - lactose-free/almond/soy only.",
+    "Homemade garam masala only.",
+    "Chicken bought same-day, not pre-stocked.",
+    "Kitchen not used before a scheduled clean is done."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Garam Masala", "Toor Dal", "Rice", "Wheat Flour"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main"],
+    "Lunch": ["dal|curry", "staple", "dry_veg?"],
+    "Dinner": ["curry|dry_veg|protein_main", "bread"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": true}
+  },
+  "notes": ["Exact weekly split of dinner-only vs dinner+lunch days never confirmed (asked Aug 25).", "No fresh-vs-packaged rule beyond oil/masala - don't assume one."]
+}

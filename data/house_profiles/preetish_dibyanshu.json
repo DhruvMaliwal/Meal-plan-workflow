@@ -1,0 +1,88 @@
+{
+  "id": "preetish_dibyanshu",
+  "display_name": "Preetish & Dibyanshu",
+  "location": "Bangalore",
+  "residents": [
+    {"name": "Preetish", "notes": "dislikes jackfruit and pumpkin; cauliflower is a hard AVOID since 25 Aug (reverses an old weekly favourite); eats non-veg outside on Wed/Sat but nothing non-veg touches the home kitchen; weight management ~2,000 kcal (max 2,300), high protein, high fibre, low oil"},
+    {"name": "Dibyanshu", "notes": "same weight-management target; low-to-medium spice"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Jaba Das",
+    "schedule": "Morning shift (lunch) and evening shift (dinner); prepares overnight oats after dinner for the next morning; reminder call 9:15-9:20 AM (punctuality affects lunch packing)",
+    "days_off": [],
+    "language": "Hindi voice notes; follows YouTube links (Odia dishes like Dalma, Santula confirmed in her skill)",
+    "notes": ["Photograph fruit/veg/dairy/bread stock after breakfast and lunch prep.", "Flags shortages proactively ('paneer khatam ho gaya').", "Make a small chutney from routine pudina/dhania rather than letting herbs spoil."]
+  },
+  "diet": "Vegetarian",
+  "hard_exclusions_ingredients": ["Egg", "Eggs", "Chicken", "Fish", "Mutton", "Prawns", "Cauliflower", "Cauliflower Florets", "Jackfruit", "Raw Jackfruit", "Pumpkin", "Kaddu", "Yellow Pumpkin", "White Pumpkin", "Chia Seeds", "Fenugreek Leaves", "Methi Leaves", "Fenugreek"],
+  "hard_exclusions_dish_keywords": ["egg", "omelette", "omelet", "chicken", "fish", "mutton", "prawn", "gobi", "gobhi", "cauliflower", "jackfruit", "kathal", "pumpkin", "kaddu", "methi"],
+  "person_rules": [
+    {"person": "Preetish", "kind": "dislike", "ingredients": ["Tofu"], "note": "Tofu is not a favourite; if used it goes ONLY into veg fried rice - never mixed veg curry.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["curry", "masala", "sabzi", "gravy", "bhurji", "tikka", "salad", "stir fry", "kadhai", "kadai", "korma"], "ingredients": ["Tofu"], "note": "Tofu only in veg fried rice - never in curries/sabzis."},
+    {"dish_keywords": ["broccoli"], "ingredients": ["Bread Crumbs", "Breadcrumbs", "Gram Flour", "Corn starch"], "note": "Broccoli: saute only, do NOT fry."},
+    {"dish_keywords": ["oats", "oatmeal", "overnight"], "ingredients": ["Chia Seeds"], "note": "Never add chia seeds to overnight oats."}
+  ],
+  "frequency_caps": [],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Lunch", "Dinner"],
+  "default_servings": 2,
+  "brand_rules": [
+    {"brand": "Vim Lemon Dishwash Gel", "action": "prefer", "note": "Standing dishwash brand."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Oil", "rule": "Mustard oil is the default for almost everything; refined oil only where mustard oil genuinely cannot be used (e.g. aloo paratha)."},
+    {"ingredient": "Paneer", "rule": "Primary protein (paneer bhurji most common at lunch); cut and marinate 30 min-4 h before cooking; add at the end, never overcook."},
+    {"ingredient": "Legumes", "rule": "Soak 8-12 h the night before; chole is a standing TUESDAY dish (soak Monday evening)."},
+    {"ingredient": "Broccoli", "rule": "Saute only, never fry."},
+    {"ingredient": "Vegetables", "rule": "Hoskula Fresh; groceries Zepto; perishables FirstClub."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.1, "North Indian": 0.7, "Experimental/Asian": 0.2},
+  "liked_ingredients": ["Paneer", "Soya Chunks", "Mushroom", "Broccoli", "Chickpeas", "Rajma", "Dal", "Oats"],
+  "disliked_ingredients_soft": ["Tofu", "Jackfruit", "Pumpkin", "Cauliflower", "Fresh Cream"],
+  "breakfast_style": "Self-managed except overnight oats (no chia) prepared by the cook the night before.",
+  "cooking_technique": {
+    "spice": "Low-to-medium only, never very spicy",
+    "oil": "Mustard oil default, low quantity",
+    "paneer": "Marinate 30 min-4 h, add towards the end",
+    "legumes": "Soak overnight; chole Tuesdays",
+    "staples": "Roti is the primary staple at both meals; lunch roti +/- sabzi (sometimes rice); dinner roti-sabzi, sometimes dal-chawal"
+  },
+  "nutrition_direction": ["~2,000 kcal/day each (max 2,300), high protein, high fibre, low oil - shapes curry richness, not just protein counts", "Odia regional dishes (Dalma, Santula) welcome"],
+  "weekend_pattern": "",
+  "standing_instructions": [
+    "Strictly vegetarian kitchen - no eggs, no non-veg cooked at home ever.",
+    "No cauliflower in any form, in meals or in the pantry (has reappeared in stock twice - enforce at sourcing).",
+    "Methi paused till ~29 Sep (temporary) - remove 'Fenugreek' from the exclusion list after that date.",
+    "Chole on Tuesdays (soaked Monday night).",
+    "Overnight oats prepared nightly after dinner, never with chia seeds.",
+    "Portions for 2 unless told otherwise; leftovers are never discarded (residents reheat) - portion to avoid waste.",
+    "Residents pack their own lunch; cook packs only if running late.",
+    "Make a small chutney from routine pudina/dhania so herbs are not wasted."
+  ],
+  "non_negotiables": [
+    "No eggs, no non-veg cooked at home - ever.",
+    "No cauliflower/gobhi in any form.",
+    "No frying broccoli.",
+    "No chia seeds in oats.",
+    "Tofu only in veg fried rice - never mixed veg curry.",
+    "Low-to-medium spice ceiling; mustard-oil default."
+  ],
+  "always_in_stock": ["Salt", "Mustard Oil", "Oil", "Wheat Flour", "Oats"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main"],
+    "Lunch": ["curry|dry_veg|protein_main", "bread|staple"],
+    "Dinner": ["curry|dal|dry_veg", "bread|staple"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": true}
+  },
+  "notes": [
+    "A household member 'requiring light, low-oil, low-spice food for health' is referenced but not mapped to a named resident - confirm.",
+    "Preferred fresh cream brand not identified.",
+    "Cauliflower reappeared in pantry photos after the ban (29 Aug, 2 Sep) - flag to sourcing."
+  ]
+}

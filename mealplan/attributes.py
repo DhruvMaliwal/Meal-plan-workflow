@@ -112,7 +112,7 @@ def classify_diet(dish: Dish) -> tuple[str, str, str]:
 # Heuristic slot / component / cuisine / gravy inference (mock mode + pre-seed)
 # ---------------------------------------------------------------------------
 _BF = r"(dosa|idli|upma|poha|pongal|uttapam|appam|puttu|pathiri|pathri|chilla|cheela|paratha|parantha|thepla|" \
-      r"oats|oatmeal|porridge|muesli|granola|smoothie|shake|juice|tea|coffee|pancake|waffle|toast|sandwich|" \
+      r"oats|oatmeal|porridge|muesli|granola|smoothie|shake|juice|tea|coffee|pancake|waffle|toast|sandwich|parathas|paranthas|" \
       r"omelette|omelet|bhurji|scrambled|boiled egg|boil eggs|fried egg|poached|idiyappam|sevai|vermicelli|" \
       r"kanda|aval|dalia|daliya|ragi|besan|sattu|khakhra|akki roti|adai|pesarattu|neer|appe|paniyaram|" \
       r"avocado toast|overnight|kichadi|khichdi|dhokla|handvo|thalipeeth|thaalipeeth|sabudana|" \
@@ -135,11 +135,11 @@ _STAPLE = r"^(rice|steamed .*rice|plain rice|brown rice|matta rice|jasmine rice|
           r"basmati|quinoa|millet|couscous|steamed)$"
 _BREAD = r"^(roti|chapati|chapathi|phulka|paratha|plain paratha|lachha paratha|naan|kulcha|bhakri|jowar roti|" \
          r"bajra roti|ragi roti|millet roti|makki ki roti|akki roti|khapli wheat roti|besan roti|methi roti|beetroot roti|masala akki roti|garlic naan|pita|tortilla|wraps?)$"
-_ACC = r"(chutney|raita|pickle|achar|dip|podi|thogayal|thuvaiyal|pachadi|kachumber|papad|salsa|hummus|tzatziki|sauce|vinaigrette|dressing|mayo|pesto|gojju|thokku|pachdi|kosambari)"
+_ACC = r"(chutney|raita|pickle|achar|dip|podi|thogayal|thuvaiyal|pachadi|kachumber|papad|salsa|hummus|tzatziki|sauce|vinaigrette|dressing|mayo|pesto|gojju|thokku|pachdi|kosambari|thambli|tambli|thambuli)"
 _SALAD = r"salad|coleslaw|slaw|kosambari"
 _SOUP = r"soup|shorba|broth|rasam"
-_BEV = r"(tea|coffee|juice|smoothie|shake|lassi|chaas|buttermilk|panna|sharbat|kanji|kombucha|latte|milk$|water$|kadha|kashayam|cooler|mocktail|lemonade|drink|soda|infused water|detox)"
-_DESSERT = r"(kheer|payasam|halwa|ladoo|laddu|barfi|burfi|cake|brownie|cookie|pudding|mousse|ice cream|kulfi|sheera|kesari|mysore pak|jamun|rasgulla|sandesh|phirni|modak|tart|muffin|dessert)"
+_BEV = r"(tea|chai|coffee|juice|smoothie|shake|lassi|chaas|buttermilk|panna|sharbat|kanji|kombucha|latte|milk$|water$|kadha|kashayam|cooler|mocktail|lemonade|drink|soda|infused water|detox|malt)"
+_DESSERT = r"(kheer|payasam|halwa|ladoo|laddu|barfi|burfi|cake|brownie|cookie|pudding|mousse|ice cream|kulfi|sheera|kesari|mysore pak|jamun|rasgulla|sandesh|phirni|modak|tart|muffin|dessert|custard|rabri|shrikhand|payasa|sweet)"
 _SNACK = r"(pakora|pakoda|bhajiya|vada|bonda|cutlet|tikki|samosa|kachori|chaat|bhel|sev|chivda|namkeen|momo|dumpling|spring roll|nuggets|fries|popcorn|nachos|patties|kebab|kabab|65|lollipop|garlic bread|bruschetta|crostini|hummus toast)"
 
 _CUISINE_RULES: list[tuple[str, str]] = [
@@ -205,9 +205,9 @@ def heuristic_component_and_slots(dish: Dish, diet: str) -> tuple[str, list[str]
         # breakfast-register dishes; many are also fine for dinner (dosa/idli) but lunch rarely.
         slots = ["Breakfast"]
         cereal = _rx(r"(oats?|oatmeal|porridge|granola|muesli|smoothie|shake|overnight|pancake|waffle|french toast|juice|tea|coffee)", n)
-        if not cereal and _rx(r"(dosa|idli|uttapam|appam|paratha|thepla|chilla|khichdi|sandwich|toast|omelette|bhurji|pongal|puttu|pathiri|idiyappam|sevai|wrap|roll)", n):
+        if not cereal and _rx(r"(dosa|idli|uttapam|appam|paratha|parathas|parantha|paranthas|thepla|chilla|khichdi|sandwich|toast|omelette|bhurji|pongal|puttu|pathiri|idiyappam|sevai|wrap|roll)", n):
             slots.append("Dinner")
-        if not cereal and _rx(r"(paratha|thepla|khichdi|wrap|roll|sandwich|pongal|bisi bele)", n):
+        if not cereal and _rx(r"(paratha|parathas|parantha|paranthas|thepla|khichdi|wrap|roll|sandwich|pongal|bisi bele)", n):
             slots.append("Lunch")
         comp = "one_pot" if _rx(r"(khichdi|pongal|wrap|roll|sandwich|biryani|pulao)", n) else "breakfast_main"
         return comp, sorted(set(slots), key=SLOTS.index), gravy

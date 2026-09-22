@@ -1,0 +1,111 @@
+{
+  "id": "neeru_ashish",
+  "display_name": "Neeru & Ashish",
+  "location": "EB 1904 Greenage, Bangalore",
+  "residents": [
+    {"name": "Neeru", "notes": "diabetic, anemic (iron supplements), weak/sensitive stomach (severe bloating history), needs B12 and vitamin D support; does not eat garam masala at all (black pepper instead); not fond of paneer or cheese; sitting job; manages the kitchen solely"},
+    {"name": "Ashish", "notes": "sensitive stomach; sitting job (low activity)"}
+  ],
+  "pets": [],
+  "cook": {
+    "name": "Sangeeta Didi",
+    "schedule": "2 visits/day for 2 people: Mon-Fri 7:00 AM and 7:00-7:30 PM; Saturday 8:00-8:30 AM and 6:00 PM",
+    "days_off": ["Sunday"],
+    "language": "Hindi",
+    "notes": ["Makes buttermilk, rava idli and dosa batter from scratch.", "Handles Bihar, Rajasthan, Punjab and South Indian rotation.", "Report injuries immediately, use the first-aid box (turmeric self-treatment incident).", "Photograph key stock items after cooking."]
+  },
+  "diet": "Eggetarian",
+  "hard_exclusions_ingredients": ["Chicken", "Fish", "Mutton", "Prawns", "Mushroom", "Shiitake Mushrooms", "Maida", "All Purpose Flour", "Refined Flour", "Fresh Cream", "Heavy Cream", "Whipping Cream", "Whipped Cream", "Black Urad Dal", "Whole Urad Dal", "Sabut Urad", "Cherry Tomato", "Cherry Tomatoes"],
+  "hard_exclusions_dish_keywords": ["chicken", "fish", "mutton", "prawn", "keema", "mushroom", "pizza", "burger", "cherry tomato", "makhani", "malai", "kheer", "halwa", "gulab jamun", "ladoo", "barfi", "cake", "brownie"],
+  "person_rules": [
+    {"person": "Neeru", "kind": "hard_exclusion", "ingredients": ["Garam Masala"], "note": "Neeru does not eat garam masala at all - OMIT and use black pepper instead. Modelled as an omit/substitute instruction (many repo recipes list it) rather than a dish exclusion.", "enforcement": "soft"},
+    {"person": "Neeru", "kind": "dislike", "ingredients": ["Paneer", "Cheese", "Low-fat Paneer"], "note": "Not fond of paneer or cheese - limited quantity; paneer sourced from the local Greenage vendor.", "enforcement": "soft"},
+    {"person": "Neeru", "kind": "conditional", "ingredients": ["Banana", "Chikoo", "Sapota", "Mango", "Grapes"], "dishes": ["smoothie", "shake", "milkshake"], "note": "Diabetic - avoid sugary fruits (banana/chikku) in smoothies and snacks.", "enforcement": "soft"},
+    {"person": "Ashish", "kind": "dislike", "ingredients": ["French Beans"], "note": "French beans not preferred - minimal quantity if used.", "enforcement": "soft"}
+  ],
+  "slot_ingredient_bans": [],
+  "dish_keyword_rules": [
+    {"dish_keywords": ["smoothie", "shake", "milkshake"], "ingredients": ["Banana", "Chikoo", "Sapota", "Mango", "Sugar", "Honey", "Dates"], "note": "Diabetic-safe: no high-sugar fruit or sweeteners in smoothies/snacks (Neeru)."},
+    {"dish_keywords": ["roti", "chapati", "phulka", "sabzi", "sabji"], "slots": ["Dinner"], "ingredients": [], "note": "Household does NOT eat roti-sabji for dinner as a norm - dinner is light (soup, rolls, cutlet)."}
+  ],
+  "frequency_caps": [
+    {"name": "Paneer", "match_ingredients": ["Paneer"], "max_per_plan": 1, "note": "Neeru not fond of paneer - limited use."},
+    {"name": "Pasta / simple carbs", "match_dish_keywords": ["pasta", "spaghetti", "noodles", "burger", "pizza"], "max_per_plan": 1, "note": "Simple-carb dishes limited."}
+  ],
+  "weekday_rules": [],
+  "allow_same_protein_same_day": true,
+  "allow_lunch_to_dinner_carryover": false,
+  "planned_slots": ["Breakfast", "Lunch", "Dinner"],
+  "default_servings": 2,
+  "brand_rules": [
+    {"brand": "Greenage (local vendor)", "action": "prefer", "note": "Paneer from the local vendor, not grocery apps."},
+    {"brand": "Tata", "action": "prefer", "note": "Salt (flagged before stock-out)."}
+  ],
+  "ingredient_grade_rules": [
+    {"ingredient": "Garam Masala", "rule": "Never use - black pepper is the substitute."},
+    {"ingredient": "Urad Dal", "rule": "White urad dal only - black urad dal is an allergy risk."},
+    {"ingredient": "Tomato", "rule": "Regular tomatoes only, never cherry tomatoes; onions and tomatoes always well cooked, never kaccha (gastric health)."},
+    {"ingredient": "Garlic / Ginger", "rule": "Generous ginger-garlic everywhere, especially legumes (black chana, kabuli chana, rajma, kadhi) - insufficient garlic caused day-long digestion trouble."},
+    {"ingredient": "Sprouts", "rule": "Soak one day, eat the next; never serve stale/spoiled sprouts."},
+    {"ingredient": "Eggs", "rule": "Hard-boiled preferred; omelette well-done, cooked both sides."},
+    {"ingredient": "Dal", "rule": "Used sparingly - one stock lasts months; restock only when depleted."},
+    {"ingredient": "Millets", "rule": "Welcome as rice substitute (pulao / bisi bele bath style) but low-prep methods only."},
+    {"ingredient": "Ragi malt", "rule": "Salty variant with curd + tadka, not sweet."}
+  ],
+  "cuisine_split_target": {"South Indian": 0.4, "North Indian": 0.5, "Experimental/Asian": 0.1},
+  "liked_ingredients": ["Egg", "Spinach", "Ragi", "Millet", "Sprouts", "Black Chana", "Kabuli Chana", "Rajma", "Kadhi", "Pointed Gourd", "Potato", "Quinoa"],
+  "disliked_ingredients_soft": ["Paneer", "Cheese", "French Beans", "Green Peas (reduce in aloo matar)", "Garam Masala", "Pasta", "Pizza"],
+  "breakfast_style": "Egg white omelette (well-done), sprouted moong, ragi roti, millet dosa, rava idli (fresh batter), salty ragi malt; legumes with generous garlic in the morning.",
+  "cooking_technique": {
+    "seasoning": "Low oil, low spice, mild/normal salt as the default for every dish",
+    "aromatics": "Generous ginger-garlic, especially in legumes",
+    "onion_tomato": "Always well cooked, never kaccha - gastric health, not taste",
+    "portions": "Smaller than restaurant portions - 'quantity should be very less, we are not able to finish'; 2 rotis per person per meal",
+    "dinner": "Light meal (soup, rolls, cutlet) - not roti-sabji",
+    "batters": "Buttermilk, rava idli and dosa batter from scratch - never ready-made",
+    "regional_rotation": "Bihar, Rajasthan, Punjab, South Indian dishes weekly as sabzi/starter"
+  },
+  "nutrition_direction": [
+    "Diabetic-safe: minimise simple carbs (pasta/pizza/burgers, sugary fruit), favour complex carbs and millets",
+    "Iron-rich, nutrient-dense meals (anemia, B12/D deficiency) - e.g. spinach",
+    "High fibre / protein: egg whites, sprouts, legumes with garlic",
+    "Everything cooked properly - technique over variety"
+  ],
+  "weekend_pattern": "Saturday shifts at 8:00-8:30 AM and 6:00 PM; Sunday off.",
+  "standing_instructions": [
+    "Low oil, low spice, mild/normal salt in every dish; generous ginger-garlic; onions/tomatoes fully cooked.",
+    "2 rotis per person per meal; batch sizes smaller than standard.",
+    "Dinner is light (soup / cutlet / rolls) - not roti-sabji.",
+    "Buttermilk and batters made fresh in-house.",
+    "Cut salad (carrot, cucumber) and cut fruit prepared daily by default, without being asked.",
+    "Sprouts fresh-soaked (1-day cycle); discard if stale.",
+    "Dal restocked only when depleted; paneer from Greenage vendor.",
+    "Garam masala never (black pepper); maida never; cream never (fresh milk); black urad dal never; mushroom never; cherry tomatoes never.",
+    "Diabetic snacking: no banana/chikku or high-sugar fruit in smoothies/snacks.",
+    "Weekly regional rotation (Bihar, Rajasthan, Punjab, South Indian).",
+    "Kitchen managed solely by Neeru - cook has no ordering authority.",
+    "Injury: report immediately, first-aid box - never self-treat."
+  ],
+  "non_negotiables": [
+    "Never use garam masala.",
+    "Never serve mushroom.",
+    "Never use maida.",
+    "Never use cream - fresh milk only.",
+    "Never use black urad dal - white only.",
+    "Never serve stale/spoiled sprouts.",
+    "Never skip the daily salad/cut-fruit prep.",
+    "Never let onions/tomatoes go into a dish kaccha."
+  ],
+  "always_in_stock": ["Salt", "Oil", "Ginger", "Garlic", "Black Pepper", "Egg", "Curd", "Milk", "Carrot", "Cucumber"],
+  "meal_composition": {
+    "Breakfast": ["breakfast_main", "accompaniment?"],
+    "Lunch": ["dal|curry|protein_main", "dry_veg", "bread|staple"],
+    "Dinner": ["soup|one_pot|snack|protein_main", "salad|dry_veg?"],
+    "allow_one_pot": {"Breakfast": true, "Lunch": true, "Dinner": true}
+  },
+  "notes": [
+    "'Household does not eat chicken' is a low-confidence inferred rule that conflicts with Licious orders on file - chicken is excluded here until confirmed.",
+    "Garam masala is modelled as an omit/substitute instruction (not a dish exclusion) since it appears in ~215 repo recipes.",
+    "Confirm kitchen-reset checklist and any lunchbox/tiffin need."
+  ]
+}
